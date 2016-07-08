@@ -1,0 +1,151 @@
+# ------------------------------------------------------------------------------
+# Rime schema
+# encoding: utf-8
+# ------------------------------------------------------------------------------
+# Copyright (c) 2016 Jak Wings https://github.com/jakwings/rime-xyz
+# 
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+# REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+# AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+# INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+# LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+# OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+# PERFORMANCE OF THIS SOFTWARE.
+# ------------------------------------------------------------------------------
+
+schema:
+  schema_id: symbols
+  name: 特殊字符
+  version: '2016.7.8'
+  author:
+    - Jak Wings #!@Gmail.com
+  description: |
+    用於擴展其它輸入方案的特殊字符輸入方案。
+    請鍵入 ? 查看縮略碼表。
+
+engine:
+  processors:
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+    - echo_translator
+  filters:
+    #- uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba?ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  delimiter: ""
+  auto_select: true
+  algebra:
+    #{ 標點 {
+    - derive/^bd:(bj|zs):rw$/bd:rw:$1/
+    #} 筆畫 {
+    - derive/^bh:([^\d])$/bh:1:$1/
+    - derive/^bh:([^\d]{2})$/bh:2:$1/
+    - derive/^bh:([^\d]{3})$/bh:3:$1/
+    - derive/^bh:([^\d]{4})$/bh:4:$1/
+    - derive/^bh:([^\d]{5})$/bh:5:$1/
+    #} 平假名、片假名 {
+    - derive/^hg"/hg:dx:/
+    - derive/^hg'/hg:xx:/
+    - derive/^hg["':]/rw:dx:/
+    - derive/^kk"/kk:dx:/
+    - derive/^kk'/kk:xx:/
+    - derive/^kk:([dx]x):bj:/kk:bj:$1:/
+    - derive/^kk["':]/rw:xx:/
+    - derive/^rw:[dx]x:/rw:/
+    - derive/^rw:zx:(?:gojyuu|iroha):/rw:zx:/
+    - derive/^rw:zx:gojyuu:/rw:zx:g:/
+    - derive/^rw:zx:iroha:/rw:zx:i:/
+    #} 調型、聲調 {
+    - derive/^dx:/sd:/
+    #} 時間日期 {
+    - derive/^sj:(?:rq|sk|yf|yr):/sj:/
+    #} 空白字符 {
+    - derive/^kb:/kg:/
+    #} 幾何圖形 {
+    - derive/^tx:fx$/tx:zfx/
+    - derive/^tx:wbx/tx:wjx/
+    - derive/^tx:lbx/tx:ljx/
+    - derive/^tx:bbx/tx:bjx/
+    #} 電腦 {
+    - derive/^dn:[^:]+:(\d+)$/dn:$1/
+    #} 星座 {
+    - derive/^xz:\d+:(?:9:)?(.+)$/xz:$1/
+    - derive/^xz:(\d+):.+$/xz:$1/
+    #} 天體 {
+    - derive/^tt:\d+:(.+)$/tt:$1/
+    - derive/^tt:(\d+):.+$/tt:$1/
+    #} 箭頭 {
+    - derive/^jt:jc$/jt:dj/
+    #} 棋牌 {
+    - derive/^gp:[hs]:/gp:/
+    - derive/^pk:([^:]+):spade$/pk:s:$1/
+    - derive/^pk:([^:]+):heart$/pk:h:$1/
+    - derive/^pk:([^:]+):diamond$/pk:d:$1/
+    - derive/^pk:([^:]+):club$/pk:c:$1/
+    - derive/^(tl:\d+):.*$/$1/
+    - derive/^(gp|mj|pk|tl|tz|xq):/qp:$1:/
+    - derive/^(?:gp|mj|pk|tl|tz|xq):/qp:/
+    #} 偏旁部首 {
+    - derive/^kx:/bs:/
+    - derive/^bs:/pp:/
+    #} 漢語拼音 {
+    - derive/^py"/py:xx:/
+    - derive/^py'/py:dx:/
+    #} 希臘文 {
+    - derive/^xl"/xl:xx:/
+    - derive/^xl'/xl:dx:/
+    #} 俄語 {
+    - derive/^ey"/ey:dx:/
+    - derive/^ey'/ey:xx:/
+    #} 字母 {
+    - derive/^([a-z])"$/zm:xx:$1/
+    - derive/^([a-z])'$/zm:dx:$1/
+    - derive/^zm:[dx]x:/zm:/
+    #} 數字 {
+    - derive/^lm'/lm:xx:/
+    - derive/^lm"/lm:dx:/
+    - derive/^sz:(?:sc|szm):/sz:/
+    - derive/^sz:(?:sc|szm)://
+    - xlit 0123456789 ABCDEFGHIJ  # 三十六進制數字減十
+    #} 簡化輸入 {
+    - xform/["':]//
+    #} 縮略碼表 {
+    - derive/^\?.+$/?/
+    #} }
+
+translator:
+  dictionary: symbols
+  prism: symbols
+
+  # XXX: 無法迴避的問題
+  # 會干擾詞序，重碼更會導致奇怪順序；
+  # 輸入衍生編碼時依然提示原初編碼；
+  # 提示碼被配匹後CommentFormat才生效；
+  # 提示碼含非法輸入碼時匹配錯誤。
+  # 是鼠鬚管界面還是引擎本身的設計問題？
+  enable_completion: true
+
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: false
+  encode_commit_history: false
+  preedit_format:
+    - xlit ABCDEFGHIJ 0123456789
+  comment_format:
+    - xform/["']/:/
+
+key_binder:
+  import_preset: default
