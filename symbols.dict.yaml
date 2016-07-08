@@ -149,7 +149,6 @@ use_preset_vocabulary: false
 ?tx	五邊形 = tx + wbx/wjx
 ?tx	六邊形 = tx + lbx/ljx
 ?tx	八邊形 = tx + bbx/bjx
-?tx	平行四邊形 = tx + pxsbx
 ?tx	圓形 = tx + yx
 ?tx	橢圓 = tx + ty
 ?tx	半圓 = tx + by
@@ -3800,6 +3799,8 @@ tx:sbx	▮
 tx:sbx	▯
 tx:sbx	⏥
 tx:sbx	⏢
+tx:sbx	▰
+tx:sbx	▱
 tx:fx	⯀
 tx:fx	■
 tx:fx	□
@@ -3853,8 +3854,6 @@ tx:lx	⬪
 tx:lx	⬫
 tx:lx	⬧
 tx:lx	⬨
-tx:pxsbx	▰
-tx:pxsbx	▱
 tx:sjx	⊿
 tx:sjx	▲
 tx:sjx	△
@@ -4790,7 +4789,6 @@ bz:zp:yinyang	☯
 
 # 上標 {
 sb:0	⁰
-sb:i	ⁱ
 sb:1	¹
 sb:2	²
 sb:3	³
@@ -4859,6 +4857,7 @@ sb:latin	ᵙ
 sb:latin	ᵚ
 sb:latin	ᵛ
 sb:latin	ᵜ
+sb:latin	ⁱ
 sb:latin	ⁿ
 # 上標 }
 
