@@ -149,3 +149,7 @@ translator:
 
 key_binder:
   import_preset: default
+
+# 強制使用豎式候選框（被嵌至其它方案時無效）
+style:
+  horizontal: false
