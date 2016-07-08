@@ -2086,76 +2086,76 @@ py'v	Ǜ
 # 漢語拼音 }
 
 # 註音符號 {
-zy:b	ㄅ	/p/
-zy:p	ㄆ	/pʰ/
-zy:m	ㄇ	/m/
-zy:f	ㄈ	/f/
-zy:d	ㄉ	/t/
-zy:t	ㄊ	/tʰ/
-zy:n	ㄋ	/n/
-zy:l	ㄌ	/l/
-zy:g	ㄍ	/k/
-zy:q	ㄍ	/q/
-zy:k	ㄎ	/kʰ/
-zy:h	ㄏ	/x/ /h/
-zy:j	ㄐ	/t͡ɕ/
-zy:q	ㄑ	/t͡ɕʰ/
-zy:x	ㄒ	/ɕ/
-zy:zh	ㄓ	/ʈ͡ʂ/
-zy:ch	ㄔ	/ʈ͡ʂʰ/
-zy:sh	ㄕ	/ʂ/
-zy:r	ㄖ	/ʐ/
-zy:z	ㄗ	/t͡s/
-zy:c	ㄘ	/t͡sʰ/
-zy:s	ㄙ	/s/
-zy:a	ㄚ	/ä/ /a/
-zy:o	ㄛ	/uɔ/ /o/
-zy:e	ㄜ	/ɯʌ/ /ə/
-zy:ie	ㄝ	/ɛ/
-zy:ai	ㄞ	/aɪ/ /ai/
-zy:ei	ㄟ	/eɪ/
-zy:ao	ㄠ	/ɑʊ/ /au/
-zy:ou	ㄡ	/ɤʊ/ /ou/
-zy:an	ㄢ	/än/ /an/
-zy:en	ㄣ	/ən/
-zy:ang	ㄤ	/ɑŋ/ /aŋ/
-zy:eng	ㄥ	/ɤŋ/ /əŋ/
-zy:er	ㄦ	/ɑɻ/
-zy:i	ㄧ	/i/
-zy:u	ㄨ	/u/
-zy:v	ㄩ	ü /y/
-zy:v	ㄪ	/v/
-zy:ng	ㄫ	/ŋ/
-zy:gn	ㄬ	/ɲ/
+zy:b	ㄅ	[p]
+zy:p	ㄆ	[pʰ]
+zy:m	ㄇ	[m]
+zy:f	ㄈ	[f]
+zy:d	ㄉ	[t]
+zy:t	ㄊ	[tʰ]
+zy:n	ㄋ	[n]
+zy:l	ㄌ	[l]
+zy:g	ㄍ	[k]
+zy:q	ㄍ	[q]
+zy:k	ㄎ	[kʰ]
+zy:h	ㄏ	[x] [h]
+zy:j	ㄐ	[t͡ɕ]
+zy:q	ㄑ	[t͡ɕʰ]
+zy:x	ㄒ	[ɕ]
+zy:zh	ㄓ	[ʈ͡ʂ]
+zy:ch	ㄔ	[ʈ͡ʂʰ]
+zy:sh	ㄕ	[ʂ]
+zy:r	ㄖ	[ʐ]
+zy:z	ㄗ	[t͡s]
+zy:c	ㄘ	[t͡sʰ]
+zy:s	ㄙ	[s]
+zy:a	ㄚ	[ä] [a]
+zy:o	ㄛ	[uɔ] [o]
+zy:e	ㄜ	[ɯʌ] [ə]
+zy:ie	ㄝ	[ɛ]
+zy:ai	ㄞ	[aɪ] [ai]
+zy:ei	ㄟ	[eɪ]
+zy:ao	ㄠ	[ɑʊ] [au]
+zy:ou	ㄡ	[ɤʊ] [ou]
+zy:an	ㄢ	[än] [an]
+zy:en	ㄣ	[ən]
+zy:ang	ㄤ	[ɑŋ] [aŋ]
+zy:eng	ㄥ	[ɤŋ] [əŋ]
+zy:er	ㄦ	[ɑɻ]
+zy:i	ㄧ	[i]
+zy:u	ㄨ	[u]
+zy:v	ㄩ	ü [y]
+zy:v	ㄪ	[v]
+zy:ng	ㄫ	[ŋ]
+zy:gn	ㄬ	[ɲ]
 zy:i	ㄭ	-
-zy:b	ㆠ	/b/
-zy:z	ㆡ	/z/
-zy:j	ㆢ	/d͡ʑ/
-zy:g	ㆣ	/g/
-zy:e	ㆤ	/e/
-zy:e	ㆥ	/ẽ/
-zy:o	ㆦ	/ɔ/
-zy:o	ㆧ	/ɔ̃/
-zy:i	ㆨ	/ɨ/
-zy:a	ㆩ	/ã/
-zy:i	ㆪ	/ĩ/
-zy:u	ㆫ	/ũ/
-zy:m	ㆬ	-m /m̩/
-zy:ng	ㆭ	-ng /ŋ̍/
-zy:ai	ㆮ	/ãĩ/
-zy:au	ㆯ	/ãũ/
-zy:am	ㆰ	/am/
-zy:om	ㆱ	/ɔm/
-zy:ong	ㆲ	/ɔŋ/
-zy:i	ㆳ	/ĩ/
-zy:p	ㆴ	-p /p̚/
-zy:t	ㆵ	-t /t̚/
-zy:k	ㆶ	-k /k̚/
-zy:h	ㆷ	/ʔ/
-zy:g	ㆸ	/ɣ/
-zy:v	ㆸ	/ɣ/
-zy:l	ㆹ	/ɫʰ/ /ɫ/
-zy:z	ㆺ	/ʑ/
+zy:b	ㆠ	[b]
+zy:z	ㆡ	[z]
+zy:j	ㆢ	[d͡ʑ]
+zy:g	ㆣ	[g]
+zy:e	ㆤ	[e]
+zy:e	ㆥ	[ẽ]
+zy:o	ㆦ	[ɔ]
+zy:o	ㆧ	[ɔ̃]
+zy:i	ㆨ	[ɨ]
+zy:a	ㆩ	[ã]
+zy:i	ㆪ	[ĩ]
+zy:u	ㆫ	[ũ]
+zy:m	ㆬ	-m [m̩]
+zy:ng	ㆭ	-ng [ŋ̍]
+zy:ai	ㆮ	[ãĩ]
+zy:au	ㆯ	[ãũ]
+zy:am	ㆰ	[am]
+zy:om	ㆱ	[ɔm]
+zy:ong	ㆲ	[ɔŋ]
+zy:i	ㆳ	[ĩ]
+zy:p	ㆴ	-p [p̚]
+zy:t	ㆵ	-t [t̚]
+zy:k	ㆶ	-k [k̚]
+zy:h	ㆷ	[ʔ]
+zy:g	ㆸ	[ɣ]
+zy:v	ㆸ	[ɣ]
+zy:l	ㆹ	[ɫʰ] [ɫ]
+zy:z	ㆺ	[ʑ]
 # 註音符號 }
 
 # 時間日期 {
