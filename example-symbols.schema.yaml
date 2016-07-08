@@ -60,8 +60,8 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator@symbol
-    - script_translator
+    - table_translator@symbol  # 使用自訂轉譯器
+    - script_translator  # 原有轉譯
   filters:
     - uniquifier
 
