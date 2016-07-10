@@ -18,9 +18,9 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  schema_id: symbols
+  version: '2016.7.11'
+  schema_id: &id symbols
   name: 特殊字符
-  version: '2016.7.8'
   author:
     - Jak Wings #!@Gmail.com
   description: |
@@ -127,8 +127,8 @@ speller:
     #} }
 
 translator:
-  dictionary: symbols
-  prism: symbols
+  dictionary: *id
+  prism: *id
 
   # XXX: 無法迴避的問題
   # 會干擾詞序，重碼更會導致奇怪順序；
