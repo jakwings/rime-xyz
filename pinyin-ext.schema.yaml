@@ -18,14 +18,15 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  schema_id: pinyin-ext
+  version: "2016.7.11"
+  schema_id: &id pinyin-ext
   name: 擴展拼音
-  version: "2016.7.8"
   author:
     - Jak Wings #!@Gmail.com
   description: |
     以此四個符號分別標註平上去入四個聲調：- / ^ \
     Kuò'zhɑ̌n Pīn'yīn 的拼法爲 Kuo\'zhan^Pin-'yin-
+    允許一些不標準拼法。
 
 switches:
   - name: ascii_mode
@@ -60,8 +61,8 @@ speller:
     - xlit 1234 -/^\
 
 translator:
-  dictionary: pinyin-ext
-  prism: pinyin-ext
+  dictionary: *id
+  prism: *id
   spelling_hints: 0
   enable_sentence: false
   enable_user_dict: false
