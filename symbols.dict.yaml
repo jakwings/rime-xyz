@@ -2035,10 +2035,11 @@ dx:ru	〭	入〭
 # 聲調調型 }
 
 # 漢語拼音 {
-py"a	ā
-py"a	á
-py"a	ǎ
-py"a	à
+py"a	ɑ̄
+py"a	ɑ́
+py"a	ɑ̌
+py"a	ɑ̀
+py"a	ɑ
 py"e	ē
 py"e	é
 py"e	ě
@@ -2059,6 +2060,7 @@ py"v	ǖ
 py"v	ǘ
 py"v	ǚ
 py"v	ǜ
+py'v	ü
 py'a	Ā
 py'a	Á
 py'a	Ǎ
@@ -2083,6 +2085,12 @@ py'v	Ǖ
 py'v	Ǘ
 py'v	Ǚ
 py'v	Ǜ
+py'v	Ü
+py:a	ā
+py:a	á
+py:a	ǎ
+py:a	à
+py:g	ɡ
 # 漢語拼音 }
 
 # 註音符號 {
