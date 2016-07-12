@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.7.11'
+  version: '2016.7.12'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -51,11 +51,7 @@ speller:
     #{ 標點 {
     - derive/^bd:(bj|zs):rw$/bd:rw:$1/
     #} 筆畫 {
-    - derive/^bh:([^\d])$/bh:1:$1/
-    - derive/^bh:([^\d]{2})$/bh:2:$1/
-    - derive/^bh:([^\d]{3})$/bh:3:$1/
-    - derive/^bh:([^\d]{4})$/bh:4:$1/
-    - derive/^bh:([^\d]{5})$/bh:5:$1/
+    - derive/^bh:[^:]+:(\d)$/bh:$1/
     #} 平假名、片假名 {
     - derive/^hg"/hg:dx:/
     - derive/^hg'/hg:xx:/
