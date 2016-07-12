@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.7.12'
+version: '2016.7.13'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -841,8 +841,8 @@ bd	…
 bd	—
 bd	、
 bd	。
-bd	〝
-bd	〞
+bd	“
+bd	”
 bd	‘
 bd	’
 bd	「
