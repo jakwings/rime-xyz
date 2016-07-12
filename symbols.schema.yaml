@@ -51,6 +51,7 @@ speller:
     #{ 標點 {
     - derive/^bd:(bj|zs):rw$/bd:rw:$1/
     #} 筆畫 {
+    - derive/^bh:([^:]+):\d$/bh:$1/
     - derive/^bh:[^:]+:(\d)$/bh:$1/
     #} 平假名、片假名 {
     - derive/^hg"/hg:dx:/
