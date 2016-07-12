@@ -2094,7 +2094,20 @@ py:a	á
 py:a	ǎ
 py:a	à
 py:e	ê
+py:e	Ê
 py:g	ɡ
+py:ng	ŋ
+py:ch	ĉ
+py:ch	Ĉ
+py:sh	ŝ
+py:sh	Ŝ
+py:zh	ẑ
+py:zh	Ẑ
+py:0	’
+py:1	ˉ
+py:2	ˊ
+py:3	˅
+py:4	ˋ
 # 漢語拼音 }
 
 # 註音符號 {
