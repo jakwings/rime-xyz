@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: "2016.7.14"
+  version: "2016.7.17"
   schema_id: &id pinyin-ext
   name: 擴展拼音
   author:
@@ -64,12 +64,20 @@ translator:
   spelling_hints: 0
   enable_sentence: false
   enable_user_dict: false
-  preedit_format:
+  preedit_format:  #{
     - xlit -/^\ 1234
     # 特殊規則 {
     - xform/\<([nlNL])ue/$1ve/
     - xform/\<([jqxyJQXY])v/$1u/
     # 特殊規則 }
+    # ea 變 ê {
+    - "xform/([eE]a)([^' ]*?)1/$1\u0304$2/"
+    - "xform/([eE]a)([^' ]*?)2/$1\u0301$2/"
+    - "xform/([eE]a)([^' ]*?)3/$1\u030C$2/"
+    - "xform/([eE]a)([^' ]*?)4/$1\u0300$2/"
+    - xform/ea/ê/
+    - xform/Ea/Ê/
+    # ea 變 ê }
     # 聲調定位 {
     - "xform/([aeoAEO])([aeiouv][^' ]*?)1/$1\u0304$2/"
     - "xform/([aeoAEO])([aeiouv][^' ]*?)2/$1\u0301$2/"
@@ -148,6 +156,7 @@ translator:
     # 非結合用聲調符號 {
     - xlit 1234 ˉˊ˅ˋ
     # 非結合用聲調符號 }
+  # }
 
 key_binder:
   import_preset: default
