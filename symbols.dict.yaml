@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.7.18'
+version: '2016.7.20'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -1021,7 +1021,7 @@ bd:dx	⎭
 # 標點符號 }
 
 # 空白字符 {
-kb	　	IDEOGRAPHIC SPACE
+kb:qj	　	IDEOGRAPHIC SPACE
 kb:em	 	EM SPACE
 kb:em-quad	 	EM QUAD
 kb:em/3	 	THREE-PER-EM SPACE

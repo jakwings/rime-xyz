@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.7.18'
+  version: '2016.7.20'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -70,6 +70,7 @@ speller:
     #} 時間日期 {
     - derive/^sj:(?:rq|sk|yf|yr):/sj:/
     #} 空白字符 {
+    - derive/^kb:qj$/kb/
     - derive/^kb:/kg:/
     #} 幾何圖形 {
     - derive/^tx:fx$/tx:zfx/
