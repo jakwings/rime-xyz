@@ -18,14 +18,14 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.7.22'
+  version: '2016.7.23'
   schema_id: &id symbols
   name: 特殊字符
   author:
     - Jak Wings #!@Gmail.com
   description: |
     用於擴展其它輸入方案的特殊字符輸入方案。
-    請鍵入 ? 查看縮略碼表。
+    可鍵入 ? 查看縮略碼表。
 
 engine:
   processors:
@@ -108,6 +108,14 @@ speller:
     #} 俄語 {
     - derive/^ey"/ey:dx:/
     - derive/^ey'/ey:xx:/
+    #} 上標、下標 {
+    - derive/^sb:(?:greek|latin):/sb:/
+    - derive/^xb:(?:greek|latin):/xb:/
+    #} 拉丁 {
+    - derive/^ld:\?"$/ld:dx:?/
+    - derive/^ld:\?'$/ld:xx:?/
+    - derive/^ld"/ld:xx/
+    - derive/^ld'/ld:dx/
     #} 字母 {
     - derive/^([a-z])"$/zm:xx:$1/
     - derive/^([a-z])'$/zm:dx:$1/
