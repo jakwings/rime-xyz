@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.7.23'
+version: '2016.7.26'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -4320,6 +4320,10 @@ hb:yen	￥
 
 # 箭頭 {
 # s:上 x:下 z:左 y:右 jc:交叉 ssz:順時針 nsz:逆時針
+jt	→
+jt	←
+jt	↓
+jt	↑
 jt:y	→
 jt:z	←
 jt:x	↓
