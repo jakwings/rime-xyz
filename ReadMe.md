@@ -1,6 +1,4 @@
-# Rime XYZ
-
-Rime 個人輸入方案集。
+# Rime 個人輸入方案集。
 
 已公佈：
 
@@ -15,6 +13,20 @@ Rime 個人輸入方案集。
 *   特殊符號（symbols）
 
     用於擴展其它輸入方案的特殊字符輸入方案。鍵入 ? 查看縮略碼表。
+
+
+### 其它
+
+*   others/
+
+    一些瑣碎的輸入法配置。
+
+*   opencc/
+
+    帶個人口味的 [OpenCC] 繁簡轉換表。
+
+[OpenCC]: https://github.com/BYVoid/OpenCC/
+
 
 ### 版權協議
 
