@@ -4368,6 +4368,10 @@ jt:xx	⇊
 jt:ss	⇈
 jt:yyy	⇶
 jt:zzz	⬱
+jt:y	⇒
+jt:z	⇐
+jt:x	⇓
+jt:s	⇑
 jt:zy	⇔
 jt:yz	⇔
 jt:sx	⇕
@@ -4458,10 +4462,6 @@ jt:sx	⥏
 jt:xs	⥏
 jt:sx	⥑
 jt:xs	⥑
-jt:y	⇒
-jt:z	⇐
-jt:x	⇓
-jt:s	⇑
 jt:y	⥰
 jt:y	↬
 jt:z	↫
