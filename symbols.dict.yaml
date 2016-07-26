@@ -146,6 +146,7 @@ use_preset_vocabulary: false
 ?jt	交叉對角 = jt + jc/dj
 ?jt	順時針 = jt + ssz
 ?jt	逆時針 = jt + nsz
+?jt	拐彎 = jt+s/x/z/y+g / jt+g
 ?tx	─╴幾何圖形╶─────
 ?tx	正方形 = tx + fx/zfx
 ?tx	三角形 = tx + sjx
@@ -4319,7 +4320,7 @@ hb:yen	￥
 # 貨币單位 }
 
 # 箭頭 {
-# s:上 x:下 z:左 y:右 jc:交叉 ssz:順時針 nsz:逆時針
+# s:上 x:下 z:左 y:右 jc:交叉 ssz:順時針 nsz:逆時針 g:拐
 jt	→
 jt	←
 jt	↓
@@ -4463,10 +4464,10 @@ jt:xs	⥏
 jt:sx	⥑
 jt:xs	⥑
 jt:y	⥰
-jt:y	↬
-jt:z	↫
-jt:z	↩
-jt:y	↪
+jt:yg	↬
+jt:zg	↫
+jt:zg	↩
+jt:yg	↪
 jt:ssz	↻
 jt:nsz	↺
 jt:ssz	⟳
@@ -4483,16 +4484,16 @@ jt:nsz	⤺
 jt:nsz	⤻
 jt:ssz	⤾
 jt:nsz	⤿
-jt:z	↰
-jt:y	↱
-jt:z	↲
-jt:y	↳
-jt:x	↴
-jt:z	↵
-jt:x	⬎
-jt:s	⬏
-jt:x	⬐
-jt:s	⬑
+jt:zg	↰
+jt:yg	↱
+jt:zg	↲
+jt:yg	↳
+jt:xg	↴
+jt:zg	↵
+jt:xg	⬎
+jt:sg	⬏
+jt:xg	⬐
+jt:sg	⬑
 jt:y	↦
 jt:z	↤
 jt:x	↧
@@ -4595,22 +4596,22 @@ jt:zy	⬌
 jt:yz	⬌
 jt:sx	⬍
 jt:xs	⬍
-jt:z	⮨
-jt:y	⮩
-jt:z	⮪
-jt:y	⮫
-jt:x	⮯
-jt:x	⮮
-jt:s	⮭
-jt:s	⮬
-jt:z	⮰
-jt:y	⮱
-jt:z	⮲
-jt:y	⮳
-jt:x	⮷
-jt:x	⮶
-jt:s	⮵
-jt:s	⮴
+jt:zg	⮨
+jt:yg	⮩
+jt:zg	⮪
+jt:yg	⮫
+jt:xg	⮯
+jt:xg	⮮
+jt:sg	⮭
+jt:sg	⮬
+jt:zg	⮰
+jt:yg	⮱
+jt:zg	⮲
+jt:yg	⮳
+jt:xg	⮷
+jt:xg	⮶
+jt:sg	⮵
+jt:sg	⮴
 jt:y	⮊
 jt:z	⮈
 jt:x	⮋
@@ -4655,10 +4656,10 @@ jt:y	↝
 jt:z	↜
 jt:y	⤳
 jt:z	⬿
-jt:x	⤵
-jt:s	⤴
-jt:z	⤶
-jt:y	⤷
+jt:xg	⤵
+jt:sg	⤴
+jt:zg	⤶
+jt:yg	⤷
 jt:y	⥱
 jt:z	⭀
 jt:y	⥵
@@ -4699,10 +4700,10 @@ jt:yz	⥃
 jt:z	⥄
 jt:yz	⥄
 jt:zy	⥄
-jt:z	⮒
-jt:y	⮓
-jt:z	⮐
-jt:y	⮑
+jt:zg	⮒
+jt:yg	⮓
+jt:zg	⮐
+jt:yg	⮑
 jt:ys	⤤
 jt:sy	⤤
 jt:yx	⤥
@@ -4728,10 +4729,10 @@ jt:jc	⤲
 jt:nsz	⮔
 jt:ssz	⭮
 jt:nsz	⭯
-jt:z	⮌
-jt:y	⮎
-jt:x	⮏
-jt:s	⮍
+jt:zg	⮌
+jt:yg	⮎
+jt:xg	⮏
+jt:sg	⮍
 jt:y	⭢
 jt:z	⭠
 jt:x	⭣
@@ -4764,14 +4765,14 @@ jt:y	⭬
 jt:z	⭪
 jt:x	⭭
 jt:s	⭫
-jt:z	⮠
-jt:y	⮡
-jt:z	⮢
-jt:y	⮣
-jt:x	⮧
-jt:x	⮦
-jt:s	⮥
-jt:s	⮤
+jt:zg	⮠
+jt:yg	⮡
+jt:zg	⮢
+jt:yg	⮣
+jt:xg	⮧
+jt:xg	⮦
+jt:sg	⮥
+jt:sg	⮤
 jt:y	⭲
 jt:z	⭰
 jt:x	⭳

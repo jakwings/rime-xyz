@@ -87,6 +87,7 @@ speller:
     - derive/^tt:(\d+):.+$/tt:$1/
     #} 箭頭 {
     - derive/^jt:jc$/jt:dj/
+    - derive/^jt:([sxyz])g$/jt:g$1/
     #} 棋牌 {
     - derive/^gp:[hs]:/gp:/
     - derive/^pk:([^:]+):spade$/pk:s:$1/
