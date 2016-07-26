@@ -2109,11 +2109,11 @@ py:sh	ŝ
 py:sh	Ŝ
 py:zh	ẑ
 py:zh	Ẑ
-py:0	’
 py:1	ˉ
 py:2	ˊ
 py:3	˅
 py:4	ˋ
+py:5	’
 # 漢語拼音 }
 
 # 註音符號 {
