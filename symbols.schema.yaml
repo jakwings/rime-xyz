@@ -67,6 +67,7 @@ speller:
     - derive/^rw:zx:iroha:/rw:zx:i:/
     #} 調型、聲調 {
     - derive/^dx:/sd:/
+    - derive/^\?dx/\?sd/
     #} 時間日期 {
     - derive/^sj:(?:rq|sk|yf|yr):/sj:/
     #} 空白字符 {
