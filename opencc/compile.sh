@@ -14,10 +14,6 @@ compile() {
 V_SCRIPT_PATH=$(dirname $0)
 cd $V_SCRIPT_PATH
 
-compile t2s-char.txt t2s-char.ocd
-compile t2s-word.txt t2s-word.ocd
-compile v2s-char.txt v2s-char.ocd
-
 for src in *.txt
 do
   cp $src ${src%.txt}.tsv
@@ -25,10 +21,20 @@ done
 
 >> t2s-char.tsv awk '
   BEGIN { FS=OFS="\t" }
-  NF == 1 { t[FNR] = $1; next }
-  NF > 1 { print $1, dedup(t[FNR] " " $2) }
+  FNR == 1 { mode = !mode }
+  mode { data[$1] = $2 }
+  !mode { print $1, dedup(simplify($2) " " $2 " " $1) }
 
-  function dedup(chars, n,t,s,sep) {
+  function simplify(chars, a,n,s,sep) {
+    n = split(chars, a, " ")
+    for (i = 1; i <= n; i++) {
+      if (data[a[i]]) s = s sep data[a[i]]
+      if (i == 1) sep = " "
+    }
+    return s
+  }
+
+  function dedup(chars, a,n,t,s,sep) {
     n = split(chars, a, " ")
     for (i = 1; i <= n; i++) {
       if (!t[a[i]]) {
@@ -39,8 +45,7 @@ done
     }
     return s
   }
-' <(cut -d $'\t' -f2 v2s-char.txt | opencc -c t2s.json) \
-  <(cut -d $'\t' -f1-2 v2s-char.txt)
+' <(cut -d $'\t' -f1-2 t2s-char.txt) <(cut -d $'\t' -f1-2 v2s-char.txt)
 
 for input in *.tsv
 do
