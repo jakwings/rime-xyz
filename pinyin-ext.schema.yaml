@@ -18,14 +18,14 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: "2016.7.17"
+  version: "2016.7.28"
   schema_id: &id pinyin-ext
   name: 擴展拼音
   author:
     - Jak Wings #!@Gmail.com
   description: |
-    以此四個符號分別標註平上去入四個聲調：- / ^ \
-    Kuò'zhɑ̌n Pīn'yīn 的拼法爲 Kuo\'zhan^Pin-'yin-
+    以此四個符號分別標註平上去入四個聲調：- / < \
+    Kuò'zhɑ̌n Pīn'yīn 的拼法爲 Kuo\'zhan<Pin-'yin-
     允許一些不標準拼法。
 
 switches:
@@ -53,10 +53,10 @@ engine:
     #- uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba-/^\ZYXWVUTSRQPONMLKJIHGFEDCBA'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-/<\ZYXWVUTSRQPONMLKJIHGFEDCBA'
   delimiter: " '"
   algebra:
-    - xlit 1234 -/^\
+    - xlit 1234 -/<\
 
 translator:
   dictionary: *id
@@ -65,36 +65,19 @@ translator:
   enable_sentence: false
   enable_user_dict: false
   preedit_format:  #{
-    - xlit -/^\ 1234
+    - xlit -/<\ 1234
     # 特殊規則 {
     - xform/\<([nlNL])ue/$1ve/
     - xform/\<([jqxyJQXY])v/$1u/
     # 特殊規則 }
     # ea 變 ê {
-    - "xform/([eE]a)([^' ]*?)1/$1\u0304$2/"
-    - "xform/([eE]a)([^' ]*?)2/$1\u0301$2/"
-    - "xform/([eE]a)([^' ]*?)3/$1\u030C$2/"
-    - "xform/([eE]a)([^' ]*?)4/$1\u0300$2/"
     - xform/ea/ê/
     - xform/Ea/Ê/
     # ea 變 ê }
     # 聲調定位 {
-    - "xform/([aeoAEO])([aeiouv][^' ]*?)1/$1\u0304$2/"
-    - "xform/([aeoAEO])([aeiouv][^' ]*?)2/$1\u0301$2/"
-    - "xform/([aeoAEO])([aeiouv][^' ]*?)3/$1\u030C$2/"
-    - "xform/([aeoAEO])([aeiouv][^' ]*?)4/$1\u0300$2/"
-    - "xform/([iuEIOUV][aeiouv])([^' ]*?)1/$1\u0304$2/"
-    - "xform/([iuEIOUV][aeiouv])([^' ]*?)2/$1\u0301$2/"
-    - "xform/([iuEIOUV][aeiouv])([^' ]*?)3/$1\u030C$2/"
-    - "xform/([iuEIOUV][aeiouv])([^' ]*?)4/$1\u0300$2/"
-    - "xform/([aeiouAEIOUV])([^' ]*?)1/$1\u0304$2/"
-    - "xform/([aeiouAEIOUV])([^' ]*?)2/$1\u0301$2/"
-    - "xform/([aeiouAEIOUV])([^' ]*?)3/$1\u030C$2/"
-    - "xform/([aeiouAEIOUV])([^' ]*?)4/$1\u0300$2/"
-    - "xform/\\<([mnrMNR])1/$1\u0304/"
-    - "xform/\\<([mnrMNR])2/$1\u0301/"
-    - "xform/\\<([mnrMNR])3/$1\u030C/"
-    - "xform/\\<([mnrMNR])4/$1\u0300/"
+    - "xform/([aeoAEO])([aeiouv][^' :]*?)([1-4])/$1:$3$2/"
+    - "xform/([iuvIUV][aeiouv])([^' :]*?)([1-4])/$1:$3$2/"
+    - "xform/([aeiouvAEIOUV]|ê|Ê)([^' :]*?)([1-4])/$1:$3$2/"
     # 聲調定位 }
     # v 變 ü {
     - xform/v/ü/
@@ -103,11 +86,17 @@ translator:
     # 不變更字型強行采用習慣寫法 {
     - xlit ag ɑɡ
     # 不變更字型強行采用習慣寫法 }
+    # 組合性聲調符號 {
+    - "xform/([aeiouvmnrAEIOUVMNR]|ɑ|ê|ü|Ê|Ü):?1/$1\u0304/"
+    - "xform/([aeiouvmnrAEIOUVMNR]|ɑ|ê|ü|Ê|Ü):?2/$1\u0301/"
+    - "xform/([aeiouvmnrAEIOUVMNR]|ɑ|ê|ü|Ê|Ü):?3/$1\u030C/"
+    - "xform/([aeiouvmnrAEIOUVMNR]|ɑ|ê|ü|Ê|Ü):?4/$1\u0300/"
+    # 組合性聲調符號 }
     # 雙字符組合變單字符 {
-    #- "xform/a\u0304/ā/"
-    #- "xform/a\u0301/á/"
-    #- "xform/a\u030C/ǎ/"
-    #- "xform/a\u0300/à/"
+    - "xform/a\u0304/ā/"
+    - "xform/a\u0301/á/"
+    - "xform/a\u030C/ǎ/"
+    - "xform/a\u0300/à/"
     - "xform/e\u0304/ē/"
     - "xform/e\u0301/é/"
     - "xform/e\u030C/ě/"

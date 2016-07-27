@@ -4,11 +4,9 @@
 
 *   擴展拼音（pinyin-ext）
 
-    以此四個符號分別標註平上去入四個聲調：- / ^ \
+    以此四個符號分別標註平上去入四個聲調：<kbd>-</kbd> <kbd>/</kbd> <kbd>\<</kbd> <kbd>\\</kbd>
 
-    Kuò'zhɑ̌n Pīn'yīn 的拼法爲 Kuo\'zhan^Pin-'yin-
-
-    允許一些不標準的拼法。
+    Kuò'zhɑ̌n Pīn'yīn 的拼法爲 `Kuo\'zhan<Pin-'yin-`。還允許一些不標準的拼法。
 
 *   特殊符號（symbols）
 
