@@ -65,7 +65,7 @@ engine:
     #- uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba-/<\>*'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-/<\>*"'
   delimiter: " '"
   algebra:
     # 兒音
@@ -74,11 +74,15 @@ speller:
     - derive/[1-5]$//
     # 區分 u/ü
     - xform/^([jqxy])u/$1v/
+    # 隔音符
+    - derive/$/"/
+    # 略音節
+    - abbrev/^[^"]+"$/*"/
     # 略韻母
-    - abbrev/^[aeiouv][a-z]*(\d?)$/*$1/
-    - abbrev/^(zh|sh|ch|[a-z])[a-z]+(\d?)$/$1*$2/
+    - abbrev/^[aeiouv][a-z]*(\d?"?)$/*$1/
+    - abbrev/^(zh|sh|ch|[a-z])[a-z]+(\d?"?)$/$1*$2/
     # 略聲母
-    - abbrev/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxyz])([a-z]+)(\d?)$/*$1$2/
+    - abbrev/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxyz])([a-z]+)(\d?"?)$/*$1$2/
     # 簡拼
     - fuzz/^(zh|sh|ch|[a-z])[a-z]+(\d?)$/$1$2/
     # 聲調

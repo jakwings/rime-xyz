@@ -8,6 +8,8 @@
 
     平上去入輕略：<kbd>-</kbd> <kbd>/</kbd> <kbd>\<</kbd> <kbd>\\</kbd> <kbd>\></kbd> <kbd>\*</kbd>
 
+    比 <kbd>'</kbd> 更強力的全音節專用隔音符：<kbd>"</kbd>
+
 *   擴展拼音（pinyin-ext）
 
     以此四個符號分別標註平上去入四個聲調：<kbd>-</kbd> <kbd>/</kbd> <kbd>\<</kbd> <kbd>\\</kbd>
