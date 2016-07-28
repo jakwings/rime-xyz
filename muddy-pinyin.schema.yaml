@@ -61,10 +61,10 @@ speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba-/<\>*"'
   delimiter: " '"
   algebra:
-    # 兒音
-    - xform/^r(\d)$/er$1/
     # 略音調
     - derive/[1-5]$//
+    # 兒音
+    - xform/^r(\d?)$/er$1/
     # 區分 u/ü
     - xform/^([jqxy])u/$1v/
     # 隔音符
