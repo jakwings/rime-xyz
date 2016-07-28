@@ -85,7 +85,7 @@ speller:
     - xlit 12345 -/<\>
 
 translator:
-  dictionary: terra_pinyin
+  dictionary: *id
   prism: *id
   spelling_hints: 5  # 幾個字以內提示拼音
   enable_sentence: true  # 是否自動造句
