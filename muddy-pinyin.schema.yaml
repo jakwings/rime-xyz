@@ -92,7 +92,8 @@ translator:
   enable_user_dict: true  # 是否自動調頻
   enable_charset_filter: true
   preedit_format: &format  #{
-    - xlit -/<\> 12345
+    - xlit -/<\>* 12345…
+    - xform/\d/:$&/
     # 特殊拼寫 {
     - xform/\<([nl])ue/$1ve/
     - xform/\<([jqxy])v/$1u/
@@ -105,17 +106,18 @@ translator:
     - xform/\<ye\>/yê/
     - xform/eh\>/ê/
     # 聲調定位 {
-    - "xform/([aeo]|ê)((?:[aeiouv]|ê)[^' :]*?)([1-5])/$1:$3$2/"
-    - "xform/([iuv](?:[aeiouv]|ê))([^' :]*?)([1-5])/$1:$3$2/"
-    - "xform/([aeiouv]|ê)([^' :]*?)([1-5])/$1:$3$2/"
+    - "xform/([aeo]|ê)((?:[aeiouv]|ê)[^' ]*?):([1-5])/$1$3$2/"
+    - "xform/([iuv](?:[aeiouv]|ê))([^' ]*?):([1-5])/$1$3$2/"
+    - "xform/([aeiouv]|ê)([^' ]*?):([1-5])/$1$3$2/"
     # 聲調定位 }
     - xlit agv ɑɡü
     # 組合性聲調符號 {
-    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?1/$1\u0304/"
-    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?2/$1\u0301/"
-    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?3/$1\u030C/"
-    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?4/$1\u0300/"
-    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?5/$1\u0307/"
+    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?1/$1\u0304/"
+    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?2/$1\u0301/"
+    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?3/$1\u030C/"
+    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?4/$1\u0300/"
+    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?5/$1\u0307/"
+    - xform/://
     # 組合性聲調符號 }
     # 雙字符組合變單字符 {
     - "xform/a\u0304/ā/"
@@ -143,7 +145,7 @@ translator:
     - "xform/ü\u030C/ǚ/"
     - "xform/ü\u0300/ǜ/"
     # 雙字符組合變單字符 }
-    - xlit 12345* ˉˊ˅ˋ˙…
+    - xlit 12345 ˉˊ˅ˋ˙
   # }
   comment_format: *format
 
