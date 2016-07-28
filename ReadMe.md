@@ -2,6 +2,12 @@
 
 已公佈：
 
+*   泥巴拼音（muddy-pinyin）
+
+    借用「地球拼音」碼表。可略聲母、韻母、音調。
+
+    平上去入輕略：<kbd>-</kbd> <kbd>/</kbd> <kbd>\<</kbd> <kbd>\\</kbd> <kbd>\></kbd> <kbd>\*</kbd>
+
 *   擴展拼音（pinyin-ext）
 
     以此四個符號分別標註平上去入四個聲調：<kbd>-</kbd> <kbd>/</kbd> <kbd>\<</kbd> <kbd>\\</kbd>

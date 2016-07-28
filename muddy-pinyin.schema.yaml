@@ -1,0 +1,157 @@
+# ------------------------------------------------------------------------------
+# Rime schema
+# encoding: utf-8
+# ------------------------------------------------------------------------------
+# Copyright (c) 2016 Jak Wings https://github.com/jakwings/rime-xyz
+#
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+# REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+# AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+# INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+# LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+# OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+# PERFORMANCE OF THIS SOFTWARE.
+# ------------------------------------------------------------------------------
+
+schema:
+  version: "2016.7.28"
+  schema_id: &id muddy-pinyin
+  name: 泥巴拼音
+  author:
+    - Jak Wings #!@Gmail.com
+  description: |
+    借用「地球拼音」碼表。
+    可略聲母、韻母、音調。
+    平上去入輕略：- / < \ > *
+  dependencies:
+    - terra_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: gbk
+    states: [ 增廣, GBK ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - selector
+    - navigator
+    - speller
+    - punctuator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier
+    - charset_filter@gbk
+    #- uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-/<\>*'
+  delimiter: " '"
+  algebra:
+    # 兒音
+    - xform/^r(\d)$/er$1/
+    # 略音調
+    - derive/[1-5]$//
+    # 區分 u/ü
+    - xform/^([jqxy])u/$1v/
+    # 略韻母
+    - abbrev/^[aeiouv][a-z]*(\d?)$/*$1/
+    - abbrev/^(zh|sh|ch|[a-z])[a-z]+(\d?)$/$1*$2/
+    # 略聲母
+    - abbrev/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxyz])([a-z]+)(\d?)$/*$1$2/
+    # 簡拼
+    - fuzz/^(zh|sh|ch|[a-z])[a-z]+(\d?)$/$1$2/
+    # 聲調
+    - xlit 12345 -/<\>
+
+translator:
+  dictionary: terra_pinyin
+  prism: *id
+  spelling_hints: 5  # 幾個字以內提示拼音
+  enable_sentence: true  # 是否自動造句
+  enable_user_dict: true  # 是否自動調頻
+  enable_charset_filter: true
+  preedit_format: &format  #{
+    - xlit -/<\> 12345
+    # 特殊拼寫 {
+    - xform/\<([nl])ue/$1ve/
+    - xform/\<([jqxy])v/$1u/
+    - xform/\<ch/ĉ/
+    - xform/\<sh/ŝ/
+    - xform/\<zh/ẑ/
+    - xform/ng\>/ŋ/
+    # 特殊拼寫 }
+    - xform/ie\>/ê/
+    - xform/\<ye\>/yê/
+    - xform/eh\>/ê/
+    # 聲調定位 {
+    - "xform/([aeo]|ê)((?:[aeiouv]|ê)[^' :]*?)([1-5])/$1:$3$2/"
+    - "xform/([iuv](?:[aeiouv]|ê))([^' :]*?)([1-5])/$1:$3$2/"
+    - "xform/([aeiouv]|ê)([^' :]*?)([1-5])/$1:$3$2/"
+    # 聲調定位 }
+    - xlit agv ɑɡü
+    # 組合性聲調符號 {
+    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?1/$1\u0304/"
+    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?2/$1\u0301/"
+    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?3/$1\u030C/"
+    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?4/$1\u0300/"
+    - "xform/([aeiouv*]|[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?5/$1\u0307/"
+    # 組合性聲調符號 }
+    # 雙字符組合變單字符 {
+    - "xform/a\u0304/ā/"
+    - "xform/a\u0301/á/"
+    - "xform/a\u030C/ǎ/"
+    - "xform/a\u0300/à/"
+    - "xform/e\u0304/ē/"
+    - "xform/e\u0301/é/"
+    - "xform/e\u030C/ě/"
+    - "xform/e\u0300/è/"
+    - "xform/i\u0304/ī/"
+    - "xform/i\u0301/í/"
+    - "xform/i\u030C/ǐ/"
+    - "xform/i\u0300/ì/"
+    - "xform/o\u0304/ō/"
+    - "xform/o\u0301/ó/"
+    - "xform/o\u030C/ǒ/"
+    - "xform/o\u0300/ò/"
+    - "xform/u\u0304/ū/"
+    - "xform/u\u0301/ú/"
+    - "xform/u\u030C/ǔ/"
+    - "xform/u\u0300/ù/"
+    - "xform/ü\u0304/ǖ/"
+    - "xform/ü\u0301/ǘ/"
+    - "xform/ü\u030C/ǚ/"
+    - "xform/ü\u0300/ǜ/"
+    # 雙字符組合變單字符 }
+    - xlit 12345* ˉˊ˅ˋ˙…
+  # }
+  comment_format: *format
+
+key_binder:
+  import_preset: default
+
+punctuator:
+  import_preset: default
+
+recognizer:
+  import_preset: default
