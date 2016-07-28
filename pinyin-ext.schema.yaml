@@ -66,31 +66,29 @@ translator:
   enable_user_dict: false
   preedit_format:  #{
     - xlit -/<\ 1234
-    # 特殊規則 {
-    #- xform/\<([nlNL])ue/$1ve/
-    #- xform/\<([jqxyJQXY])v/$1u/
-    # 特殊規則 }
+    - xform/\d/:$&/
     # ea 變 ê {
     - xform/ea/ê/
     - xform/\<Ea/Ê/
     # ea 變 ê }
     # 聲調定位 {
-    - "xform/([aeo]|\\<[AEO]|ê|Ê)((?:[aeiouv]|ê)[^' :]*?)([1-4])/$1:$3$2/"
-    - "xform/([iuv]|\\<[IUV](?:[aeiouv]|ê))([^' :]*?)([1-4])/$1:$3$2/"
-    - "xform/([aeiouv]|\\<[AEIOUV]|ê|Ê)([^' :]*?)([1-4])/$1:$3$2/"
+    - "xform/([aeo]|\\<[AEO]|ê|\\<Ê)((?:[aeiouv]|ê)[^' ]*?):([1-4])/$1$3$2/"
+    - "xform/((?:[iuv]|\\<[IUV])(?:[aeiouv]|ê))([^' ]*?):([1-4])/$1$3$2/"
+    - "xform/([aeiouv]|\\<[AEIOUV]|ê|\\<Ê)([^' ]*?):([1-4])/$1$3$2/"
     # 聲調定位 }
     # v 變 ü {
     - xform/v/ü/
     - xform/\<V/Ü/
     # v 變 ü }
-    # 不變更字型強行采用習慣寫法 {
+    # 不變更字型強行采用慣用寫法 {
     - xlit ag ɑɡ
-    # 不變更字型強行采用習慣寫法 }
+    # 不變更字型強行采用慣用寫法 }
     # 組合性聲調符號 {
     - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]|ɑ|ê|ü|\\<Ê|\\<Ü):?1/$1\u0304/"
     - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]|ɑ|ê|ü|\\<Ê|\\<Ü):?2/$1\u0301/"
     - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]|ɑ|ê|ü|\\<Ê|\\<Ü):?3/$1\u030C/"
     - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]|ɑ|ê|ü|\\<Ê|\\<Ü):?4/$1\u0300/"
+    - xform/://
     # 組合性聲調符號 }
     # 雙字符組合變單字符 {
     - "xform/a\u0304/ā/"
