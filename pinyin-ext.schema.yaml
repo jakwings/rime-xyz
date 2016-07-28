@@ -67,8 +67,8 @@ translator:
   preedit_format:  #{
     - xlit -/<\ 1234
     # 特殊規則 {
-    - xform/\<([nlNL])ue/$1ve/
-    - xform/\<([jqxyJQXY])v/$1u/
+    #- xform/\<([nlNL])ue/$1ve/
+    #- xform/\<([jqxyJQXY])v/$1u/
     # 特殊規則 }
     # ea 變 ê {
     - xform/ea/ê/
