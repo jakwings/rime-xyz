@@ -104,7 +104,8 @@ speller:
     - abbrev/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+)\>/*$1/
     - abbrev/^y(?!(?:en?|an)\d?"?$)([a-z]+)\>/*$1/
     # 簡拼
-    - fuzz/^(zh|sh|ch|[a-z])[a-z]+\>/$1/
+    - abbrev/^([a-z])[a-z]+\>/$1/
+    - abbrev/^([zcs]h)[a-z]+\>/$1/
     # 兼容
     - derive/^([jqxy])v/$1u/
     - derive/uen\>/un/
