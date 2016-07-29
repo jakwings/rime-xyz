@@ -90,7 +90,7 @@ speller:
     - derive/ui(\d?)$/uei$1/
     - derive/un(\d?)$/uen$1/
     - derive/^w([ao]|[ae]i|[ae]ng?)(\d?)$/wu$1$2/
-    - derive/^y([ao]|[aou]ng?|a[io]|ou)(\d?)$/yi$1$2/
+    - derive/^y([ao]|[aeou]ng?|a[io]|ou)(\d?)$/yi$1$2/
     # 隔音符
     - derive/$/"/
     # 略音節
@@ -99,7 +99,8 @@ speller:
     - abbrev/^[aeiouv][a-z]*(\d?"?)$/*$1/
     - abbrev/^(zh|sh|ch|[a-z])[a-z]+(\d?"?)$/$1*$2/
     # 略聲母
-    - abbrev/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxyz])([a-z]+)(\d?"?)$/*$1$2/
+    - abbrev/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+\d?"?)$/*$1/
+    - abbrev/^y(?!en?\d?"?$)([a-z]+\d?"?)$/*$1/
     # 簡拼
     - fuzz/^(zh|sh|ch|[a-z])[a-z]+(\d?)$/$1$2/
     # 聲調
@@ -118,9 +119,12 @@ translator:
     # 特殊拼寫 {
     - xform/\<([nl])ue/$1ve/
     - xform/\<([jqxy])u/$1v/
-    - xform/\<([bfmpw])o/$1uo/
+    - xform/\<([bfmp])o/$1uo/
     - xform/ong\>/ung/
-    - xform/([ivy])[ae]n\>/$1ien/
+    - xform/iu\>/iou/
+    - xform/ui\>/uei/
+    - xform/un\>/uen/
+    - xform/\<(y|[^y][iv])[ae]n\>/$1ien/
     - xform/\<ye\>/yie/
     - xform/ve\>/vie/
     - xform/eh\>/ie/
@@ -139,7 +143,7 @@ translator:
     - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?5/$1\u0307/"
     # 組合性聲調符號 }
     # 特殊拼寫 {
-    - xform/([aeiouv])ie/$1ê/
+    - xform/([aeiouvy])ie/$1ê/
     - xform/ie/iê/
     - xform/\<ch/ĉ/
     - xform/\<sh/ŝ/
