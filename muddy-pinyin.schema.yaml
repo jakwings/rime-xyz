@@ -17,10 +17,11 @@ schema:
   author:
     - Jak Wings #!@Gmail.com
   description: |
-    借用「地球拼音」碼表。可略聲母、韻母、音調。
+    該方案借用「地球拼音」碼表，專爲查詞典而設計。
+    可略聲母、韻母、音調。
+    並且以 u/v 區分 u/ü，以 e/ie 區分 e/ê。
     平上去入輕略：- / < \ > *
     全音節專用隔音符："
-    該方案專爲查詞典而設計。
   dependencies:
     - terra_pinyin
 
