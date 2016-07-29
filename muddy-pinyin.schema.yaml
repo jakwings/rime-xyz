@@ -106,16 +106,16 @@ speller:
     # 隔音符
     - derive/$/"/
     # 略音節
-    - abbrev/^[^"]+"$/*"/
+    - derive/^[^"]+"$/*"/
     # 略韻母
-    - abbrev/^[aeiouv][a-z]*\>/*/
-    - abbrev/^(zh|sh|ch|[a-z])[a-z]+\>/$1*/
+    - derive/^[aeiouv][a-z]*\>/*/
+    - derive/^(zh|sh|ch|[a-z])[a-z]+\>/$1*/
     # 略聲母
-    - abbrev/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+)\>/*$1/
-    - abbrev/^y(?!(?:en?|an)\d?"?$)([a-z]+)\>/*$1/
+    - derive/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+)\>/*$1/
+    - derive/^y(?!(?:en?|an)\d?"?$)([a-z]+)\>/*$1/
     # 簡拼
-    - abbrev/^([a-z])[a-z]+\>/$1/
-    - abbrev/^([zcs]h)[a-z]+\>/$1/
+    - fuzz/^([a-z])[a-z]+\>/$1/
+    - fuzz/^([zcs]h)[a-z]+\>/$1/
     # 兼容
     - derive/^([jqxy])v/$1u/
     - derive/uen\>/un/
