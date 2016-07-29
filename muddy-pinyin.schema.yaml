@@ -17,11 +17,15 @@ schema:
   author:
     - Jak Wings #!@Gmail.com
   description: |
-    該方案借用「地球拼音」碼表，專爲查詞典而設計。
-    可略聲母、韻母、音調。
-    突出介音；區分 e/ê、u/ü、o/uo、o/u。
+    該方案借用「地球拼音」碼表。專爲查詞典而設計。
+    突出介音；區分 a/ê、e/ê、o/u、o/uo、u/ü。
+    可略聲母、韻母、音調。可配全音節專用隔音符："
     平上去入輕略：- / < \ > *
-    全音節專用隔音符："
+
+    例如，輸入 `hao<*"hao<*i`（hɑ̌o …" hɑ̌o …i）索得：
+    * 好人好事（hɑ̌o rén hɑ̌o ŝì）
+    * 好心好意（hɑ̌o xīn hɑ̌o yì）
+    * 好聲好氣（hɑ̌o ŝēŋ hɑ̌o qì）
   dependencies:
     - terra_pinyin
 
