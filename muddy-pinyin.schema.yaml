@@ -19,7 +19,7 @@ schema:
   description: |
     該方案借用「地球拼音」碼表，專爲查詞典而設計。
     可略聲母、韻母、音調。
-    並且以 u/v 區分 u/ü，以 e/ie 區分 e/ê。
+    突出介音；區分 e/ê、u/ü、o/uo、o/u。
     平上去入輕略：- / < \ > *
     全音節專用隔音符："
   dependencies:
@@ -68,13 +68,24 @@ speller:
   algebra:
     # 略音調
     - derive/[1-5]$//
-    # 兒音
-    - xform/^r(\d?)$/er$1/
-    # 區分 u/ü
-    - xform/^([jqxy])u/$1v/
     # 區分 e/ê
     - xform/^ye(\d?)$/yie$1/
     - xform/eh(\d?)$/ie$1/
+    # 區分 o/uo
+    - xform/^([bfmpw])o(\d?)$/$1uo$2/
+    # 區分 u/ü
+    - xform/^([jqxy])u/$1v/
+    # 區分 o/u
+    - xform/ong(\d?)$/ung$1/
+    # 兒音
+    - xform/^r(\d?)$/er$1/
+    # 介音
+    - xform/iu(\d?)$/iou$1/
+    - xform/ui(\d?)$/uei$1/
+    - xform/un(\d?)$/uen$1/
+    - xform/^w([ao]|[ae]i|[ae]ng?)(\d?)$/wu$1$2/
+    - xform/^y([ae]|[aou]ng?|ao|ou)(\d?)$/yi$1$2/
+    - xform/([iv])an(\d?)$/$1en$2/
     # 隔音符
     - derive/$/"/
     # 略音節
@@ -101,29 +112,41 @@ translator:
     - xform/\d/:$&/
     # 特殊拼寫 {
     - xform/\<([nl])ue/$1ve/
-    - xform/\<([jqxy])v/$1u/
+    - xform/\<([jqxy])u/$1v/
+    - xform/\<([bfmpw])o/$1uo/
+    - xform/ong\>/ung/
+    - xform/iu\>/iou/
+    - xform/ui\>/uei/
+    - xform/un\>/uen/
+    - xform/\<w([ao]|[ae]i|[ae]ng?)\>/wu$1/
+    - xform/\<y([ae]|[aou]ng?|ao|ou)\>/yi$1/
+    - xform/([iv])[ae]n\>/$1ien/
+    - xform/ve\>/vie/
+    - xform/eh\>/ie/
+    # 特殊拼寫 }
+    # 聲調定位 {
+    - xform/([aeiouv]ie)([^' ]*?):([1-5])/$1$3$2/
+    - xform/([aeo])([aeiouv][^' ]*?):([1-5])/$1$3$2/
+    - xform/([iuv][aeiouv])([^' ]*?):([1-5])/$1$3$2/
+    - xform/([aeiouv])([^' ]*?):([1-5])/$1$3$2/
+    # 聲調定位 }
+    # 組合性聲調符號 {
+    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?1/$1\u0304/"
+    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?2/$1\u0301/"
+    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?3/$1\u030C/"
+    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?4/$1\u0300/"
+    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?5/$1\u0307/"
+    - xform/://
+    # 組合性聲調符號 }
+    # 特殊拼寫 {
+    - xform/([aeiouv])ie/$1ê/
+    - xform/ie/iê/
     - xform/\<ch/ĉ/
     - xform/\<sh/ŝ/
     - xform/\<zh/ẑ/
     - xform/ng\>/ŋ/
-    # 特殊拼寫 }
-    - xform/ie\>/ê/
-    - xform/\<ye\>/yê/
-    - xform/eh\>/ê/
-    # 聲調定位 {
-    - "xform/([aeo]|ê)((?:[aeiouv]|ê)[^' ]*?):([1-5])/$1$3$2/"
-    - "xform/([iuv](?:[aeiouv]|ê))([^' ]*?):([1-5])/$1$3$2/"
-    - "xform/([aeiouv]|ê)([^' ]*?):([1-5])/$1$3$2/"
-    # 聲調定位 }
     - xlit agv ɑɡü
-    # 組合性聲調符號 {
-    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?1/$1\u0304/"
-    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?2/$1\u0301/"
-    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?3/$1\u030C/"
-    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?4/$1\u0300/"
-    - "xform/([aeiouv*]|\\<[bcdfghjklmnpqrstwxyz]|ê|ü|ɑ|\\<ɡ|\\<ĉ|\\<ŝ|\\<ẑ):?5/$1\u0307/"
-    - xform/://
-    # 組合性聲調符號 }
+    # 特殊拼寫 }
     # 雙字符組合變單字符 {
     - "xform/a\u0304/ā/"
     - "xform/a\u0301/á/"
