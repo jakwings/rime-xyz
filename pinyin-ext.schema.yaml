@@ -24,9 +24,11 @@ schema:
   author:
     - Jak Wings #!@Gmail.com
   description: |
-    以此四個符號分別標註平上去入四個聲調：- / < \
-    Kuò'zhɑ̌n Pīn'yīn 的拼法爲 Kuo\'zhan<Pin-'yin-
-    允許一些不標準拼法。
+    平上去入四聲：- / < \
+    隔音符（’）以及空格：" >
+    Kuò’zhɑ̌n Pīn’yīn 的拼法爲 Kuo\"zhan<>Pin-"yin-
+    還允許一些不標準的拼法。
+    如：jüé (`jve/`) duɑ̄nɡ (`duang-`) yê̌ (`yea<`)
 
 switches:
   - name: ascii_mode
