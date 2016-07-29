@@ -53,10 +53,10 @@ engine:
     #- uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba-/<\ZYXWVUTSRQPONMLKJIHGFEDCBA'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-/<\ZYXWVUTSRQPONMLKJIHGFEDCBA"'
   delimiter: " '"
   algebra:
-    - xlit 1234 -/<\
+    - xlit 1234· -/<\>
 
 translator:
   dictionary: *id
@@ -65,7 +65,7 @@ translator:
   enable_sentence: false
   enable_user_dict: false
   preedit_format:  #{
-    - xlit -/<\ 1234
+    - xlit|-/<\>"|1234 ’|
     - xform/\d/:$&;/
     # 聲調定位 {
     - xform/(ea|\<Ea)([^' ]*?):([1-4])/$1$3$2/
