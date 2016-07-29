@@ -80,15 +80,15 @@ speller:
     # 區分 u/ü
     - xform/^([jqxy])u/$1v/
     # 區分 o/u
-    - xform/ong(\d?)$/ung$1/
+    - derive/ong(\d?)$/ung$1/
     # 區分 a/ê
-    - xform/([ivy])an(\d?)$/$1en$2/
+    - derive/([ivy])an(\d?)$/$1en$2/
     # 兒音
     - xform/^r(\d?)$/er$1/
     # 介音
     - derive/iu(\d?)$/iou$1/
     - derive/ui(\d?)$/uei$1/
-    - derive/un(\d?)$/uen$1/
+    - xform/un(\d?)$/uen$1/
     - derive/^w([ao]|[ae]i|[ae]ng?)(\d?)$/wu$1$2/
     - derive/^y([ao]|[aeou]ng?|a[io]|ou)(\d?)$/yi$1$2/
     # 隔音符
@@ -100,9 +100,12 @@ speller:
     - abbrev/^(zh|sh|ch|[a-z])[a-z]+(\d?"?)$/$1*$2/
     # 略聲母
     - abbrev/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+\d?"?)$/*$1/
-    - abbrev/^y(?!en?\d?"?$)([a-z]+\d?"?)$/*$1/
+    - abbrev/^y(?!(?:en?|an)\d?"?$)([a-z]+\d?"?)$/*$1/
     # 簡拼
     - fuzz/^(zh|sh|ch|[a-z])[a-z]+(\d?)$/$1$2/
+    # 兼容
+    - derive/^([jqxy])v/$1u/
+    - derive/uen(\d?"?)$/un$1/
     # 聲調
     - xlit 12345 -/<\>
 
@@ -121,6 +124,7 @@ translator:
     - xform/\<([jqxy])u/$1v/
     - xform/\<([bfmp])o/$1uo/
     - xform/ong\>/ung/
+    - xform/([ivy])an\>/$1en/
     - xform/iu\>/iou/
     - xform/ui\>/uei/
     - xform/un\>/uen/
