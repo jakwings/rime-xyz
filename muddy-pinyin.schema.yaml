@@ -11,7 +11,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: "2016.7.28"
+  version: "2016.7.29"
   schema_id: &id muddy-pinyin
   name: 泥巴拼音
   author:
@@ -42,10 +42,13 @@ engine:
     - key_binder
     - selector
     - navigator
+    - recognizer
     - speller
     - punctuator
     - express_editor
   segmentors:
+    - ascii_segmentor
+    - matcher
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
