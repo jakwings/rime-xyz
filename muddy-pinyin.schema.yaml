@@ -69,23 +69,24 @@ speller:
     # 略音調
     - derive/[1-5]$//
     # 區分 e/ê
-    - xform/^ye(\d?)$/yie$1/
     - xform/eh(\d?)$/ie$1/
+    - derive/^ye(\d?)$/yie$1/
     # 區分 o/uo
-    - xform/^([bfmpw])o(\d?)$/$1uo$2/
+    - derive/^([bfmpw])o(\d?)$/$1uo$2/
     # 區分 u/ü
     - xform/^([jqxy])u/$1v/
     # 區分 o/u
     - xform/ong(\d?)$/ung$1/
+    # 區分 a/ê
+    - xform/([ivy])an(\d?)$/$1en$2/
     # 兒音
     - xform/^r(\d?)$/er$1/
     # 介音
-    - xform/iu(\d?)$/iou$1/
-    - xform/ui(\d?)$/uei$1/
-    - xform/un(\d?)$/uen$1/
-    - xform/^w([ao]|[ae]i|[ae]ng?)(\d?)$/wu$1$2/
-    - xform/^y([ae]|[aou]ng?|ao|ou)(\d?)$/yi$1$2/
-    - xform/([iv])an(\d?)$/$1en$2/
+    - derive/iu(\d?)$/iou$1/
+    - derive/ui(\d?)$/uei$1/
+    - derive/un(\d?)$/uen$1/
+    - derive/^w([ao]|[ae]i|[ae]ng?)(\d?)$/wu$1$2/
+    - derive/^y([ao]|[aou]ng?|a[io]|ou)(\d?)$/yi$1$2/
     # 隔音符
     - derive/$/"/
     # 略音節
@@ -115,12 +116,8 @@ translator:
     - xform/\<([jqxy])u/$1v/
     - xform/\<([bfmpw])o/$1uo/
     - xform/ong\>/ung/
-    - xform/iu\>/iou/
-    - xform/ui\>/uei/
-    - xform/un\>/uen/
-    - xform/\<w([ao]|[ae]i|[ae]ng?)\>/wu$1/
-    - xform/\<y([ae]|[aou]ng?|ao|ou)\>/yi$1/
-    - xform/([iv])[ae]n\>/$1ien/
+    - xform/([ivy])[ae]n\>/$1ien/
+    - xform/\<ye\>/yie/
     - xform/ve\>/vie/
     - xform/eh\>/ie/
     # 特殊拼寫 }
