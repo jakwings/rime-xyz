@@ -110,7 +110,7 @@ translator:
   enable_charset_filter: true
   preedit_format: &format  #{
     - xlit -/<\>* 12345…
-    - xform/\d/:$&/
+    - xform/\d/:$&;/
     # 特殊拼寫 {
     - xform/\<([nl])ue/$1ve/
     - xform/\<([jqxy])u/$1v/
@@ -133,7 +133,6 @@ translator:
     - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?3/$1\u030C/"
     - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?4/$1\u0300/"
     - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?5/$1\u0307/"
-    - xform/://
     # 組合性聲調符號 }
     # 特殊拼寫 {
     - xform/([aeiouv])ie/$1ê/
@@ -170,6 +169,7 @@ translator:
     - "xform/ü\u030C/ǚ/"
     - "xform/ü\u0300/ǜ/"
     # 雙字符組合變單字符 }
+    - xform/[:;]//
     - xlit 12345 ˉˊ˅ˋ˙
   # }
   comment_format: *format
