@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: "2016.7.28"
+  version: "2016.7.29"
   schema_id: &id pinyin-ext
   name: 擴展拼音
   author:
@@ -66,30 +66,26 @@ translator:
   enable_user_dict: false
   preedit_format:  #{
     - xlit -/<\ 1234
-    - xform/\d/:$&/
-    # ea 變 ê {
+    - xform/\d/:$&;/
+    # 聲調定位 {
+    - xform/(ea|\<Ea)([^' ]*?):([1-4])/$1$3$2/
+    - xform/([aeo]|\<[AEO])([aeiouv][^' ]*?):([1-4])/$1$3$2/
+    - xform/((?:[iuv]|\<[IUV])[aeiouv])([^' ]*?):([1-4])/$1$3$2/
+    - xform/([aeiouv]|\<[AEIOUV])([^' ]*?):([1-4])/$1$3$2/
+    # 聲調定位 }
+    # 組合性聲調符號 {
+    - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]):?1/$1\u0304/"
+    - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]):?2/$1\u0301/"
+    - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]):?3/$1\u030C/"
+    - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]):?4/$1\u0300/"
+    # 組合性聲調符號 }
+    # 特殊拼寫 {
     - xform/ea/ê/
     - xform/\<Ea/Ê/
-    # ea 變 ê }
-    # 聲調定位 {
-    - "xform/([aeo]|\\<[AEO]|ê|\\<Ê)((?:[aeiouv]|ê)[^' ]*?):([1-4])/$1$3$2/"
-    - "xform/((?:[iuv]|\\<[IUV])(?:[aeiouv]|ê))([^' ]*?):([1-4])/$1$3$2/"
-    - "xform/([aeiouv]|\\<[AEIOUV]|ê|\\<Ê)([^' ]*?):([1-4])/$1$3$2/"
-    # 聲調定位 }
-    # v 變 ü {
     - xform/v/ü/
     - xform/\<V/Ü/
-    # v 變 ü }
-    # 不變更字型強行采用慣用寫法 {
     - xlit ag ɑɡ
-    # 不變更字型強行采用慣用寫法 }
-    # 組合性聲調符號 {
-    - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]|ɑ|ê|ü|\\<Ê|\\<Ü):?1/$1\u0304/"
-    - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]|ɑ|ê|ü|\\<Ê|\\<Ü):?2/$1\u0301/"
-    - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]|ɑ|ê|ü|\\<Ê|\\<Ü):?3/$1\u030C/"
-    - "xform/([aeiouv]|\\<[AEIOUV]|\\<[mnrMNR]|ɑ|ê|ü|\\<Ê|\\<Ü):?4/$1\u0300/"
-    - xform/://
-    # 組合性聲調符號 }
+    # 特殊拼寫 }
     # 雙字符組合變單字符 {
     - "xform/a\u0304/ā/"
     - "xform/a\u0301/á/"
@@ -140,9 +136,8 @@ translator:
     - "xform/\\<Ü\u030C/Ǚ/"
     - "xform/\\<Ü\u0300/Ǜ/"
     # 雙字符組合變單字符 }
-    # 非結合用聲調符號 {
+    - xform/[:;]//
     - xlit 1234 ˉˊ˅ˋ
-    # 非結合用聲調符號 }
   # }
 
 key_binder:
