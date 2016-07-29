@@ -71,6 +71,9 @@ speller:
     - xform/^r(\d?)$/er$1/
     # 區分 u/ü
     - xform/^([jqxy])u/$1v/
+    # 區分 e/ê
+    - xform/^ye(\d?)$/yie$1/
+    - xform/eh(\d?)$/ie$1/
     # 隔音符
     - derive/$/"/
     # 略音節
