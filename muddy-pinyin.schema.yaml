@@ -148,7 +148,7 @@ translator:
     # 組合性聲調符號 }
     # 特殊拼寫 {
     - xform/([aeiouvy])ie/$1ê/
-    - xform/ie/iê/
+    - xform/ie(?!ng)/iê/
     - xform/\<ch/ĉ/
     - xform/\<sh/ŝ/
     - xform/\<zh/ẑ/
