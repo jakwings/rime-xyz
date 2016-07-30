@@ -20,7 +20,7 @@
 schema:
   name: 例·特殊字符
   schema_id: &id example-symbols
-  version: "2016.7.8"
+  version: '2016.7.31'
   author:
     - Jak Wings #!@Gmail.com
   description: |
@@ -47,21 +47,21 @@ engine:
     - key_binder
     - selector
     - navigator
-    - recognizer  # 配合 matcher
+    - recognizer               # 配合 engine/segmentors/matcher
     - speller
     - punctuator
     - fluid_editor
   segmentors:
     - ascii_segmentor
-    - matcher  # 配合 recognizer/patterns/symbol 打標籤（tag）
+    - matcher                  # 配合 recognizer/patterns/symbol 打標籤（tag）
     - abc_segmentor
-    - affix_segmentor@symbol  # 使用自訂分詞器
+    - affix_segmentor@symbol   # 使用自訂分詞器
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - table_translator@symbol  # 使用自訂轉譯器
-    - script_translator  # 原有轉譯
+    - script_translator        # 原有轉譯
   filters:
     - uniquifier
 
@@ -84,11 +84,11 @@ symbol:
   closing_tips: 【一般】
   dictionary: *symbol
   prism: *symbol
-  enable_completion: true
-  enable_encoder: false
-  enable_sentence: false
-  enable_user_dict: false
-  encode_commit_history: false
+  enable_completion: true       # 編碼提示
+  enable_encoder: false         # 不自動組詞
+  enable_sentence: true         # 開啓自動造句（連打模式）
+  enable_user_dict: false       # 不自動調頻
+  encode_commit_history: false  # 不爲上屏詞自動編碼
   preedit_format:
     - xlit ABCDEFGHIJ 0123456789
   comment_format:
@@ -103,4 +103,4 @@ punctuator:
 recognizer:
   import_preset: default
   patterns:
-    symbol: /[a-zA-Z?]+;?  # 標識 symbol 字段所用正則表達式
+    symbol: /[a-zA-Z?']+;?  # 標識 symbol 字段所用正則表達式
