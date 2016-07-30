@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.7.26'
+  version: '2016.7.30'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -140,10 +140,9 @@ translator:
 
   # XXX: 無法迴避的問題
   # 會干擾詞序，重碼更會導致奇怪順序；
-  # 輸入衍生編碼時依然提示原初編碼；
-  # 提示碼被配匹後CommentFormat才生效；
-  # 提示碼含非法輸入碼時匹配錯誤。
-  # 是鼠鬚管界面還是引擎本身的設計問題？
+  # 輸入衍生編碼時依然提示原初編碼（一字對多碼）；
+  # 提示碼被配匹後CommentFormat才生效（prematch_comment_format？）；
+  # 提示碼含非法輸入碼時匹配錯誤（忽略字符？）。
   enable_completion: true
 
   enable_encoder: false
