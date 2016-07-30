@@ -86,39 +86,40 @@ speller:
     - derive/:\d//
     # 區分 e/ê
     - xform/eh\>/ie/
-    - derive/^ye\>/yie/
     # 區分 o/uo
-    - derive/^([bfmpw])o\>/$1uo/
+    - derive/^([bfmp])o\>/$1uo/
     # 區分 u/ü
     - xform/^([jqxy])u/$1v/
     # 區分 o/u
     - derive/ong\>/ung/
     # 區分 a/ê
-    - derive/([ivy])an\>/$1en/
+    - derive/([iv]|^y)an\>/$1en/
     # 兒音
     - xform/^r\>/er/
     # 介音
     - derive/iu\>/iou/
     - derive/ui\>/uei/
-    - xform/un\>/uen/
-    - derive/^w([ao]|[ae]i|[ae]ng?)\>/wu$1/
-    - derive/^y([ao]|[aeou]ng?|a[io]|ou)\>/yi$1/
+    - derive/un\>/uen/
     # 隔音符
     - derive/$/"/
     # 略音節
     - derive/^[^"]+"$/*"/
     # 略韻母
     - derive/^[aeiouv][a-z]*\>/*/
-    - derive/^(zh|sh|ch|[a-z])[a-z]+\>/$1*/
+    - derive/^([csz]h|[a-z])[a-z]+\>/$1*/
     # 略聲母
     - derive/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+)\>/*$1/
+    - derive/^w([a-z]+)\>/*u$1/
+    - xform/^\*uu/*u/
     - derive/^y(?!(?:en?|an)\>)([a-z]+)\>/*$1/
+    - derive/^y([a-z]+)\>/*i$1/
+    - xform/^\*ii/*i/
+    - derive/^\*ve\>/*ue/
     # 簡拼
     - fuzz/^([a-z])[a-z]+\>/$1/
     - fuzz/^([zcs]h)[a-z]+\>/$1/
     # 兼容
     - derive/^([jqxy])v/$1u/
-    - derive/uen\>/un/
     # 聲調
     - xlit 12345 -/<\>
     # ※
@@ -135,40 +136,36 @@ translator:
     - xlit -/<\>* 12345…
     - xform/\d/:$&;/
     # 特殊拼寫 {
-    - xform/\<([nl])ue\>/$1ve/
-    - xform/\<([jqxy])u([en]|[ae]n)?\>/$1v$2/
     - xform/\<([bfmp])o\>/$1uo/
+    - xform/\<([ln]?)ue\>/$1vE/
+    - xform/\<([jqxy])u([en]|[ae]n)?\>/$1v$2/
+    - xform/([iv]|\<y)[ae]n\>/$1En/
+    - xform/\<ye/yE/
+    - xform/([iv])e\>/$1E/
+    - xform/eh\>/iE/
     - xform/ong\>/ung/
-    - xform/([ivy])an\>/$1en/
     - xform/iu\>/iou/
     - xform/ui\>/uei/
     - xform/un\>/uen/
-    - xform/\<(y|[^y][iv])[ae]n\>/$1ien/
-    - xform/\<ye\>/yie/
-    - xform/ve\>/vie/
-    - xform/eh\>/ie/
     # 特殊拼寫 }
     # 聲調定位 {
-    - xform/([aeiouv]ie)([a-z]*):(\d)/$1$3$2/
     - xform/([aeo])([aeiouv][a-z]*):(\d)/$1$3$2/
     - xform/([iuv][aeiouv])([a-z]*):(\d)/$1$3$2/
-    - xform/([aeiouv])([a-z]*):(\d)/$1$3$2/
+    - xform/([aeiouvE])([a-z]*):(\d)/$1$3$2/
     # 聲調定位 }
     # 組合性聲調符號 {
-    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?1/$1\u0304/"
-    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?2/$1\u0301/"
-    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?3/$1\u030C/"
-    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?4/$1\u0300/"
-    - "xform/([aeiouv*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?5/$1\u0307/"
+    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?1/$1\u0304/"
+    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?2/$1\u0301/"
+    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?3/$1\u030C/"
+    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?4/$1\u0300/"
+    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?5/$1\u0307/"
     # 組合性聲調符號 }
     # 特殊拼寫 {
-    - xform/([aeiouvy])ie/$1ê/
-    - xform/ien?\>/iê/
     - xform/\<ch/ĉ/
     - xform/\<sh/ŝ/
     - xform/\<zh/ẑ/
     - xform/ng\>/ŋ/
-    - xlit agv ɑɡü
+    - xlit agvE ɑɡüê
     # 特殊拼寫 }
     # 雙字符組合變單字符 {
     - "xform/a\u0304/ā/"
