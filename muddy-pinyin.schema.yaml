@@ -112,7 +112,7 @@ speller:
     - derive/^(zh|sh|ch|[a-z])[a-z]+\>/$1*/
     # 略聲母
     - derive/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+)\>/*$1/
-    - derive/^y(?!(?:en?|an)\d?"?$)([a-z]+)\>/*$1/
+    - derive/^y(?!(?:en?|an)\>)([a-z]+)\>/*$1/
     # 簡拼
     - fuzz/^([a-z])[a-z]+\>/$1/
     - fuzz/^([zcs]h)[a-z]+\>/$1/
