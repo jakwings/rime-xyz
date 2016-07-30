@@ -88,10 +88,10 @@ use_preset_vocabulary: false
 ?bd	小型 = bd + xx
 ?bd	大型 = bd + dx
 ?bd	直書 = bd + zs
-?bd	橫槓 = bd + dash
-?bd	句點 = bd + dot
-?bd	上標 = bd + prime
-?bd	引號 = bd + quote
+?bd	橫槓 = bd + hg
+?bd	上標 = bd + sb
+?bd	引號 = bd + yh
+?bd	句點 = bd + d
 ?bh	─╴漢字筆畫╶─────
 ?bh	按名稱 = bh + 簡拼
 ?bh	按折點數 = bh + 數字
@@ -887,36 +887,36 @@ bd	⸢
 bd	⸣
 bd	⸤
 bd	⸥
-bd:dot	․
-bd:dot	‥
-bd:dot	…
-bd:dot	⋮
-bd:dot	⁝
-bd:dot	⁞
-bd:dot	⸽
-bd:quote:left	〝
-bd:quote:right	〞
-bd:quote:left	❝
-bd:quote:right	❞
-bd:quote:low	❠	❝
-bd:quote:left	❛
-bd:quote:right	❜
-bd:quote:low	❟	❛
-bd:quote:left	‘
-bd:quote:right	’
-bd:quote:high	‛	’
-bd:quote:low	‚	‘
-bd:quote:left	“
-bd:quote:right	”
-bd:quote:high	‟	”
-bd:quote:low	„	“
-bd:prime	′
-bd:prime	″
-bd:prime	‴
-bd:prime	⁗
-bd:prime	‵
-bd:prime	‶
-bd:prime	‷
+bd:d	․
+bd:d	‥
+bd:d	…
+bd:d	⋮
+bd:d	⁝
+bd:d	⁞
+bd:d	⸽
+bd:yh:left	〝
+bd:yh:right	〞
+bd:yh:left	❝
+bd:yh:right	❞
+bd:yh:low	❠	❝
+bd:yh:left	❛
+bd:yh:right	❜
+bd:yh:low	❟	❛
+bd:yh:left	‘
+bd:yh:right	’
+bd:yh:high	‛	’
+bd:yh:low	‚	‘
+bd:yh:left	“
+bd:yh:right	”
+bd:yh:high	‟	”
+bd:yh:low	„	“
+bd:sb	′
+bd:sb	″
+bd:sb	‴
+bd:sb	⁗
+bd:sb	‵
+bd:sb	‶
+bd:sb	‷
 bd:qj	（
 bd:qj	）
 bd:qj	［
@@ -986,17 +986,17 @@ bd:bj:rw	･
 bd:zs:rw	〳
 bd:zs:rw	〴
 bd:zs:rw	〵
-bd:dash:hyphen	‐
-bd:dash:hyphen-no-break	‑
-bd:dash:em	—
-bd:dash:en	–
-bd:dash:figure	‒
-bd:dash:swung	⁓
-bd:dash:em*s	﹘
-bd:dash:em*2	⸺
-bd:dash:em*3	⸻
-bd:dash:wave	〜
-bd:dash:wave	〰
+bd:hg:hyphen	‐
+bd:hg:hyphen-no-break	‑
+bd:hg:em	—
+bd:hg:en	–
+bd:hg:figure	‒
+bd:hg:swung	⁓
+bd:hg:em*s	﹘
+bd:hg:em*2	⸺
+bd:hg:em*3	⸻
+bd:hg:wave	〜
+bd:hg:wave	〰
 bd:xx	﹐
 bd:xx	﹑
 bd:xx	﹒
