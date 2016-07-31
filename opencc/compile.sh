@@ -19,21 +19,29 @@ do
   cp $src ${src%.txt}.tsv
 done
 
->> t2s-char.tsv awk '
+> t2s-char.tsv awk '
   BEGIN { FS=OFS="\t" }
   FNR == 1 { mode = !mode }
-  mode { data[$1] = $2 }
-  !mode { print $1, dedup(simplify($2) " " $2 " " $1) }
+  mode { data1[$1] = $2 }
+  !mode { data2[$1] = dedup(simplify($2) " " $2 " " $1) }
+  END {
+    for (k in data2) {
+      print k, data2[k]
+      delete data1[k]
+    }
+    for (k in data1) {
+      print k, data1[k]
+    }
+  }
 
   function simplify(chars, a,n,s,sep) {
     n = split(chars, a, " ")
     for (i = 1; i <= n; i++) {
-      if (data[a[i]]) s = s sep data[a[i]]
+      if (data1[a[i]]) s = s sep data1[a[i]]
       if (i == 1) sep = " "
     }
     return s
   }
-
   function dedup(chars, a,n,t,s,sep) {
     n = split(chars, a, " ")
     for (i = 1; i <= n; i++) {
