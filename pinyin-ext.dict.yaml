@@ -3,7 +3,7 @@
 # encoding: utf-8
 # ------------------------------------------------------------------------------
 # Copyright (c) 2016 Jak Wings https://github.com/jakwings/rime-xyz
-# 
+#
 # Permission to use, copy, modify, and/or distribute this software for any
 # purpose with or without fee is hereby granted, provided that the above
 # copyright notice and this permission notice appear in all copies.
@@ -18,11 +18,13 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: "2016.7.29"
+version: "2016.7.31"
 name: pinyin-ext
 sort: original
 use_preset_vocabulary: false
+columns: [ text, code ]
 ...
+
 ɑ	a
 ɑ̄	a1
 ɑ́	a2
@@ -16901,5 +16903,7 @@ Z	Z
 ˊ	2
 ˅	3
 ˋ	4
- 	·
+’	'
+ 	.
 ’	"
+ 	>

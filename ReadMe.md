@@ -20,13 +20,12 @@
 
 *   擴展拼音（pinyin-ext）
 
-    平上去入四聲：<kbd>-</kbd> <kbd>/</kbd> <kbd>\<</kbd> <kbd>\\</kbd>
+    Kuò’zhɑ̌n Pīn’yīn 的拼法爲 `Kuo\'zhan< Pin-'yin-`。按回車鍵上屏。
 
-    隔音符（’）：<kbd>"</kbd>　空格：<kbd>\></kbd>
+    平上去入：<kbd>-</kbd> <kbd>/</kbd> <kbd>\<</kbd> <kbd>\\</kbd>
+    隔音符：<kbd>'</kbd> <kbd>"</kbd> 替補空格鍵：<kbd>\></kbd>
 
-    「Kuò’zhɑ̌n Pīn’yīn」的拼法爲 `Kuo\"zhan<>Pin-"yin-`。
-
-    還允許一些不標準的拼法，如 jüé (`jve/`)、duɑ̄nɡ (`duang-`)、yê̌ (`yea<`)。
+    還允許一些不標準的拼法。如 jüé (`jve/`)、duɑ̄nɡ (`duang-`)、yê̌ (`yea<`)。
 
 *   特殊符號（symbols）
 
