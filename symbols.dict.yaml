@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.7.30'
+version: '2016.8.2'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -106,6 +106,9 @@ use_preset_vocabulary: false
 ?sx	邏輯 = sx + lj
 ?sx	省略 = sx + sl
 ?sx	其它 = sx + 簡拼
+?xl	─╴希臘字母╶─────
+?xl	按排序 = xl + 數字
+?xl	按名稱 = xl + 英文名
 ?rw	─╴日文假名╶─────
 ?rw	按日本式 = rw + 羅馬字
 ?rw	按黑本式 = rw + 羅馬字
@@ -3018,54 +3021,54 @@ pz:rw	㆟
 # 日文～漢字批註 }
 
 # 希臘文 {
-xl"1	α
-xl"2	β
-xl"3	γ
-xl"4	δ
-xl"5	ε
-xl"6	ζ
-xl"7	η
-xl"8	θ
-xl"9	ι
-xl"10	κ
-xl"11	λ
-xl"12	μ
-xl"13	ν
-xl"14	ξ
-xl"15	ο
-xl"16	π
-xl"17	ρ
-xl"18	σ
-xl"19	τ
-xl"20	υ
-xl"21	φ
-xl"22	χ
-xl"23	ψ
-xl"24	ω
-xl'1	Α
-xl'2	Β
-xl'3	Γ
-xl'4	Δ
-xl'5	Ε
-xl'6	Ζ
-xl'7	Η
-xl'8	Θ
-xl'9	Ι
-xl'10	Κ
-xl'11	Λ
-xl'12	Μ
-xl'13	Ν
-xl'14	Ξ
-xl'15	Ο
-xl'16	Π
-xl'17	Ρ
-xl'18	Σ
-xl'19	Τ
-xl'20	Υ
-xl'21	Φ
-xl'22	Χ
-xl'23	Ψ
-xl'24	Ω
+xl"1:alpha	α
+xl"2:beta	β
+xl"3:gamma	γ
+xl"4:delta	δ
+xl"5:epsilon	ε
+xl"6:zeta	ζ
+xl"7:eta	η
+xl"8:theta	θ
+xl"9:iota	ι
+xl"10:kappa	κ
+xl"11:lambda	λ
+xl"12:mu	μ
+xl"13:nu	ν
+xl"14:xi	ξ
+xl"15:omicron	ο
+xl"16:pi	π
+xl"17:rho	ρ
+xl"18:sigma	σ
+xl"19:tau	τ
+xl"20:upsilon	υ
+xl"21:phi	φ
+xl"22:chi	χ
+xl"23:psi	ψ
+xl"24:omega	ω
+xl'1:alpha	Α
+xl'2:beta	Β
+xl'3:gamma	Γ
+xl'4:delta	Δ
+xl'5:epsilon	Ε
+xl'6:zeta	Ζ
+xl'7:eta	Η
+xl'8:theta	Θ
+xl'9:iota	Ι
+xl'10:kappa	Κ
+xl'11:lambda	Λ
+xl'12:mu	Μ
+xl'13:nu	Ν
+xl'14:xi	Ξ
+xl'15:omicron	Ο
+xl'16:pi	Π
+xl'17:rho	Ρ
+xl'18:sigma	Σ
+xl'19:tau	Τ
+xl'20:upsilon	Υ
+xl'21:phi	Φ
+xl'22:chi	Χ
+xl'23:psi	Ψ
+xl'24:omega	Ω
 # 希臘文 }
 
 # 俄語 {

@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.7.30'
+  version: '2016.8.2'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -40,12 +40,10 @@ engine:
   translators:
     - table_translator
     - echo_translator
-  filters:
-    #- uniquifier
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba?ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  delimiter: ""
+  delimiter: ''
   auto_select: true
   algebra:
     #{ 標點 {
@@ -105,6 +103,8 @@ speller:
     - derive/^py"/py:xx:/
     - derive/^py'/py:dx:/
     #} 希臘文 {
+    - derive/^(xl["']\d+):.+$/$1/
+    - derive/^xl(["'])\d+:/xl$1:/
     - derive/^xl"/xl:xx:/
     - derive/^xl'/xl:dx:/
     #} 俄語 {
