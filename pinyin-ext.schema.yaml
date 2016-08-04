@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.2'
+  version: '2016.8.4'
   schema_id: &id pinyin-ext
   name: 擴展拼音
   author:
@@ -54,8 +54,6 @@ engine:
   translators:
     - punct_translator
     - script_translator
-  filters:
-    #- uniquifier
 
 speller:
   alphabet: ' zyxwvutsrqponmlkjihgfedcba-/<\>ZYXWVUTSRQPONMLKJIHGFEDCBA''"'
