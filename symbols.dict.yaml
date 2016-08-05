@@ -46,7 +46,7 @@ use_preset_vocabulary: false
 ?	日文假名 = hg/kk/rw ＆ rw+zx
 ?	希臘字母 = xl
 ?	俄語字母 = ey
-?	希伯來文 = xblw
+?	希伯來文 = xblw / xw
 ?	拉丁字母 = ld
 ?	國際音標 = yb
 ?	羅馬數字 = lm

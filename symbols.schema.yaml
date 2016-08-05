@@ -110,6 +110,8 @@ speller:
     #} 俄語 {
     - derive/^ey"/ey:dx:/
     - derive/^ey'/ey:xx:/
+    #} 希伯來文 {
+    - derive/^xblw:/xw:/
     #} 上標、下標 {
     - derive/^sb:(?:greek|latin):/sb:/
     - derive/^xb:(?:greek|latin):/xb:/
