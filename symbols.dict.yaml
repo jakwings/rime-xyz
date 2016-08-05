@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.5'
+version: '2016.8.6'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -46,7 +46,7 @@ use_preset_vocabulary: false
 ?	日文假名 = hg/kk/rw ＆ rw+zx
 ?	希臘字母 = xl
 ?	俄語字母 = ey
-?	希伯來文 = xbl
+?	希伯來文 = xblw
 ?	拉丁字母 = ld
 ?	國際音標 = yb
 ?	羅馬數字 = lm
@@ -3140,33 +3140,33 @@ ey'33	я
 # 俄語 }
 
 # 希伯來文 {
-xbl:1	א
-xbl:2	ב
-xbl:3	ג
-xbl:4	ד
-xbl:5	ה
-xbl:6	ו
-xbl:7	ז
-xbl:8	ח
-xbl:9	ט
-xbl:10	י
-xbl:11	ך
-xbl:12	כ
-xbl:13	ל
-xbl:14	ם
-xbl:15	מ
-xbl:16	ן
-xbl:17	נ
-xbl:18	ס
-xbl:19	ע
-xbl:20	ף
-xbl:21	פ
-xbl:22	ץ
-xbl:23	צ
-xbl:24	ק
-xbl:25	ר
-xbl:26	ש
-xbl:27	ת
+xblw:1	א
+xblw:2	ב
+xblw:3	ג
+xblw:4	ד
+xblw:5	ה
+xblw:6	ו
+xblw:7	ז
+xblw:8	ח
+xblw:9	ט
+xblw:10	י
+xblw:11	ך
+xblw:12	כ
+xblw:13	ל
+xblw:14	ם
+xblw:15	מ
+xblw:16	ן
+xblw:17	נ
+xblw:18	ס
+xblw:19	ע
+xblw:20	ף
+xblw:21	פ
+xblw:22	ץ
+xblw:23	צ
+xblw:24	ק
+xblw:25	ר
+xblw:26	ש
+xblw:27	ת
 # 希伯來文 }
 
 # 拉丁字母 {
