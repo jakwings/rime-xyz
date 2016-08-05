@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.2'
+version: '2016.8.5'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -99,7 +99,7 @@ use_preset_vocabulary: false
 ?lm	古代記法 = lm + old
 ?sz	─╴其它數字╶─────
 ?sz	算籌 = sz + sc
-?sz	蘇州碼 = sz + szm
+?sz	蘇州碼 = sz + sz
 ?sx	─╴數學算符╶─────
 ?sx	常數 = sx + cs
 ?sx	集合 = sx + jh
@@ -239,7 +239,6 @@ use_preset_vocabulary: false
 1000	仟
 10000	萬
 100000000	億
-100000000	亿
 1	一
 2	二
 3	三
@@ -250,8 +249,8 @@ use_preset_vocabulary: false
 8	八
 9	九
 10	十
-100	佰
-1000	仟
+100	百
+1000	千
 10000	万
 100000000	亿
 20	廿
@@ -501,19 +500,19 @@ lm:old:100000	ↈ
 # 數字～圓圈 }
 
 # 數字～蘇州碼 {
-sz:szm:0	〇
-sz:szm:1	〡
-sz:szm:2	〢
-sz:szm:3	〣
-sz:szm:4	〤
-sz:szm:5	〥
-sz:szm:6	〦
-sz:szm:7	〧
-sz:szm:8	〨
-sz:szm:9	〩
-sz:szm:10	〸
-sz:szm:20	〹
-sz:szm:30	〺
+sz:sz:0	〇
+sz:sz:1	〡
+sz:sz:2	〢
+sz:sz:3	〣
+sz:sz:4	〤
+sz:sz:5	〥
+sz:sz:6	〦
+sz:sz:7	〧
+sz:sz:8	〨
+sz:sz:9	〩
+sz:sz:10	〸
+sz:sz:20	〹
+sz:sz:30	〺
 # 數字～蘇州碼 }
 
 # 數字～算籌 {

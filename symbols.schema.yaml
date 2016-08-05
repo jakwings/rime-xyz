@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.2'
+  version: '2016.8.5'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -125,8 +125,7 @@ speller:
     #} 數字 {
     - derive/^lm'/lm:xx:/
     - derive/^lm"/lm:dx:/
-    - derive/^sz:(?:sc|szm):/sz:/
-    - derive/^sz:(?:sc|szm)://
+    - derive/^sz:s[cz]:/sz:/
     - xlit 0123456789 ABCDEFGHIJ  # 三十六進制數字減十
     #} 簡化輸入 {
     - xform/["':]//
