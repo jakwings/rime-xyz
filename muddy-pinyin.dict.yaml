@@ -16,13 +16,10 @@
 # OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 # PERFORMANCE OF THIS SOFTWARE.
 # ------------------------------------------------------------------------------
-# The terra_pinyin.dict.yaml utilized by this file is/was licensed under GPLv3:
-# https://github.com/rime/brise/blob/master/LICENSE
-# ------------------------------------------------------------------------------
 
 ---
 name: muddy-pinyin
-version: '2016.7.30'
+version: '2016.8.5'
 use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100

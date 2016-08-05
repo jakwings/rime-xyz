@@ -16,12 +16,9 @@
 # OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 # PERFORMANCE OF THIS SOFTWARE.
 # ------------------------------------------------------------------------------
-# The terra_pinyin.dict.yaml utilized by this file is/was licensed under GPLv3:
-# https://github.com/rime/brise/blob/master/LICENSE
-# ------------------------------------------------------------------------------
 
 schema:
-  version: "2016.7.30"
+  version: '2016.8.5'
   schema_id: &id muddy-pinyin
   name: 泥巴拼音
   author:
@@ -32,7 +29,7 @@ schema:
     可略聲母、韻母、音調。可配全音節專用隔音符："
     平上去入輕略：- / < \ > *
 
-    例如，輸入 `hao<*"hao<*i`（hɑ̌o …" hɑ̌o …i）索得：
+    例如，輸入 hao<*"hao<*i (hɑ̌o …" hɑ̌o …i) 索得：
     * 好人好事（hɑ̌o rén hɑ̌o ŝì）
     * 好心好意（hɑ̌o xīn hɑ̌o yì）
     * 好聲好氣（hɑ̌o ŝēŋ hɑ̌o qì）
@@ -74,7 +71,6 @@ engine:
   filters:
     - simplifier
     - charset_filter@gbk
-    #- uniquifier
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba-/<\>*"'
@@ -130,9 +126,9 @@ translator:
   prism: *id
   spelling_hints: 5  # 幾個字以內提示拼音
   enable_sentence: true  # 是否自動造句
-  enable_user_dict: true  # 是否自動調頻
+  enable_user_dict: true  # 是否記錄生詞並自動調頻
   enable_charset_filter: true
-  preedit_format: &format  #{
+  preedit_format: &format  # {
     - xlit -/<\>* 12345…
     - xform/\d/:$&;/
     # 特殊拼寫 {
