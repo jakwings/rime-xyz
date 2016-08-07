@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.5'
+  version: '2016.8.7'
   schema_id: &id muddy-pinyin
   name: 泥巴拼音
   author:
@@ -112,8 +112,8 @@ speller:
     - xform/^\*ii/*i/
     - derive/^\*ve\>/*ue/
     # 簡拼
-    - fuzz/^([a-z])[a-z]+\>/$1/
-    - fuzz/^([zcs]h)[a-z]+\>/$1/
+    - abbrev/^([a-z])[a-z]+\>/$1/
+    - abbrev/^([zcs]h)[a-z]+\>/$1/
     # 兼容
     - derive/^([jqxy])v/$1u/
     # 聲調
