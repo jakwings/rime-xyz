@@ -5,9 +5,9 @@ set -e
 export LC_ALL=C
 
 compile() {
-  input=$1
-  output=$2
-  cut -d $'\t' -f1-2 $input | \
+  local input=$1
+  local output=$2
+  cut -d$'\t' -f1-2 $input | \
     opencc_dict -f text -t ocd -i /dev/stdin -o $output
 }
 
@@ -53,7 +53,7 @@ done
     }
     return s
   }
-' <(cut -d $'\t' -f1-2 t2s-char.txt) <(cut -d $'\t' -f1-2 v2s-char.txt)
+' <(cut -d$'\t' -f1-2 t2s-char.txt) <(cut -d$'\t' -f1-2 v2s-char.txt)
 
 for input in *.tsv
 do
