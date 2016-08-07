@@ -99,7 +99,7 @@ speller:
     # 隔音符
     - derive/$/"/
     # 略音節
-    - derive/^[^"]+"$/*"/
+    - derive/^[a-z]+(:\d)?"$/*$1"/
     # 略韻母
     - derive/^[aeiouv][a-z]*\>/*/
     - derive/^([csz]h|[a-z])[a-z]+\>/$1*/
@@ -110,11 +110,11 @@ speller:
     - derive/^y(?!(?:en?|an)\>)([a-z]+)\>/*$1/
     - derive/^y([a-z]+)\>/*i$1/
     - xform/^\*ii/*i/
-    - derive/^\*ve\>/*ue/
     # 簡拼
     - abbrev/^([a-z])[a-z]+\>/$1/
     - abbrev/^([zcs]h)[a-z]+\>/$1/
     # 兼容
+    - derive/^\*ve\>/*ue/
     - derive/^([jqxy])v/$1u/
     # 聲調
     - xlit 12345 -/<\>
@@ -129,7 +129,7 @@ translator:
   enable_user_dict: true  # 是否記錄生詞並自動調頻
   enable_charset_filter: true
   preedit_format: &format  # {
-    - xlit -/<\>* 12345…
+    - xlit -/<\> 12345
     - xform/\d/:$&;/
     # 特殊拼寫 {
     - xform/\<([bfmp])o\>/$1uo/
@@ -190,7 +190,7 @@ translator:
     - "xform/ü\u0300/ǜ/"
     # 雙字符組合變單字符 }
     - xform/[:;]//
-    - xlit 12345 ˉˊ˅ˋ˙
+    - xlit 12345* ˉˊ˅ˋ˙…
   # }
   comment_format: *format
 
