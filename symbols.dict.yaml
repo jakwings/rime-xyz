@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.6'
+version: '2016.8.7'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -5450,7 +5450,7 @@ dn:return	↩
 dn:return	⏎
 dn:shift	⇧
 dn:space	␣
-dn:tab:horizonal	⭾
+dn:tab:horizontal	⭾
 dn:tab:left	⇤
 dn:tab:right	⇥
 dn:tab:vertical	⭿
@@ -5488,41 +5488,41 @@ dn:printscreen	⎙
 dn:clearscreen	⎚
 dn:underline	⎁
 dn:underline	⎂
-dn:nul:00	␀
-dn:soh:01	␁
-dn:stx:02	␂
-dn:etx:03	␃
-dn:eot:04	␄
-dn:enq:05	␅
-dn:ack:06	␆
-dn:bel:07	␇
-dn:bs:08	␈
-dn:ht:09	␉
-dn:lf:0a	␊
-dn:nl:0a	␤
-dn:vt:0b	␋
-dn:ff:0c	␌
-dn:cr:0d	␍
-dn:so:0e	␎
-dn:si:0f	␏
-dn:dle:10	␐
-dn:dc1:11	␑
-dn:dc2:12	␒
-dn:dc3:13	␓
-dn:dc4:14	␔
-dn:nak:15	␕
-dn:syn:16	␖
-dn:etb:17	␗
-dn:can:18	␘
-dn:em:19	␙
-dn:sub:1a	␚
-dn:esc:1b	␛
-dn:fs:1c	␜
-dn:gs:1d	␝
-dn:rs:1e	␞
-dn:us:1f	␟
-dn:sp:20	␠
-dn:del:7f	␡
+dn:00:nul	␀
+dn:01:soh	␁
+dn:02:stx	␂
+dn:03:etx	␃
+dn:04:eot	␄
+dn:05:enq	␅
+dn:06:ack	␆
+dn:07:bel	␇
+dn:08:bs	␈
+dn:09:ht	␉
+dn:0a:lf	␊
+dn:0a:nl	␤
+dn:0b:vt	␋
+dn:0c:ff	␌
+dn:0d:cr	␍
+dn:0e:so	␎
+dn:0f:si	␏
+dn:10:dle	␐
+dn:11:dc1	␑
+dn:12:dc2	␒
+dn:13:dc3	␓
+dn:14:dc4	␔
+dn:15:nak	␕
+dn:16:syn	␖
+dn:17:etb	␗
+dn:18:can	␘
+dn:19:em	␙
+dn:1a:sub	␚
+dn:1b:esc	␛
+dn:1c:fs	␜
+dn:1d:gs	␝
+dn:1e:rs	␞
+dn:1f:us	␟
+dn:20:sp	␠
+dn:7f:del	␡
 # 電腦 }
 
 # 星號 {

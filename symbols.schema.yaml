@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.6'
+  version: '2016.8.7'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -80,7 +80,8 @@ speller:
     - derive/^tx:lbx/tx:ljx/
     - derive/^tx:bbx/tx:bjx/
     #} 電腦 {
-    - derive/^dn:[^:]+:(\d+)$/dn:$1/
+    - derive/^dn:\d[0-9a-f]:/dn:/
+    - derive/^dn:(\d[0-9a-f]):.+$/dn:$1/
     #} 星座 {
     - derive/^xz:\d+:(?:9:)?(.+)$/xz:$1/
     - derive/^xz:(\d+):.+$/xz:$1/
