@@ -5716,24 +5716,25 @@ xz:10:capricorn	♑
 xz:11:aquarius	♒
 xz:12:pisces	♓
 xz:13:9:ophiuchus	⛎
-xz:by	♈
-xz:my	♈
-xz:jn	♉
-xz:sz	♊
-xz:jx	♋
-xz:sz	♌
-xz:cn	♍
-xz:sn	♍
-xz:tp	♎
-xz:tx	♏
-xz:rm	♐
-xz:ss	♐
-xz:mj	♑
-xz:sy	♑
-xz:sp	♒
-xz:bp	♒
-xz:sy	♓
-xz:sf	⛎
+xz"by	♈	白羊
+xz'my	♈	牡羊
+xz"jn	♉	金牛
+xz"sz	♊	雙子
+xz"jx	♋	巨蟹
+xz"sz	♌	獅子
+xz"cn	♍	處女
+xz'sn	♍	室女
+xz"tc	♎	天秤
+xz'tp	♎	天平
+xz"tx	♏	天蠍
+xz"rm	♐	人馬
+xz'ss	♐	射手
+xz"mj	♑	摩羯
+xz'sy	♑	山羊
+xz"sp	♒	水瓶
+xz'bp	♒	寶瓶
+xz"sy	♓	雙魚
+xz"sf	⛎	蛇夫
 # 星座 }
 
 # 天體 {
