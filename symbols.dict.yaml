@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.7'
+version: '2016.8.8'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -2310,7 +2310,7 @@ zy:sh	ㄕ	屍首	[ʂ]
 zy:r	ㄖ	日月	[ʐ]
 zy:z	ㄗ	節子	[t͡s]
 zy:c	ㄘ	七次	[t͡sʰ]
-zy:s	ㄙ	殉私	[s]
+zy:s	ㄙ	徇私	[s]
 zy:a	ㄚ	丫頭	[ä] [a]
 zy:o	ㄛ	哦哦	[o] [uɔ]
 zy:e	ㄜ	呃呃	[ə] [ɯʌ]
@@ -2331,7 +2331,7 @@ zy:v	ㄩ	𠙴盧	[y] ü
 zy:v	ㄪ	萬貫	[v]
 zy:ng	ㄫ	兀立	[ŋ]
 zy:gn	ㄬ	崖广	[ɲ]
-zy:i	ㄭ	周匝	[ɿ] [ʅ] z/c/s- zh/ch/sh/r-
+zy:i	ㄭ	周匝	[ʅ] [ɿ] zh/ch/sh/r- z/c/s-
 zy:b	ㆠ	[b]
 zy:z	ㆡ	[z]
 zy:j	ㆢ	[d͡ʑ]
