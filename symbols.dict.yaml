@@ -147,10 +147,10 @@ use_preset_vocabulary: false
 ?sb	拉丁字母 = sb + ld
 ?sb	希臘字母 = sb + xl
 ?xb	─╴下標符號╶─────
-?xb	數字 = sb + 數字
-?xb	算符 = sb + j/d/k
-?xb	拉丁字母 = sb + ld
-?xb	希臘字母 = sb + xl
+?xb	數字 = xb + 數字
+?xb	算符 = xb + j/d/k
+?xb	拉丁字母 = xb + ld
+?xb	希臘字母 = xb + xl
 ?fk	─╴組合方塊╶─────
 ?fk	橫向 = fk + h
 ?fk	豎向 = fk + s
