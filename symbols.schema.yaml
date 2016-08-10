@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.8'
+  version: '2016.8.11'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -60,6 +60,8 @@ speller:
     - derive/^kk:([dx]x):bj:/kk:bj:$1:/
     - derive/^kk["':]/rw:xx:/
     - derive/^rw:[dx]x:/rw:/
+    - derive/^rw"/hg:/
+    - derive/^rw'/kk:/
     - derive/^rw:zx:(?:gojyuu|iroha):/rw:zx:/
     - derive/^rw:zx:gojyuu:/rw:zx:g:/
     - derive/^rw:zx:iroha:/rw:zx:i:/

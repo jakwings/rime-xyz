@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.8'
+version: '2016.8.11'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -43,7 +43,7 @@ use_preset_vocabulary: false
 ?	漢字筆畫 = bh
 ?	偏旁部首 = bs/pp ＆ kx
 ?	漢字結構 = jg
-?	日文假名 = hg/kk/rw ＆ rw+zx
+?	日文假名 = hg / kk / rw
 ?	希臘字母 = xl
 ?	俄語字母 = ey
 ?	希伯來文 = xblw / xw
@@ -2914,6 +2914,109 @@ kk'remu	㍕	rem (輻射劑量單位：雷姆)
 kk'rentogen	㍖	roentgon (輻射劑量單位：倫琴)
 kk'watto	㍗	watt (功率單位：瓦特)
 # 日文～其它 }
+
+# 日文～拗音 {
+rw"kya	きゃ
+rw"gya	ぎゃ
+rw'kya	キャ
+rw'gya	ギャ
+rw"kyu	きゅ
+rw"gyu	ぎゅ
+rw'kyu	キュ
+rw'gyu	ギュ
+rw"kyo	きょ
+rw"gyo	ぎょ
+rw'kyo	キョ
+rw'gyo	ギョ
+rw"sya	しゃ
+rw"zya	じゃ
+rw"ja	じゃ
+rw'sya	シャ
+rw'zya	ジャ
+rw'ja	ジャ
+rw"syu	しゅ
+rw"zyu	じゅ
+rw"ju	じゅ
+rw'syu	シュ
+rw'zyu	ジュ
+rw'ju	ジュ
+rw"syo	しょ
+rw"zyo	じょ
+rw"jo	じょ
+rw'syo	ショ
+rw'zyo	ジョ
+rw'jo	ジョ
+rw"sha	しゃ
+rw'sha	シャ
+rw"shu	しゅ
+rw'shu	シュ
+rw"sho	しょ
+rw'sho	ショ
+rw"tya	ちゃ
+rw'tya	チャ
+rw"tyu	ちゅ
+rw'tyu	チュ
+rw"tyo	ちょ
+rw'tyo	チョ
+rw"cha	ちゃ
+rw"dya	ぢゃ
+rw"ja	ぢゃ
+rw'cha	チャ
+rw'dya	ヂャ
+rw'ja	ヂャ
+rw"chu	ちゅ
+rw"dyu	ぢゅ
+rw"ju	ぢゅ
+rw'chu	チュ
+rw'dyu	ヂュ
+rw'ju	ヂュ
+rw"cho	ちょ
+rw"dyo	ぢょ
+rw"jo	ぢょ
+rw'cho	チョ
+rw'dyo	ヂョ
+rw'jo	ヂョ
+rw"nya	にゃ
+rw'nya	ニャ
+rw"nyu	にゅ
+rw'nyu	ニュ
+rw"nyo	にょ
+rw'nyo	ニョ
+rw"hya	ひゃ
+rw"bya	びゃ
+rw"pya	ぴゃ
+rw'hya	ヒャ
+rw'bya	ビャ
+rw'pya	ピャ
+rw"hyu	ひゅ
+rw"byu	びゅ
+rw"pyu	ぴゅ
+rw'hyu	ヒュ
+rw'byu	ビュ
+rw'pyu	ピュ
+rw"hyo	ひょ
+rw"byo	びょ
+rw"pyo	ぴょ
+rw'hyo	ヒョ
+rw'byo	ビョ
+rw'pyo	ピョ
+rw"mya	みゃ
+rw'mya	ミャ
+rw"myu	みゅ
+rw'myu	ミュ
+rw"myo	みょ
+rw'myo	ミョ
+rw"rya	りゃ
+rw'rya	リャ
+rw"ryu	りゅ
+rw'ryu	リュ
+rw"ryo	りょ
+rw'ryo	リョ
+rw"kwa	くゎ
+rw'kwa	クヮ
+rw"gwa	ぐゎ
+rw'gwa	グヮ
+# 日文～拗音 }
 
 # 日文～字音順序 {
 rw:zx:gojyuu:1	あ
