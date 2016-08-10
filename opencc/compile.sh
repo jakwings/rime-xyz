@@ -23,7 +23,7 @@ done
   BEGIN { FS=OFS="\t" }
   FNR == 1 { mode = !mode }
   mode { data1[$1] = $2 }
-  !mode { data2[$1] = dedup(simplify($2) " " $2 " " $1) }
+  !mode { data2[$1] = dedup(simplify($1 " " $2) " " $2 " " $1) }
   END {
     for (k in data2) {
       print k, data2[k]
