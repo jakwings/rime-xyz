@@ -57,6 +57,7 @@ speller:
     - derive/^kk"/kk:dx:/
     - derive/^kk'/kk:xx:/
     - derive/^kk:([dx]x):bj:/kk:bj:$1:/
+    - derive/^kk::/kk:fk:/
     - derive/^(?:hg|kk)["':]/rw:/
     - derive/^rw"/hg:/
     - derive/^rw'/kk:/
@@ -159,7 +160,7 @@ translator:
   preedit_format:
     - xlit ABCDEFGHIJ 0123456789
   comment_format:
-    - xform/["']/:/
+    - xform/["':]+/:/
 
 key_binder:
   import_preset: default
