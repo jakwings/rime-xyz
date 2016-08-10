@@ -62,6 +62,8 @@ speller:
     - derive/^rw:[dx]x:/rw:/
     - derive/^rw"/hg:/
     - derive/^rw'/kk:/
+    - derive/^rw'/rw:wy:/
+    - derive/^kk"/rw:wy:/
     - derive/^rw:zx:(?:gojyuu|iroha):/rw:zx:/
     - derive/^rw:zx:gojyuu:/rw:zx:g:/
     - derive/^rw:zx:iroha:/rw:zx:i:/

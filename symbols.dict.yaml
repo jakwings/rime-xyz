@@ -112,6 +112,7 @@ use_preset_vocabulary: false
 ?rw	─╴日文假名╶─────
 ?rw	按日本式 = rw + 羅馬字
 ?rw	按黑本式 = rw + 羅馬字
+?rw	外語轉寫 = rw + wy
 ?rw	按五十音序 = rw + zx + g
 ?rw	按伊呂波序 = rw + zx + i
 ?hg	─╴平假名╶────
@@ -3017,6 +3018,73 @@ rw'kwa	クヮ
 rw"gwa	ぐゎ
 rw'gwa	グヮ
 # 日文～拗音 }
+
+# 日文～外語 {
+rw:wy'bye	ビェ
+rw:wy'che	チェ
+rw:wy'di	ディ
+rw:wy'du	ドゥ
+rw:wy'dyu	デュ
+rw:wy'fa	ファ
+rw:wy'fe	フェ
+rw:wy'fi	フィ
+rw:wy'fo	フォ
+rw:wy'fya	フャ
+rw:wy'fye	フィェ
+rw:wy'fyo	フォ
+rw:wy'fyu	フュ
+rw:wy'gwa	グァ
+rw:wy'gwa	グヮ
+rw:wy'gwe	グェ
+rw:wy'gwi	グィ
+rw:wy'gwo	グォ
+rw:wy'gye	ギェ
+rw:wy'hu	ホゥ
+rw:wy'hye	ヒェ
+rw:wy'je	ジェ
+rw:wy'kwa	クァ
+rw:wy'kwa	クヮ
+rw:wy'kwe	クェ
+rw:wy'kwi	クィ
+rw:wy'kwo	クォ
+rw:wy'kye	キェ
+rw:wy'la	ラ゚
+rw:wy'le	レ゚
+rw:wy'li	リ゚
+rw:wy'lo	ロ゚
+rw:wy'lu	ル゚
+rw:wy'mye	ミェ
+rw:wy'nye	ニェ
+rw:wy'pye	ピェ
+rw:wy'rye	リェ
+rw:wy'she	シェ
+rw:wy'si	スィ
+rw:wy'ti	ティ
+rw:wy'tsa	ツァ
+rw:wy'tse	ツェ
+rw:wy'tsi	ツィ
+rw:wy'tso	ツォ
+rw:wy'tsyu	ツュ
+rw:wy'tu	トゥ
+rw:wy'tyu	テュ
+rw:wy'va	ヴァ
+rw:wy've	ヴェ
+rw:wy'vi	ヴィ
+rw:wy'vo	ヴォ
+rw:wy'vya	ヴャ
+rw:wy'vye	ヴィェ
+rw:wy'vyo	ヴョ
+rw:wy'vyu	ヴュ
+rw:wy'wa	ウァ
+rw:wy'we	ウェ
+rw:wy'wi	ウィ
+rw:wy'wo	ウォ
+rw:wy'wu	ウー
+rw:wy'wu	ウゥ
+rw:wy'ye	イェ
+rw:wy'yi	イィ
+rw:wy'zi	ズィ
+# 日文～外語 }
 
 # 日文～字音順序 {
 rw:zx:gojyuu:1	あ
