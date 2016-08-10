@@ -20,7 +20,7 @@
 schema:
   name: 例·特殊字符
   schema_id: &id example-symbols
-  version: '2016.7.31'
+  version: '2016.8.11'
   author:
     - Jak Wings #!@Gmail.com
   description: |
@@ -87,12 +87,12 @@ symbol:
   enable_completion: true       # 編碼提示
   enable_encoder: false         # 不自動組詞
   enable_sentence: true         # 開啓自動造句（連打模式）
-  enable_user_dict: false       # 不自動調頻
+  enable_user_dict: false       # 不記錄新詞、不自動調頻
   encode_commit_history: false  # 不爲上屏詞自動編碼
   preedit_format:
     - xlit ABCDEFGHIJ 0123456789
   comment_format:
-    - xform/["']/:/
+    - xform/["':]+/:/
 
 key_binder:
   import_preset: default
