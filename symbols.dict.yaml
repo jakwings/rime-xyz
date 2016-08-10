@@ -2753,57 +2753,57 @@ kk"bj:wo	ｦ
 # 日文～片假名～半角 }
 
 # 日文～片假名～圓圈 {
-kk'a	㋐
-kk'i	㋑
-kk'u	㋒
-kk'e	㋓
-kk'o	㋔
-kk'ka	㋕
-kk'ki	㋖
-kk'ku	㋗
-kk'ke	㋘
-kk'ko	㋙
-kk'sa	㋚
-kk'si	㋛
-kk'shi	㋛
-kk'su	㋜
-kk'se	㋝
-kk'so	㋞
-kk'ta	㋟
-kk'ti	㋠
-kk'chi	㋠
-kk'tu	㋡
-kk'tsu	㋡
-kk'te	㋢
-kk'to	㋣
-kk'na	㋤
-kk'ni	㋥
-kk'nu	㋦
-kk'ne	㋧
-kk'no	㋨
-kk'ha	㋩
-kk'hi	㋪
-kk'hu	㋫
-kk'fu	㋫
-kk'he	㋬
-kk'ho	㋭
-kk'ma	㋮
-kk'mi	㋯
-kk'mu	㋰
-kk'me	㋱
-kk'mo	㋲
-kk'ya	㋳
-kk'yu	㋴
-kk'yo	㋵
-kk'ra	㋶
-kk'ri	㋷
-kk'ru	㋸
-kk're	㋹
-kk'ro	㋺
-kk'wa	㋻
-kk'wi	㋼
-kk'we	㋽
-kk'wo	㋾
+kk:a	㋐
+kk:i	㋑
+kk:u	㋒
+kk:e	㋓
+kk:o	㋔
+kk:ka	㋕
+kk:ki	㋖
+kk:ku	㋗
+kk:ke	㋘
+kk:ko	㋙
+kk:sa	㋚
+kk:si	㋛
+kk:shi	㋛
+kk:su	㋜
+kk:se	㋝
+kk:so	㋞
+kk:ta	㋟
+kk:ti	㋠
+kk:chi	㋠
+kk:tu	㋡
+kk:tsu	㋡
+kk:te	㋢
+kk:to	㋣
+kk:na	㋤
+kk:ni	㋥
+kk:nu	㋦
+kk:ne	㋧
+kk:no	㋨
+kk:ha	㋩
+kk:hi	㋪
+kk:hu	㋫
+kk:fu	㋫
+kk:he	㋬
+kk:ho	㋭
+kk:ma	㋮
+kk:mi	㋯
+kk:mu	㋰
+kk:me	㋱
+kk:mo	㋲
+kk:ya	㋳
+kk:yu	㋴
+kk:yo	㋵
+kk:ra	㋶
+kk:ri	㋷
+kk:ru	㋸
+kk:re	㋹
+kk:ro	㋺
+kk:wa	㋻
+kk:wi	㋼
+kk:we	㋽
+kk:wo	㋾
 # 日文～片假名～圓圈 }
 
 # 日文～其它 {
@@ -2813,107 +2813,107 @@ hg"ye	𛀁	古體字
 kk'e	𛀀	古體字
 kk'koto	ヿ	コト合寫
 kk'tomo	𪜈	トモ合䉣
-kk'apaato	㌀	apartment (公寓)
-kk'aruhua	㌁	alpha (希臘字母表首字母：α)
-kk'arufua	㌁	alpha (希臘字母表首字母：α)
-kk'anpea	㌂	ampere (電流強度單位：安培)
-kk'aaru	㌃	are (面積單位：公畝)
-kk'iningu	㌄	inning (一局棒球賽)
-kk'inti	㌅	inch (長度單位：英寸)
-kk'inchi	㌅	inch (長度單位：英寸)
-kk'uon	㌆	won (韓國貨幣單位：圓)
-kk'esukuudo	㌇	escudo (葡萄牙舊貨幣單位：盾)
-kk'eekaa	㌈	acre (面積單位：英畝)
-kk'onsu	㌉	ounce (質量單位：盎司)
-kk'oomu	㌊	ohm (電阻單位：歐姆)
-kk'kairi	㌋	海里 (航行長度單位)
-kk'karatto	㌌	carat (寶石質量單位：克拉)
-kk'karorii	㌍	calorie (食物熱量單位：卡路里)
-kk'garon	㌎	gallon (容積單位：加侖)
-kk'ganma	㌏	gamma (希臘字母表第三個字母：γ)
-kk'giga	㌐	giga- (數量前綴：十億)
-kk'ginii	㌑	guinea (英國舊貨幣單位：堅尼)
-kk'kyurii	㌒	curie (輻射強度單位：居里)
-kk'girudaa	㌓	guilder (荷蘭舊貨幣單位：荷蘭盾)
-kk'kiro	㌔	kilo- (數量前綴：千)
-kk'kiroguramu	㌕	kilogram (質量單位：千克)
-kk'kiromeetoru	㌖	kilometer (長度單位：千米)
-kk'kirowatto	㌗	kilowatt (功率單位：千瓦)
-kk'guramu	㌘	gram (質量單位：克)
-kk'guramuton	㌙	gram-ton (質量單位：公噸)
-kk'kuruzeiro	㌚	cruzeiro (巴西舊貨幣單位：克鲁賽羅)
-kk'kuroone	㌛	krone (丹麥貨幣單位：克郎)
-kk'keesu	㌜	case (案例)
-kk'koruna	㌝	koruna (捷克斯洛伐克貨幣單位：克郎)
-kk'koopo	㌞	corporate house (集合住宅)
-kk'saikuru	㌟	cycle (周期)
-kk'santiimu	㌠	centime (英國舊通貨單位：生丁)
-kk'siringu	㌡	shilling (英國舊貨幣單位：先令)
-kk'senti	㌢	centi- (數量前綴：百分之一)
-kk'senchi	㌢	centi- (數量前綴：百分之一)
-kk'sento	㌣	cent (美國貨幣單位：美分)
-kk'daasu	㌤	dozen (數量單位：打)
-kk'desi	㌥	deci- (數量前綴：十分之一)
-kk'deshi	㌥	deci- (數量前綴：十分之一)
-kk'doru	㌦	dollar (美國貨幣單位：美元)
-kk'ton	㌧	ton (質量單位：噸)
-kk'nano	㌨	nano- (數量前綴：十億分之一)
-kk'notto	㌩	knot (速度單位：節)
-kk'haitu	㌪	heights (高地建築)
-kk'haitsu	㌪	heights (高地建築)
-kk'paasento	㌫	percent (百分比)
-kk'paatu	㌬	baht (泰國貨幣單位：銖)
-kk'paatsu	㌬	baht (泰國貨幣單位：銖)
-kk'baareru	㌭	barrel (容積單位：桶)
-kk'piasutoru	㌮	piaster (貨幣單位：比索)
-kk'pikuru	㌯	picul (中國質量單位：石)
-kk'piko	㌰	piko- (數量前綴：萬億分之一)
-kk'biru	㌱	building (耐震建築)
-kk'huaraddo	㌲	farad (電容單位：法拉)
-kk'fuaraddo	㌲	farad (電容單位：法拉)
-kk'huiito	㌳	feet (長度單位：英尺)
-kk'fuiito	㌳	feet (長度單位：英尺)
-kk'bussyeru	㌴	bushel (容積單位：蒲式耳)
-kk'bussheru	㌴	bushel (容積單位：蒲式耳)
-kk'huran	㌵	franc (法國舊貨幣單位：法郎)
-kk'furan	㌵	franc (法國舊貨幣單位：法郎)
-kk'hekutaaru	㌶	hectare (面積單位：公頃)
-kk'peso	㌷	peso (貨幣單位：比索)
-kk'penihi	㌸	pfennig (德國舊貨幣單位：芬尼)
-kk'herutu	㌹	hertz (周期單位：赫茲)
-kk'herutsu	㌹	hertz (周期單位：赫茲)
-kk'pensu	㌺	pence (英國貨幣單位：便士)
-kk'peezi	㌻	page (紙張數量單位：頁)
-kk'peeji	㌻	page (紙張數量單位：頁)
-kk'beeta	㌼	beta (希臘字母表第二個字母：β)
-kk'pointo	㌽	point (印刷長度單位：點)
-kk'boruto	㌾	volt (電壓單位：伏特)
-kk'hon	㌿	phon (響度單位：方)
-kk'pondo	㍀	pound (質量單位：磅)
-kk'hooru	㍁	hole (一洞高爾夫球)
-kk'hoon	㍂	phon (響度單位：方)
-kk'maikuro	㍃	micro- (數量前綴：百萬分之一)
-kk'mairu	㍄	mile (長度單位：英里)
-kk'mahha	㍅	mach (飛行速度單位：馬赫)
-kk'maruku	㍆	mark (德國舊貨幣單位：馬克)
-kk'mansyon	㍇	mansion (大厦)
-kk'manshon	㍇	mansion (大厦)
-kk'mikuron	㍈	micron (長度單位：微米)
-kk'miri	㍉	mili- (數量前綴：千分之一)
-kk'miribaaru	㍊	milibar (大氣壓強單位：毫巴)
-kk'mega	㍋	mega- (數量前綴：百萬)
-kk'megaton	㍌	megaton (爆炸威力單位：百萬吨)
-kk'meetoru	㍍	meter (長度單位：米)
-kk'yaado	㍎	yard (長度單位：碼)
-kk'yaaru	㍏	yard (布匹長度單位：碼)
-kk'yuan	㍐	yuan (中國貨幣單位：圓)
-kk'rittoru	㍑	liter (容量體積單位：升)
-kk'rira	㍒	lira (貨幣單位：鎊)
-kk'rupii	㍓	rupee (印度貨幣單位：盧比)
-kk'ruuburu	㍔	rouble (俄羅斯貨幣單位：盧布)
-kk'remu	㍕	rem (輻射劑量單位：雷姆)
-kk'rentogen	㍖	roentgon (輻射劑量單位：倫琴)
-kk'watto	㍗	watt (功率單位：瓦特)
+kk:apaato	㌀	apartment (公寓)
+kk:aruhua	㌁	alpha (希臘字母表首字母：α)
+kk:arufua	㌁	alpha (希臘字母表首字母：α)
+kk:anpea	㌂	ampere (電流強度單位：安培)
+kk:aaru	㌃	are (面積單位：公畝)
+kk:iningu	㌄	inning (一局棒球賽)
+kk:inti	㌅	inch (長度單位：英寸)
+kk:inchi	㌅	inch (長度單位：英寸)
+kk:uon	㌆	won (韓國貨幣單位：圓)
+kk:esukuudo	㌇	escudo (葡萄牙舊貨幣單位：盾)
+kk:eekaa	㌈	acre (面積單位：英畝)
+kk:onsu	㌉	ounce (質量單位：盎司)
+kk:oomu	㌊	ohm (電阻單位：歐姆)
+kk:kairi	㌋	海里 (航行長度單位)
+kk:karatto	㌌	carat (寶石質量單位：克拉)
+kk:karorii	㌍	calorie (食物熱量單位：卡路里)
+kk:garon	㌎	gallon (容積單位：加侖)
+kk:ganma	㌏	gamma (希臘字母表第三個字母：γ)
+kk:giga	㌐	giga- (數量前綴：十億)
+kk:ginii	㌑	guinea (英國舊貨幣單位：堅尼)
+kk:kyurii	㌒	curie (輻射強度單位：居里)
+kk:girudaa	㌓	guilder (荷蘭舊貨幣單位：荷蘭盾)
+kk:kiro	㌔	kilo- (數量前綴：千)
+kk:kiroguramu	㌕	kilogram (質量單位：千克)
+kk:kiromeetoru	㌖	kilometer (長度單位：千米)
+kk:kirowatto	㌗	kilowatt (功率單位：千瓦)
+kk:guramu	㌘	gram (質量單位：克)
+kk:guramuton	㌙	gram-ton (質量單位：公噸)
+kk:kuruzeiro	㌚	cruzeiro (巴西舊貨幣單位：克鲁賽羅)
+kk:kuroone	㌛	krone (丹麥貨幣單位：克郎)
+kk:keesu	㌜	case (案例)
+kk:koruna	㌝	koruna (捷克斯洛伐克貨幣單位：克郎)
+kk:koopo	㌞	corporate house (集合住宅)
+kk:saikuru	㌟	cycle (周期)
+kk:santiimu	㌠	centime (英國舊通貨單位：生丁)
+kk:siringu	㌡	shilling (英國舊貨幣單位：先令)
+kk:senti	㌢	centi- (數量前綴：百分之一)
+kk:senchi	㌢	centi- (數量前綴：百分之一)
+kk:sento	㌣	cent (美國貨幣單位：美分)
+kk:daasu	㌤	dozen (數量單位：打)
+kk:desi	㌥	deci- (數量前綴：十分之一)
+kk:deshi	㌥	deci- (數量前綴：十分之一)
+kk:doru	㌦	dollar (美國貨幣單位：美元)
+kk:ton	㌧	ton (質量單位：噸)
+kk:nano	㌨	nano- (數量前綴：十億分之一)
+kk:notto	㌩	knot (速度單位：節)
+kk:haitu	㌪	heights (高地建築)
+kk:haitsu	㌪	heights (高地建築)
+kk:paasento	㌫	percent (百分比)
+kk:paatu	㌬	baht (泰國貨幣單位：銖)
+kk:paatsu	㌬	baht (泰國貨幣單位：銖)
+kk:baareru	㌭	barrel (容積單位：桶)
+kk:piasutoru	㌮	piaster (貨幣單位：比索)
+kk:pikuru	㌯	picul (中國質量單位：石)
+kk:piko	㌰	piko- (數量前綴：萬億分之一)
+kk:biru	㌱	building (耐震建築)
+kk:huaraddo	㌲	farad (電容單位：法拉)
+kk:fuaraddo	㌲	farad (電容單位：法拉)
+kk:huiito	㌳	feet (長度單位：英尺)
+kk:fuiito	㌳	feet (長度單位：英尺)
+kk:bussyeru	㌴	bushel (容積單位：蒲式耳)
+kk:bussheru	㌴	bushel (容積單位：蒲式耳)
+kk:huran	㌵	franc (法國舊貨幣單位：法郎)
+kk:furan	㌵	franc (法國舊貨幣單位：法郎)
+kk:hekutaaru	㌶	hectare (面積單位：公頃)
+kk:peso	㌷	peso (貨幣單位：比索)
+kk:penihi	㌸	pfennig (德國舊貨幣單位：芬尼)
+kk:herutu	㌹	hertz (周期單位：赫茲)
+kk:herutsu	㌹	hertz (周期單位：赫茲)
+kk:pensu	㌺	pence (英國貨幣單位：便士)
+kk:peezi	㌻	page (紙張數量單位：頁)
+kk:peeji	㌻	page (紙張數量單位：頁)
+kk:beeta	㌼	beta (希臘字母表第二個字母：β)
+kk:pointo	㌽	point (印刷長度單位：點)
+kk:boruto	㌾	volt (電壓單位：伏特)
+kk:hon	㌿	phon (響度單位：方)
+kk:pondo	㍀	pound (質量單位：磅)
+kk:hooru	㍁	hole (一洞高爾夫球)
+kk:hoon	㍂	phon (響度單位：方)
+kk:maikuro	㍃	micro- (數量前綴：百萬分之一)
+kk:mairu	㍄	mile (長度單位：英里)
+kk:mahha	㍅	mach (飛行速度單位：馬赫)
+kk:maruku	㍆	mark (德國舊貨幣單位：馬克)
+kk:mansyon	㍇	mansion (大厦)
+kk:manshon	㍇	mansion (大厦)
+kk:mikuron	㍈	micron (長度單位：微米)
+kk:miri	㍉	mili- (數量前綴：千分之一)
+kk:miribaaru	㍊	milibar (大氣壓強單位：毫巴)
+kk:mega	㍋	mega- (數量前綴：百萬)
+kk:megaton	㍌	megaton (爆炸威力單位：百萬吨)
+kk:meetoru	㍍	meter (長度單位：米)
+kk:yaado	㍎	yard (長度單位：碼)
+kk:yaaru	㍏	yard (布匹長度單位：碼)
+kk:yuan	㍐	yuan (中國貨幣單位：圓)
+kk:rittoru	㍑	liter (容量體積單位：升)
+kk:rira	㍒	lira (貨幣單位：鎊)
+kk:rupii	㍓	rupee (印度貨幣單位：盧比)
+kk:ruuburu	㍔	rouble (俄羅斯貨幣單位：盧布)
+kk:remu	㍕	rem (輻射劑量單位：雷姆)
+kk:rentogen	㍖	roentgon (輻射劑量單位：倫琴)
+kk:watto	㍗	watt (功率單位：瓦特)
 # 日文～其它 }
 
 # 日文～拗音 {

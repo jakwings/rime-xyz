@@ -54,12 +54,10 @@ speller:
     #} 平假名、片假名 {
     - derive/^hg"/hg:dx:/
     - derive/^hg'/hg:xx:/
-    - derive/^hg["':]/rw:dx:/
     - derive/^kk"/kk:dx:/
     - derive/^kk'/kk:xx:/
     - derive/^kk:([dx]x):bj:/kk:bj:$1:/
-    - derive/^kk["':]/rw:xx:/
-    - derive/^rw:[dx]x:/rw:/
+    - derive/^(?:hg|kk)["':]/rw:/
     - derive/^rw"/hg:/
     - derive/^rw'/kk:/
     - derive/^rw'/rw:wy:/
