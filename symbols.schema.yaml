@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.11'
+  version: '2016.8.12'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -68,7 +68,7 @@ speller:
     - derive/^rw:zx:iroha:/rw:zx:i:/
     #} 調型、聲調 {
     - derive/^dx:/sd:/
-    - derive/^\?dx/\?sd/
+    - derive/^\?dx$/\?sd/
     #} 時間日期 {
     - derive/^sj:(?:rq|sk|yf|yr):/sj:/
     #} 空白字符 {
@@ -79,9 +79,9 @@ speller:
     - derive/^kb:(\w)\w+-(\w)\w+-(\w)\w+-(\w)\w+$/kb:$1$2$3$4/
     #} 幾何圖形 {
     - derive/^tx:fx$/tx:zfx/
-    - derive/^tx:wbx/tx:wjx/
-    - derive/^tx:lbx/tx:ljx/
-    - derive/^tx:bbx/tx:bjx/
+    - derive/^tx:wbx$/tx:wjx/
+    - derive/^tx:lbx$/tx:ljx/
+    - derive/^tx:bbx$/tx:bjx/
     #} 電腦 {
     - derive/^dn:\d[0-9a-f]:/dn:/
     - derive/^dn:(\d[0-9a-f]):.+$/dn:$1/
