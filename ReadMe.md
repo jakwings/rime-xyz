@@ -27,24 +27,6 @@
 
     還允許一些不標準的拼法。如 jüé (`jve/`)、duɑ̄nɡ (`duang-`)、yê̌ (`yea<`)。
 
-*   特殊符號（symbols）
+*   特殊字符（symbols）
 
     用於擴展其它輸入方案的特殊字符輸入方案。鍵入 <kbd>?</kbd> 查看縮略碼表。
-
-
-### 其它
-
-*   others/
-
-    一些瑣碎的輸入法配置。
-
-*   opencc/
-
-    帶個人口味的 [OpenCC] 繁簡轉換表。
-
-[OpenCC]: https://github.com/BYVoid/OpenCC/
-
-
-### 版權協議
-
-見各輸入方案文檔內容。
