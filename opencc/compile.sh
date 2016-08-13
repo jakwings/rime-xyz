@@ -23,7 +23,10 @@ done
   BEGIN { FS=OFS="\t" }
   FNR == 1 { mode = !mode }
   mode { data1[$1] = $2 }
-  !mode { data2[$1] = dedup(simplify($1 " " $2) " " $2 " " $1) }
+  !mode {
+    data2[$1] = dedup((index($2, $1) == 1 ? $1 " " : "") \
+                      simplify($1 " " $2) " " $2 " " $1)
+  }
   END {
     for (k in data2) {
       print k, data2[k]
@@ -37,7 +40,7 @@ done
   function simplify(chars, a,n,s,sep) {
     n = split(chars, a, " ")
     for (i = 1; i <= n; i++) {
-      if (data1[a[i]]) s = s sep data1[a[i]]
+      if (a[i] in data1) s = s sep data1[a[i]]
       if (i == 1) sep = " "
     }
     return s
@@ -45,7 +48,7 @@ done
   function dedup(chars, a,n,t,s,sep) {
     n = split(chars, a, " ")
     for (i = 1; i <= n; i++) {
-      if (!t[a[i]]) {
+      if (!(a[i] in t)) {
         s = s sep a[i]
         t[a[i]] = 1
       }
