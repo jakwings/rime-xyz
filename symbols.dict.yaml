@@ -1458,15 +1458,15 @@ bs:15	⻱→⿔	龜
 # 表意文字描述字符 Ideograph Descriptor {
 jg	⿰	左，右。
 jg	⿱	上，下。
-jg	⿲	左，中，右。
-jg	⿳	上，中，下。
-jg	⿴	外，內。
-jg	⿵	外，內。
-jg	⿶	外，內。
-jg	⿷	外，內。
+jg	⿺	外，內。
 jg	⿸	外，內。
 jg	⿹	外，內。
-jg	⿺	外，內。
+jg	⿳	上，中，下。
+jg	⿲	左，中，右。
+jg	⿵	外，內。
+jg	⿴	外，內。
+jg	⿷	外，內。
+jg	⿶	外，內。
 jg	⿻	上，下；左，右；外，內；大，小。
 # 表意文字描述字符 Ideograph Descriptor }
 
