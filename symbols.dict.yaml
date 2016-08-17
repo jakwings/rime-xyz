@@ -95,6 +95,9 @@ use_preset_vocabulary: false
 ?bh	─╴漢字筆畫╶─────
 ?bh	按名稱 = bh + 簡拼
 ?bh	按折點數 = bh + 數字
+?jg	─╴字形結構╶─────
+?jg	按名稱 = jg + 簡拼
+?jg	簡拼有 zy/sx/zs/zx/ys/hh/b/w/…
 ?lm	─╴羅馬數字╶─────
 ?lm	古代記法 = lm + old
 ?sz	─╴其它數字╶─────
@@ -1468,6 +1471,20 @@ jg	⿴	外，內。
 jg	⿷	外，內。
 jg	⿶	外，內。
 jg	⿻	上，下；左，右；外，內；大，小。
+jg:zy	⿰	左右
+jg:sx	⿱	上下
+jg:zx	⿺	左下
+jg:zs	⿸	左上
+jg:ys	⿹	右上
+jg:szx	⿳	上中下
+jg:zzy	⿲	左中右
+jg:sbw	⿵	上包圍
+jg:qbw	⿴	全包圍
+jg:zbw	⿷	左包圍
+jg:xbw	⿶	下包圍
+jg:hh	⿻	混合
+jg:jc	⿻	交錯
+jg:xj	⿻	相交
 # 表意文字描述字符 Ideograph Descriptor }
 
 # 盲文 {

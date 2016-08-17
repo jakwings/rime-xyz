@@ -51,6 +51,9 @@ speller:
     #} 筆畫 {
     - derive/^bh:([^:]+):\d$/bh:$1/
     - derive/^bh:[^:]+:(\d)$/bh:$1/
+    #} 結構 {
+    - derive/^jg:[a-z]bw$/jg:b/
+    - derive/^jg:[a-z]bw$/jg:w/
     #} 平假名、片假名 {
     - derive/^hg"/hg:dx:/
     - derive/^hg'/hg:xx:/
