@@ -52,8 +52,9 @@ speller:
     - derive/^bh:([1-9]):/bh:z:$1:/
     - derive/^bh:(z:)?\d:/bh:$1/
     #} 結構 {
-    - derive/^jg:[a-z]bw$/jg:b/
-    - derive/^jg:[a-z]bw$/jg:w/
+    - derive/^jg:([zy][sx])$/jg:b:$1/
+    - derive/^jg:([a-z]bw)$/jg:b:$1/
+    - derive/^jg:b:/jg:w:/
     #} 平假名、片假名 {
     - derive/^hg"/hg:dx:/
     - derive/^hg'/hg:xx:/
