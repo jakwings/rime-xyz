@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.17'
+  version: '2016.8.18'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -76,10 +76,10 @@ speller:
     - derive/^sj:(?:rq|sk|yf|yr):/sj:/
     #} 空白字符 {
     - derive/^kb:qj$/kb/
-    - derive/^kb:/kg:/
     - derive/^kb:(\w)\w+-(\w)\w+$/kb:$1$2/
     - derive/^kb:(\w)\w+-(\w)\w+-(\w)\w+$/kb:$1$2$3/
     - derive/^kb:(\w)\w+-(\w)\w+-(\w)\w+-(\w)\w+$/kb:$1$2$3$4/
+    - derive/^kb(:|$)/kg$1/
     #} 幾何圖形 {
     - derive/^tx:fx$/tx:zfx/
     - derive/^tx:wbx$/tx:wjx/
