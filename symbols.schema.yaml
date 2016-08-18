@@ -43,8 +43,8 @@ engine:
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba?ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  delimiter: ''
-  auto_select: true
+  delimiter: " '"     # 在自動上屏的情況下没什麼用
+  auto_select: true   # 自動上屏
   algebra:
     #{ 標點 {
     - derive/^bd:(bj|zs):rw$/bd:rw:$1/
