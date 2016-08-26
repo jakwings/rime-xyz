@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.18'
+version: '2016.8.26'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -1054,25 +1054,45 @@ bd:dx	⎭
 # 標點符號 }
 
 # 空白字符 {
-kb:qj	　	IDEOGRAPHIC SPACE
 kb:em	 	EM SPACE
-kb:em-quad	 	EM QUAD
 kb:em/3	 	THREE-PER-EM SPACE
 kb:em/4	 	FOUR-PER-EM SPACE
 kb:em/6	 	SIX-PER-EM SPACE
 kb:en	 	EN SPACE
 kb:en-quad	 	EN QUAD
-kb:figure	 	FIGURE SPACE
-kb:hair	 	HAIR SPACE
-kb:ideographic	　	IDEOGRAPHIC SPACE
-kb:left-to-right-mark	‎	LEFT-TO-RIGHT MARK
-kb:medium-mathematical	 	MEDIUM MATHEMATICAL SPACE
-kb:narrow-no-break	 	NARROW NO-BREAK SPACE
+kb:em-quad	 	EM QUAD
 kb:no-break	 	NO-BREAK SPACE
+kb:narrow-no-break	 	NARROW NO-BREAK SPACE
+kb:figure	 	FIGURE SPACE
 kb:punctuation	 	PUNCTUATION SPACE
-kb:right-to-left-mark	‏	RIGHT-TO-LEFT MARK
-kb:tag	󠀠	TAG SPACE
 kb:thin	 	THIN SPACE
+kb:hair	 	HAIR SPACE
+kb:medium-mathematical	 	MEDIUM MATHEMATICAL SPACE
+kb:left-to-right-mark	‎	LEFT-TO-RIGHT MARK
+kb:right-to-left-mark	‏	RIGHT-TO-LEFT MARK
+kb:left-to-right-embedding	‪	LEFT-TO-RIGHT EMBEDDING
+kb:right-to-left-embedding	‫	RIGHT-TO-LEFT EMBEDDING
+kb:pop-directional-formatting	‬	POP DIRECTIONAL FORMATTING
+kb:left-to-right-override	‭	LEFT-TO-RIGHT OVERRIDE
+kb:right-to-left-override	‮	RIGHT-TO-LEFT OVERRIDE
+kb:ideographic	　	IDEOGRAPHIC SPACE
+kb:line-separator	 	LINE SEPARATOR
+kb:paragraph-separator	 	PARAGRAPH SEPARATOR
+kb:word-joiner	⁠	WORD JOINER
+kb:function-application	⁡	FUNCTION APPLICATION
+kb:invisible-times	⁢	INVISIBLE TIMES
+kb:invisible-separator	⁣	INVISIBLE SEPARATOR
+kb:invisible-plus	⁤	INVISIBLE PLUS
+kb:left-to-right-isolate	⁦	LEFT-TO-RIGHT ISOLATE
+kb:right-to-left-isolate	⁧	RIGHT-TO-LEFT ISOLATE
+kb:first-strong-isolate	⁨	FIRST STRONG ISOLATE
+kb:pop-directional-isolate	⁩	POP DIRECTIONAL ISOLATE
+kb:inhibit-symmetric-swapping	⁪	INHIBIT SYMMETRIC SWAPPING
+kb:activate-symmetric-swapping	⁫	ACTIVATE SYMMETRIC SWAPPING
+kb:inhibit-arabic-form-shaping	⁬	INHIBIT ARABIC FORM SHAPING
+kb:activate-arabic-form-shaping	⁭	ACTIVATE ARABIC FORM SHAPING
+kb:national-digit-shapes	⁮	NATIONAL DIGIT SHAPES
+kb:nominal-digit-shapes	⁯	NOMINAL DIGIT SHAPES
 kb:zero-width	​	ZERO WIDTH SPACE
 kb:zero-width-joiner	‍	ZERO WIDTH JOINER
 kb:zero-width-non-joiner	‌	ZERO WIDTH NON-JOINER
