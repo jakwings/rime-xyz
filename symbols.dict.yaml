@@ -1065,9 +1065,13 @@ kb:no-break	 	NO-BREAK SPACE
 kb:narrow-no-break	 	NARROW NO-BREAK SPACE
 kb:figure	 	FIGURE SPACE
 kb:punctuation	 	PUNCTUATION SPACE
+kb:medium-mathematical	 	MEDIUM MATHEMATICAL SPACE
+kb:ideographic	　	IDEOGRAPHIC SPACE
 kb:thin	 	THIN SPACE
 kb:hair	 	HAIR SPACE
-kb:medium-mathematical	 	MEDIUM MATHEMATICAL SPACE
+kb:zero-width	​	ZERO WIDTH SPACE
+kb:zero-width-joiner	‍	ZERO WIDTH JOINER
+kb:zero-width-non-joiner	‌	ZERO WIDTH NON-JOINER
 kb:left-to-right-mark	‎	LEFT-TO-RIGHT MARK
 kb:right-to-left-mark	‏	RIGHT-TO-LEFT MARK
 kb:left-to-right-embedding	‪	LEFT-TO-RIGHT EMBEDDING
@@ -1075,7 +1079,6 @@ kb:right-to-left-embedding	‫	RIGHT-TO-LEFT EMBEDDING
 kb:pop-directional-formatting	‬	POP DIRECTIONAL FORMATTING
 kb:left-to-right-override	‭	LEFT-TO-RIGHT OVERRIDE
 kb:right-to-left-override	‮	RIGHT-TO-LEFT OVERRIDE
-kb:ideographic	　	IDEOGRAPHIC SPACE
 kb:line-separator	 	LINE SEPARATOR
 kb:paragraph-separator	 	PARAGRAPH SEPARATOR
 kb:word-joiner	⁠	WORD JOINER
@@ -1093,9 +1096,9 @@ kb:inhibit-arabic-form-shaping	⁬	INHIBIT ARABIC FORM SHAPING
 kb:activate-arabic-form-shaping	⁭	ACTIVATE ARABIC FORM SHAPING
 kb:national-digit-shapes	⁮	NATIONAL DIGIT SHAPES
 kb:nominal-digit-shapes	⁯	NOMINAL DIGIT SHAPES
-kb:zero-width	​	ZERO WIDTH SPACE
-kb:zero-width-joiner	‍	ZERO WIDTH JOINER
-kb:zero-width-non-joiner	‌	ZERO WIDTH NON-JOINER
+kb:interlinear-annotation-anchor	￹	INTERLINEAR ANNOTATION ANCHOR
+kb:interlinear-annotation-separator	￺	INTERLINEAR ANNOTATION SEPARATOR
+kb:interlinear-annotation-terminator	￻	INTERLINEAR ANNOTATION TERMINATOR
 # 空白字符 }
 
 # 筆畫 {
