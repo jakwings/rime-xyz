@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.26'
+version: '2016.8.27'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -3611,11 +3611,11 @@ ld'd	Ḑ
 ld'd	Ḓ
 ld'd	Ꝯ
 ld'd	Ꝺ
-ld"d'	ʤ
 ld"db	ȸ
 ld"dz	ǆ
 ld"dz	ǳ
 ld"dz	ʣ
+ld"dz	ʤ
 ld"dz	ʥ
 ld'dz	Ǆ
 ld'dz	ǅ
@@ -3930,13 +3930,13 @@ ld'l	Ꝇ
 ld'l	Ꝉ
 ld'l	Ꞁ
 ld'l	Ɬ
-ld"l'	ɮ
 ld"lj	ǉ
 ld'lj	Ǉ
 ld'lj	ǈ
 ld"ll	ỻ
 ld'll	Ỻ
 ld"ls	ʪ
+ld"lz	ɮ
 ld"lz	ʫ
 ld"m	m
 ld"m	ɯ
