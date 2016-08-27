@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.27'
+version: '2016.8.28'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -4280,6 +4280,7 @@ ld"t	ƫ
 ld"t	ƭ
 ld"t	ț
 ld"t	ȶ
+ld"t	ʇ
 ld"t	ʈ
 ld"t	ᴛ
 ld"t	ᵵ
@@ -4305,7 +4306,6 @@ ld't	Ṯ
 ld't	Ṱ
 ld't	Ꞇ
 ld't	Ʇ
-ld"t  ʇ
 ld"tc	ʨ
 ld"th	ᵺ
 ld"ts	ʦ
