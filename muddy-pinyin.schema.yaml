@@ -87,7 +87,7 @@ speller:
     # 區分 u/ü
     - xform/^([jqxy])u/$1v/
     # 區分 o/u
-    - derive/ong\>/ung/
+    - xform/ong\>/ung/
     # 區分 a/ê
     - derive/([iv]|^y)an\>/$1en/
     # 介音
@@ -103,7 +103,7 @@ speller:
     - derive/^([csz]h|[bcdfghjklmnpqrstwxyz])[a-z]+\>/$1*/
     # 略聲母
     - derive/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+)\>/*$1/
-    - derive/^w([aei][a-z]*)\>/*u$1/
+    - derive/^w([aeio][a-z]*)\>/*u$1/
     - derive/^y(?!(?:en?|an)\>)([a-z]+)\>/*$1/
     - derive/^y([aeouv][a-z]*)\>/*i$1/
     # 簡拼
@@ -113,6 +113,7 @@ speller:
     - derive/^([bpmf])uo\>/$1o/
     - derive/^\*ve\>/*ue/
     - derive/^([jqxy])v/$1u/
+    - derive/ung\>/ong/
     - derive/^r\>/er/
     # 聲調
     - xlit 12345 -/<\>
