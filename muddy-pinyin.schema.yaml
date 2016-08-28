@@ -103,11 +103,9 @@ speller:
     - derive/^([csz]h|[bcdfghjklmnpqrstwxyz])[a-z]+\>/$1*/
     # 略聲母
     - derive/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+)\>/*$1/
-    - derive/^w([a-z]+)\>/*u$1/
-    - erase/^\*uu/
+    - derive/^w([aei][a-z]*)\>/*u$1/
     - derive/^y(?!(?:en?|an)\>)([a-z]+)\>/*$1/
-    - derive/^y([a-z]+)\>/*i$1/
-    - erase/^\*ii/
+    - derive/^y([aeouv][a-z]*)\>/*i$1/
     # 簡拼
     - abbrev/^([a-z])[a-z]+\>/$1/
     - abbrev/^([zcs]h)[a-z]+\>/$1/
