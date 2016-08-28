@@ -83,7 +83,7 @@ speller:
     # 區分 e/ê
     - xform/eh/ea/
     # 區分 o/uo
-    - derive/^([bfmp])o\>/$1uo/
+    - xform/^([bpmf])o\>/$1uo/
     # 區分 u/ü
     - xform/^([jqxy])u/$1v/
     # 區分 o/u
@@ -112,6 +112,7 @@ speller:
     - abbrev/^([a-z])[a-z]+\>/$1/
     - abbrev/^([zcs]h)[a-z]+\>/$1/
     # 兼容
+    - derive/^([bpmf])uo\>/$1o/
     - derive/^\*ve\>/*ue/
     - derive/^([jqxy])v/$1u/
     - derive/^r\>/er/
