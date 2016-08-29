@@ -19,7 +19,7 @@
 
 ---
 name: example-symbols
-version: '2016.8.11'
+version: '2016.8.29'
 sort: original
 columns: [ text, code ]
 use_preset_vocabulary: false

@@ -20,7 +20,7 @@
 schema:
   name: 例·特殊字符
   schema_id: &id example-symbols
-  version: '2016.8.11'
+  version: '2016.8.29'
   author:
     - Jak Wings #!@Gmail.com
   description: |
@@ -92,7 +92,7 @@ symbol:
   preedit_format:
     - xlit ABCDEFGHIJ 0123456789
   comment_format:
-    - xform/["':]+/:/
+    - xform/[!"':]+/:/
 
 key_binder:
   import_preset: default
