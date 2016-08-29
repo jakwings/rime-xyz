@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.28'
+  version: '2016.8.29'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -128,8 +128,6 @@ speller:
     - derive/^sb:(?:greek|latin):/sb:/
     - derive/^xb:(?:greek|latin):/xb:/
     #} 拉丁 {
-    - derive/^ld:\?"$/ld:dx:?/
-    - derive/^ld:\?'$/ld:xx:?/
     - derive/^ld"/ld:xx/
     - derive/^ld'/ld:dx/
     #} 字母 {
@@ -142,7 +140,7 @@ speller:
     - derive/^sz:s[cz]:/sz:/
     - xlit 0123456789 ABCDEFGHIJ  # 三十六進制數字減十
     #} 簡化輸入 {
-    - xform/["':]//
+    - xform/[!"':]//
     #} 縮略碼表 {
     - derive/^\?.+$/?/
     #} }
@@ -165,7 +163,7 @@ translator:
   preedit_format:
     - xlit ABCDEFGHIJ 0123456789
   comment_format:
-    - xform/["':]+/:/
+    - xform/[!"':]+/:/
 
 key_binder:
   import_preset: default

@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.28'
+version: '2016.8.29'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -3407,1127 +3407,1132 @@ xblw:27	ת
 # 希伯來文 }
 
 # 拉丁字母 {
-ld:?	ʔ
-ld:?	ʕ
-ld:?	ʖ
-ld:?	ʡ
-ld:?	ʢ
-ld:?	ƾ
-ld:?"	Ɂ
-ld:?'	ɂ
-ld:??	ᴤ
-ld"a	a
-ld"a	à
-ld"a	á
-ld"a	â
-ld"a	ã
-ld"a	ä
-ld"a	å
-ld"a	ā
-ld"a	ă
-ld"a	ą
-ld"a	ǎ
-ld"a	ǟ
-ld"a	ǡ
-ld"a	ǻ
-ld"a	ȁ
-ld"a	ȃ
-ld"a	ȧ
-ld"a	ɐ
-ld"a	ɑ
-ld"a	ɒ
-ld"a	ᴀ
-ld"a	ᴥ
+# A:uppercase a:lowercase R:reversed I:inverted T:turned S:small
+ld!?	ʔ	R:ʕ I:ʖ
+ld!?	ʕ	r:ʔ T:ʖ
+ld!?	ʖ	i:ʔ t:ʕ
+ld!?	ʡ	R:ʢ I:ƾ
+ld!?	ʢ	r:ʡ T:ƾ
+ld!?	ƾ	i:ʡ t:ʢ
+ld"?	ɂ	A:Ɂ
+ld'?	Ɂ	a:ɂ
+ld!??	ᴤ
+ld"?	ꜣ	A:Ꜣ
+ld"?	ꜥ	A:Ꜥ
+ld"?	ꜭ	A:Ꜭ
+ld"?	ꜯ	A:Ꜯ
+ld"?	ꞌ	A:Ꞌ
+ld'?	Ꜣ	a:ꜣ
+ld'?	Ꜥ	a:ꜥ
+ld'?	Ꜭ	a:ꜭ
+ld'?	Ꜯ	a:ꜯ
+ld'?	Ꞌ	a:ꞌ
+ld:?	ǀ
+ld:?	ǁ
+ld:?	ǂ
+ld:?	ǃ
+ld:?	ᴥ
+ld:?	ꞏ
+ld"a	a	A:A T:ɐ
+ld"a	à	A:À
+ld"a	á	A:Á
+ld"a	â	A:Â
+ld"a	ã	A:Ã
+ld"a	ä	A:Ä
+ld"a	å	A:Å
+ld"a	ā	A:Ā
+ld"a	ă	A:Ă
+ld"a	ą	A:Ą
+ld"a	ǎ	A:Ǎ
+ld"a	ǟ	A:Ǟ
+ld"a	ǡ	A:Ǡ
+ld"a	ǻ	A:Ǻ
+ld"a	ȁ	A:Ȁ
+ld"a	ȃ	A:Ȃ
+ld"a	ȧ	A:Ȧ
+ld"a	ɐ	A:Ɐ t:a
+ld"a	ɑ	A:Ɑ I:ꭤ T:ɒ
+ld"a	ɒ	A:Ɒ R:ꭤ t:ɑ
+ld"a	ᴀ	s:A
 ld"a	ᶏ
 ld"a	ᶐ
-ld"a	ḁ
+ld"a	ḁ	A:Ḁ
 ld"a	ẚ
-ld"a	ạ
-ld"a	ả
-ld"a	ấ
-ld"a	ầ
-ld"a	ẩ
-ld"a	ẫ
-ld"a	ậ
-ld"a	ắ
-ld"a	ằ
-ld"a	ẳ
-ld"a	ẵ
-ld"a	ặ
-ld"a	ⱥ
-ld"a	ꜭ
-ld"a	ꜯ
+ld"a	ạ	A:Ạ
+ld"a	ả	A:Ả
+ld"a	ấ	A:Ấ
+ld"a	ầ	A:Ầ
+ld"a	ẩ	A:Ẩ
+ld"a	ẫ	A:Ẫ
+ld"a	ậ	A:Ậ
+ld"a	ắ	A:Ắ
+ld"a	ằ	A:Ằ
+ld"a	ẳ	A:Ẳ
+ld"a	ẵ	A:Ẵ
+ld"a	ặ	A:Ặ
+ld"a	ⱥ	A:Ⱥ
 ld"a	ꬰ
-ld'a	A
-ld'a	À
-ld'a	Á
-ld'a	Â
-ld'a	Ã
-ld'a	Ä
-ld'a	Å
-ld'a	Ā
-ld'a	Ă
-ld'a	Ą
-ld'a	Ǎ
-ld'a	Ǟ
-ld'a	Ǡ
-ld'a	Ǻ
-ld'a	Ȁ
-ld'a	Ȃ
-ld'a	Ȧ
-ld'a	Ⱥ
-ld'a	Ḁ
-ld'a	Ạ
-ld'a	Ả
-ld'a	Ấ
-ld'a	Ầ
-ld'a	Ẩ
-ld'a	Ẫ
-ld'a	Ậ
-ld'a	Ắ
-ld'a	Ằ
-ld'a	Ẳ
-ld'a	Ẵ
-ld'a	Ặ
-ld'a	Ɑ
-ld'a	Ɐ
-ld'a	Ɒ
-ld'a	Ꜭ
-ld'a	Ꜯ
-ld"a:inverted	ꭤ
-ld"aa	ꜳ
-ld'aa	Ꜳ
-ld"ae	æ
-ld"ae	ǣ
-ld"ae	ǽ
-ld"ae	ᴁ
-ld"ae	ᴂ
+ld"a	ꭤ	r:ɒ i:ɑ
+ld'a	A	a:a T:Ɐ S:ᴀ
+ld'a	À	a:à
+ld'a	Á	a:á
+ld'a	Â	a:â
+ld'a	Ã	a:ã
+ld'a	Ä	a:ä
+ld'a	Å	a:å
+ld'a	Ā	a:ā
+ld'a	Ă	a:ă
+ld'a	Ą	a:ą
+ld'a	Ǎ	a:ǎ
+ld'a	Ǟ	a:ǟ
+ld'a	Ǡ	a:ǡ
+ld'a	Ǻ	a:ǻ
+ld'a	Ȁ	a:ȁ
+ld'a	Ȃ	a:ȃ
+ld'a	Ȧ	a:ȧ
+ld'a	Ⱥ	a:ⱥ
+ld'a	Ḁ	a:ḁ
+ld'a	Ạ	a:ạ
+ld'a	Ả	a:ả
+ld'a	Ấ	a:ấ
+ld'a	Ầ	a:ầ
+ld'a	Ẩ	a:ẩ
+ld'a	Ẫ	a:ẫ
+ld'a	Ậ	a:ậ
+ld'a	Ắ	a:ắ
+ld'a	Ằ	a:ằ
+ld'a	Ẳ	a:ẳ
+ld'a	Ẵ	a:ẵ
+ld'a	Ặ	a:ặ
+ld'a	Ɑ	a:ɑ T:Ɒ
+ld'a	Ɐ	a:ɐ t:A
+ld'a	Ɒ	a:ɒ t:Ɑ
+ld"aa	ꜳ	A:Ꜳ
+ld'aa	Ꜳ	a:ꜳ
+ld"ae	æ	A:Æ T:ᴂ
+ld"ae	ǣ	A:Ǣ
+ld"ae	ǽ	A:Ǽ
+ld"ae	ᴁ	s:Æ
+ld"ae	ᴂ	t:æ
 ld"ae	ꬱ
-ld'ae	Æ
-ld'ae	Ǣ
-ld'ae	Ǽ
-ld"ao	ꜵ
-ld'ao	Ꜵ
-ld"au	ꜷ
-ld'au	Ꜷ
-ld"av	ꜹ
-ld"av	ꜻ
-ld'av	Ꜹ
-ld'av	Ꜻ
-ld"ay	ꜽ
-ld'ay	Ꜽ
-ld"b	b
-ld"b	ß
-ld"b	ƀ
-ld"b	ƃ
-ld"b	ƅ	tone six
-ld"b	ɓ
-ld"b	ʙ
-ld"b	β	greek
+ld'ae	Æ	a:æ S:ᴁ
+ld'ae	Ǣ	a:ǣ
+ld'ae	Ǽ	a:ǽ
+ld"ao	ꜵ	A:Ꜵ
+ld'ao	Ꜵ	a:ꜵ
+ld"au	ꜷ	A:Ꜷ
+ld'au	Ꜷ	a:ꜷ
+ld"av	ꜹ	A:Ꜹ
+ld"av	ꜻ	A:Ꜻ
+ld'av	Ꜹ	a:ꜹ
+ld'av	Ꜻ	a:ꜻ
+ld"ay	ꜽ	A:Ꜽ
+ld'ay	Ꜽ	a:ꜽ
+ld"b	b	A:B
+ld"b	ß	A:ẞ
+ld"b	ƀ	A:Ƀ
+ld"b	ƃ	A:Ƃ
+ld"b	ƅ	A:Ƅ	tone six
+ld"b	ɓ	A:Ɓ
+ld"b	ʙ	s:B
 ld"b	ᴃ
 ld"b	ᵬ
 ld"b	ᶀ
-ld"b	ḃ
-ld"b	ḅ
-ld"b	ḇ
-ld"b	ꞗ
-ld"b	ꞛ
-ld"b	ꞝ
-ld"b	ꞵ
-ld'b	B
-ld'b	Ɓ
-ld'b	Ƃ
-ld'b	Ƅ	tone six
-ld'b	Ƀ
-ld'b	Ḃ
-ld'b	Ḅ
-ld'b	Ḇ
-ld'b	ẞ
-ld'b	Ꞗ
-ld'b	Ꞛ
-ld'b	Ꞝ
-ld'b	Ꞵ
-ld:c	ʗ
-ld"c	c
-ld"c	ç
-ld"c	ć
-ld"c	ĉ
-ld"c	ċ
-ld"c	č
-ld"c	ƈ
-ld"c	ȼ
-ld"c	ɕ
-ld"c	ᴄ
-ld"c	ḉ
-ld"c	ꜿ
-ld"c	ꞓ
+ld"b	ḃ	A:Ḃ
+ld"b	ḅ	A:Ḅ
+ld"b	ḇ	A:Ḇ
+ld"b	ꞗ	A:Ꞗ
+ld"b	ꞛ	A:Ꞛ	Volapük AE ɛɑ
+ld"b	ꞝ	A:Ꞝ	Volapük OE ɛo
+ld"b	ꞵ	A:Ꞵ
+ld'b	B	a:b S:ʙ
+ld'b	Ɓ	a:ɓ
+ld'b	Ƃ	a:ƃ
+ld'b	Ƅ	a:ƅ	tone six
+ld'b	Ƀ	a:ƀ
+ld'b	Ḃ	a:ḃ
+ld'b	Ḅ	a:ḅ
+ld'b	Ḇ	a:ḇ
+ld'b	ẞ	a:ß
+ld'b	Ꞗ	a:ꞗ
+ld'b	Ꞛ	a:ꞛ	Volapük AE ƐⱭ
+ld'b	Ꞝ	a:ꞝ	Volapük OE ƐO
+ld'b	Ꞵ	a:ꞵ
+ld"c	c	A:C R:ↄ
+ld"c	ç	A:Ç
+ld"c	ć	A:Ć
+ld"c	ĉ	A:Ĉ
+ld"c	ċ	A:Ċ
+ld"c	č	A:Č
+ld"c	ƈ	A:Ƈ
+ld"c	ȼ	A:Ȼ
+ld"c	ɕ	A:ɕ
+ld"c	ᴄ	s:C
+ld"c	ḉ	A:Ḉ
+ld"c	ↄ	r:c
+ld"c	ꜿ	A:Ꜿ
+ld"c	ꞓ	A:Ꞓ
 ld"c	ꞔ
-ld'c	C
-ld'c	Ç
-ld'c	Ć
-ld'c	Ĉ
-ld'c	Ċ
-ld'c	Č
-ld'c	Ƈ
-ld'c	Ȼ
-ld'c	Ḉ
-ld'c	Ꜿ
-ld'c	Ꞓ
-ld"c:reversed	ↄ
-ld"d	d
-ld"d	ð
-ld"d	ď
-ld"d	đ
-ld"d	ƌ
-ld"d	ƍ
+ld'c	C	a:c S:ᴄ
+ld'c	Ç	a:ç
+ld'c	Ć	a:ć
+ld'c	Ĉ	a:ĉ
+ld'c	Ċ	a:ċ
+ld'c	Č	a:č
+ld'c	Ƈ	a:ƈ
+ld'c	Ȼ	a:ȼ
+ld'c	Ḉ	a:ḉ
+ld'c	Ꜿ	a:ꜿ
+ld'c	Ꞓ	a:ꞓ
+ld:c	ʗ
+ld"d	d	A:D
+ld"d	ð	A:Ð
+ld"d	ď	A:Ď
+ld"d	đ	A:Đ
+ld"d	ƌ	A:Ƌ
+ld"d	ƍ	t:ẟ
 ld"d	ȡ
-ld"d	ɖ
-ld"d	ɗ
-ld"d	ᴅ
-ld"d	ᴆ
+ld"d	ɖ	A:Ɖ
+ld"d	ɗ	A:Ɗ
+ld"d	ᴅ	s:D
+ld"d	ᴆ	s:Ð
 ld"d	ᵭ
 ld"d	ᶁ
 ld"d	ᶑ
-ld"d	ḋ
-ld"d	ḍ
-ld"d	ḏ
-ld"d	ḑ
-ld"d	ḓ
-ld"d	ẟ
-ld"d	ꝯ
+ld"d	ḋ	A:Ḋ
+ld"d	ḍ	A:Ḍ
+ld"d	ḏ	A:Ḏ
+ld"d	ḑ	A:Ḑ
+ld"d	ḓ	A:Ḓ
+ld"d	ẟ	T:ƍ
+ld"d	ꝯ	A:Ꝯ
 ld"d	ꝱ
-ld"d	ꝺ
-ld'd	D
-ld'd	Ð
-ld'd	Ď
-ld'd	Đ
-ld'd	Ɖ
-ld'd	Ɗ
-ld'd	Ƌ
-ld'd	Ḋ
-ld'd	Ḍ
-ld'd	Ḏ
-ld'd	Ḑ
-ld'd	Ḓ
-ld'd	Ꝯ
-ld'd	Ꝺ
+ld"d	ꝺ	A:Ꝺ	Insular d
+ld'd	D	a:d S:ᴅ
+ld'd	Ð	a:ð S:ᴆ
+ld'd	Ď	a:ď
+ld'd	Đ	a:đ
+ld'd	Ɖ	a:ɖ
+ld'd	Ɗ	a:ɗ
+ld'd	Ƌ	a:ƌ
+ld'd	Ḋ	a:ḋ
+ld'd	Ḍ	a:ḍ
+ld'd	Ḏ	a:ḏ
+ld'd	Ḑ	a:ḑ
+ld'd	Ḓ	a:ḓ
+ld'd	Ꝯ	a:ꝯ
+ld'd	Ꝺ	a:ꝺ	Insular D
 ld"db	ȸ
-ld"dz	ǆ
-ld"dz	ǳ
+ld"dz	ǆ	A:Ǆ
+ld"dz	ǳ	A:Ǳ
 ld"dz	ʣ
 ld"dz	ʤ
 ld"dz	ʥ
-ld'dz	Ǆ
+ld'dz	Ǆ	a:ǆ
 ld'dz	ǅ
-ld'dz	Ǳ
+ld'dz	Ǳ	a:ǳ
 ld'dz	ǲ
-ld"e	e
-ld"e	è
-ld"e	é
-ld"e	ê
-ld"e	ë
-ld"e	ē
-ld"e	ĕ
-ld"e	ė
-ld"e	ę
-ld"e	ě
-ld"e	ǝ
-ld"e	ȅ
-ld"e	ȇ
-ld"e	ȩ
-ld"e	ɇ
-ld"e	ɘ
-ld"e	ə
+ld"e	e	A:E R:ɘ T:ǝ
+ld"e	è	A:È
+ld"e	é	A:É
+ld"e	ê	A:Ê
+ld"e	ë	A:Ë
+ld"e	ē	A:Ē
+ld"e	ĕ	A:Ĕ
+ld"e	ė	A:Ė
+ld"e	ę	A:Ę
+ld"e	ě	A:Ě
+ld"e	ǝ	A:Ǝ i:ɘ t:e
+ld"e	ȅ	A:Ȅ
+ld"e	ȇ	A:Ȇ
+ld"e	ȩ	A:Ȩ
+ld"e	ɇ	A:Ɇ
+ld"e	ɘ	A:Ǝ r:e I:ǝ
+ld"e	ə	A:Ə
 ld"e	ɚ
-ld"e	ɛ
-ld"e	ɜ
+ld"e	ɛ	A:Ɛ R:ɜ T:ᴈ
+ld"e	ɜ	A:Ɜ r:ɛ I:ᴈ
 ld"e	ɝ
-ld"e	ɞ
-ld"e	ʚ
-ld"e	ᴇ
-ld"e	ᴈ
+ld"e	ɞ	r:ʚ	closed ɜ
+ld"e	ʚ	R:ɞ	closed ɛ
+ld"e	ᴇ	s:E
+ld"e	ᴈ	i:ɜ t:ɛ
 ld"e	ᶒ
-ld"e	ᶓ
-ld"e	ᶔ
+ld"e	ᶓ	R:ᶔ
+ld"e	ᶔ	r:ᶓ
 ld"e	ᶕ
-ld"e	ḕ
-ld"e	ḗ
-ld"e	ḙ
-ld"e	ḛ
-ld"e	ḝ
-ld"e	ẹ
-ld"e	ẻ
-ld"e	ẽ
-ld"e	ế
-ld"e	ề
-ld"e	ể
-ld"e	ễ
-ld"e	ệ
-ld"e	ⱸ
-ld"e	ⱻ
-ld"e	ꜫ
-ld"e	ꝫ
+ld"e	ḕ	A:Ḕ
+ld"e	ḗ	A:Ḗ
+ld"e	ḙ	A:Ḙ
+ld"e	ḛ	A:Ḛ
+ld"e	ḝ	A:Ḝ
+ld"e	ẹ	A:Ẹ
+ld"e	ẻ	A:Ẻ
+ld"e	ẽ	A:Ẽ
+ld"e	ế	A:Ế
+ld"e	ề	A:Ề
+ld"e	ể	A:Ể
+ld"e	ễ	A:Ễ
+ld"e	ệ	A:Ệ
+ld"e	ⱸ	A:ⱸ
+ld"e	ⱻ	s:Ǝ
+ld"e	ꜫ	A:Ꜫ
+ld"e	ꝫ	A:Ꝫ	-et, et (ꝫc → etc)
 ld"e	ꬲ
 ld"e	ꬳ
 ld"e	ꬴ
-ld'e	E
-ld'e	È
-ld'e	É
-ld'e	Ê
-ld'e	Ë
-ld'e	Ē
-ld'e	Ĕ
-ld'e	Ė
-ld'e	Ę
-ld'e	Ě
-ld'e	Ǝ
-ld'e	Ə
-ld'e	Ɛ
-ld'e	Ʃ
-ld'e	Ȅ
-ld'e	Ȇ
-ld'e	Ȩ
-ld'e	Ɇ
-ld'e	Ḕ
-ld'e	Ḗ
-ld'e	Ḙ
-ld'e	Ḛ
-ld'e	Ḝ
-ld'e	Ẹ
-ld'e	Ẻ
-ld'e	Ẽ
-ld'e	Ế
-ld'e	Ề
-ld'e	Ể
-ld'e	Ễ
-ld'e	Ệ
-ld'e	Ꜫ
-ld'e	Ꝫ
-ld'e	Ɜ
-ld"f	f
-ld"f	ſ
-ld"f	ƒ
-ld"f	ᵮ
+ld'e	E	a:e R:Ǝ T:Ǝ S:ᴇ
+ld'e	È	a:è
+ld'e	É	a:é
+ld'e	Ê	a:ê
+ld'e	Ë	a:ë
+ld'e	Ē	a:ē
+ld'e	Ĕ	a:ĕ
+ld'e	Ė	a:ė
+ld'e	Ę	a:ę
+ld'e	Ě	a:ě
+ld'e	Ǝ	a:ɘ a:ǝ r:E t:E S:ⱻ
+ld'e	Ə	a:ə
+ld'e	Ɛ	a:ɛ R:Ɜ
+ld'e	Ʃ	a:ʃ
+ld'e	Ȅ	a:ȅ
+ld'e	Ȇ	a:ȇ
+ld'e	Ȩ	a:ȩ
+ld'e	Ɇ	a:ɇ
+ld'e	Ḕ	a:ḕ
+ld'e	Ḗ	a:ḗ
+ld'e	Ḙ	a:ḙ
+ld'e	Ḛ	a:ḛ
+ld'e	Ḝ	a:ḝ
+ld'e	Ẹ	a:ẹ
+ld'e	Ẻ	a:ẻ
+ld'e	Ẽ	a:ẽ
+ld'e	Ế	a:ế
+ld'e	Ề	a:ề
+ld'e	Ể	a:ể
+ld'e	Ễ	a:ễ
+ld'e	Ệ	a:ệ
+ld'e	Ꜫ	a:ꜫ
+ld'e	Ꝫ	a:ꝫ	-et, et
+ld'e	Ɜ	a:ɜ r:Ɛ
+ld"f	f	A:F
+ld"f	ƒ	A:Ƒ
+ld"f	ᵮ	A:ᵮ
 ld"f	ᶂ
-ld"f	ḟ
-ld"f	ꜰ
-ld"f	ꝼ
-ld"f	ꞙ
+ld"f	ḟ	A:Ḟ
+ld"f	ꜰ	s:F
+ld"f	ꝼ	A:Ꝼ	Insular f
+ld"f	ꞙ	A:Ꞙ
 ld"f	ꬵ
-ld'f	F
-ld'f	Ƒ
-ld'f	Ḟ
-ld'f	Ꝼ
-ld'f	Ꞙ
-ld'f	ꟻ
+ld'f	F	a:f R:ꟻ S:ꜰ
+ld'f	Ƒ	a:ƒ
+ld'f	Ḟ	a:ḟ
+ld'f	Ꝼ	a:ꝼ	Insular F
+ld'f	Ꞙ	a:ꞙ
+ld'f	ꟻ	f:F
 ld"ff	ﬀ
 ld"ffi	ﬃ
 ld"ffl	ﬄ
 ld"fi	ﬁ
 ld"fl	ﬂ
 ld"fn	ʩ
-ld"g	g
-ld"g	ĝ
-ld"g	ğ
-ld"g	ġ
-ld"g	ģ
-ld"g	ǥ
-ld"g	ǧ
-ld"g	ǵ
-ld"g	ɠ
-ld"g	ɡ
-ld"g	ɢ
-ld"g	ʛ
-ld"g	ᵷ
-ld"g	ᵹ
+ld"g	g	A:G T:ᵷ
+ld"g	ĝ	A:Ĝ
+ld"g	ğ	A:Ğ
+ld"g	ġ	A:Ġ
+ld"g	ģ	A:Ģ
+ld"g	ǥ	A:Ǥ
+ld"g	ǧ	A:Ǧ
+ld"g	ǵ	A:Ǵ
+ld"g	ɠ	A:Ɠ
+ld"g	ɡ	A:Ɡ T:ᵷ
+ld"g	ɢ	s:G
+ld"g	ʛ	s:Ɠ
+ld"g	ᵷ	t:g t:ɡ
+ld"g	ᵹ	A:Ᵹ T:ꝿ	Insular g
 ld"g	ᶃ
-ld"g	ḡ
-ld"g	ꝿ
-ld"g	ꞡ
+ld"g	ḡ	A:Ḡ
+ld"g	ꝿ	A:Ꝿ t:ᵹ
+ld"g	ꞡ	A:Ꞡ
 ld"g	ꬶ
-ld'g	G
-ld'g	Ĝ
-ld'g	Ğ
-ld'g	Ġ
-ld'g	Ģ
-ld'g	Ɠ
-ld'g	Ǥ
-ld'g	Ǧ
-ld'g	Ǵ
-ld'g	Ḡ
-ld'g	Ᵹ
-ld'g	Ꝿ
-ld'g	Ꞡ
-ld'g	Ɡ
-ld"h	h
-ld"h	ĥ
-ld"h	ħ
-ld"h	ȟ
-ld"h	ɥ
-ld"h	ɦ
+ld'g	G	a:g S:ɢ
+ld'g	Ĝ	a:ĝ
+ld'g	Ğ	a:ğ
+ld'g	Ġ	a:ġ
+ld'g	Ģ	a:ģ
+ld'g	Ɠ	a:ɠ S:ʛ
+ld'g	Ǥ	a:ǥ
+ld'g	Ǧ	a:ǧ
+ld'g	Ǵ	a:ǵ
+ld'g	Ḡ	a:ḡ
+ld'g	Ᵹ	a:ᵹ T:Ꝿ	Insular G
+ld'g	Ꝿ	a:ꝿ t:Ᵹ
+ld'g	Ꞡ	a:ꞡ
+ld'g	Ɡ	a:ɡ
+ld"h	h	A:H T:ɥ
+ld"h	ĥ	A:Ĥ
+ld"h	ħ	A:Ħ
+ld"h	ȟ	A:Ȟ
+ld"h	ɥ	A:Ɥ t:h
+ld"h	ɦ	A:Ɦ
 ld"h	ɧ
-ld"h	ʜ
+ld"h	ʜ	s:H
 ld"h	ʮ
 ld"h	ʯ
-ld"h	ḣ
-ld"h	ḥ
-ld"h	ḧ
-ld"h	ḩ
-ld"h	ḫ
-ld"h	ẖ
-ld"h	ⱨ
-ld"h	ⱶ
-ld"h	ꜧ
+ld"h	ḣ	A:Ḣ
+ld"h	ḥ	A:Ḥ
+ld"h	ḧ	A:Ḧ
+ld"h	ḩ	A:Ḩ
+ld"h	ḫ	A:Ḫ
+ld"h	ẖ	A:ẖ
+ld"h	ⱨ	A:Ⱨ
+ld"h	ⱶ	A:Ⱶ	half ʜ
+ld"h	ꜧ	A:Ꜧ
 ld"h	ꞕ
-ld'h	H
-ld'h	Ĥ
-ld'h	Ħ
-ld'h	Ȟ
-ld'h	Ḣ
-ld'h	Ḥ
-ld'h	Ḧ
-ld'h	Ḩ
-ld'h	Ḫ
-ld'h	Ⱨ
-ld'h	Ⱶ
-ld'h	Ꜧ
-ld'h	Ɥ
-ld'h	Ɦ
-ld"hv	ƕ
-ld'hv	Ƕ
-ld"i	i
-ld"i	ì
-ld"i	í
-ld"i	î
-ld"i	ï
-ld"i	ĩ
-ld"i	ī
-ld"i	ĭ
-ld"i	į
-ld"i	ı
-ld"i	ǐ
-ld"i	ȉ
-ld"i	ȋ
-ld"i	ɨ
-ld"i	ɩ
-ld"i	ɪ
-ld"i	ᴉ
-ld"i	ᵻ
+ld'h	H	a:h S:ʜ
+ld'h	Ĥ	a:ĥ
+ld'h	Ħ	a:ħ
+ld'h	Ȟ	a:ȟ
+ld'h	Ḣ	a:ḣ
+ld'h	Ḥ	a:ḥ
+ld'h	Ḧ	a:ḧ
+ld'h	Ḩ	a:ḩ
+ld'h	Ḫ	a:ḫ
+ld'h	Ⱨ	a:ⱨ
+ld'h	Ⱶ	a:ⱶ	half H
+ld'h	Ꜧ	a:ꜧ
+ld'h	Ɥ	a:ɥ
+ld'h	Ɦ	a:ɦ
+ld"hv	ƕ	A:Ƕ
+ld'hv	Ƕ	a:ƕ
+ld"i	i	A:I T:ᴉ
+ld"i	ì	A:Ì
+ld"i	í	A:Í
+ld"i	î	A:Î
+ld"i	ï	A:Ï
+ld"i	ĩ	A:Ĩ
+ld"i	ī	A:Ī
+ld"i	ĭ	A:Ĭ
+ld"i	į	A:Į
+ld"i	ı	-	i
+ld"i	ǐ	A:Ǐ
+ld"i	ȉ	A:Ȉ
+ld"i	ȋ	A:Ȋ
+ld"i	ɨ	A:Ɨ
+ld"i	ɩ	A:Ɩ
+ld"i	ɪ	A:Ɪ s:I
+ld"i	ᴉ	t:i
+ld"i	ᵻ	s:Ɨ
 ld"i	ᵼ
 ld"i	ᶖ
-ld"i	ḭ
-ld"i	ḯ
-ld"i	ỉ
-ld"i	ị
-ld"i	Ɪ
-ld'i	I
-ld'i	Ì
-ld'i	Í
-ld'i	Î
-ld'i	Ï
-ld'i	Ĩ
-ld'i	Ī
-ld'i	Ĭ
-ld'i	Į
-ld'i	İ
-ld'i	Ɩ
-ld'i	Ɨ
-ld'i	Ǐ
-ld'i	Ȉ
-ld'i	Ȋ
-ld'i	Ḭ
-ld'i	Ḯ
-ld'i	Ỉ
-ld'i	Ị
-ld'i	ꟷ
-ld'i	ꟾ
-ld"ib	ꭠ
-ld"ie	ꭡ
-ld"ij	ĳ
-ld'ij	Ĳ
-ld"j	j
-ld"j	ĵ
+ld"i	ḭ	A:Ḭ
+ld"i	ḯ	A:Ḯ
+ld"i	ỉ	A:Ỉ
+ld"i	ị	A:Ị
+ld'i	I	a:i S:ɪ
+ld'i	Ì	a:ì
+ld'i	Í	a:í
+ld'i	Î	a:î
+ld'i	Ï	a:ï
+ld'i	Ĩ	a:ĩ
+ld'i	Ī	a:ī
+ld'i	Ĭ	a:ĭ
+ld'i	Į	a:į
+ld'i	İ	a:i
+ld'i	Ɩ	a:ɩ
+ld'i	Ɨ	a:ɨ S:ᵻ
+ld'i	Ǐ	a:ǐ
+ld'i	Ȉ	a:ȉ
+ld'i	Ȋ	a:ȋ
+ld'i	Ḭ	a:ḭ
+ld'i	Ḯ	a:ḯ
+ld'i	Ỉ	a:ỉ
+ld'i	Ị	a:ị
+ld'i	Ɪ	a:ɪ
+ld'i	ꟷ	-	I
+ld'i	ꟾ	-	apex
+ld"ib	ꭠ	-	ɪb
+ld"ie	ꭡ	-	ɩe
+ld"ij	ĳ	A:Ĳ
+ld'ij	Ĳ	a:ĳ
+ld"j	j	A:J
+ld"j	ĵ	A:Ĵ
 ld"j	ǰ
-ld"j	ȷ
-ld"j	ɉ
-ld"j	ɟ
-ld"j	ʝ
-ld"j	ᴊ
-ld'j	J
-ld'j	Ĵ
-ld'j	Ɉ
-ld'j	Ʝ
-ld"k	k
-ld"k	ķ
+ld"j	ȷ	-	j
+ld"j	ɉ	A:Ɉ
+ld"j	ɟ	-	ɉ
+ld"j	ʄ	-	ɟ with hook
+ld"j	ʝ	A:Ʝ
+ld"j	ᴊ	s:J
+ld'j	J	a:j S:ᴊ
+ld'j	Ĵ	a:ĵ
+ld'j	Ɉ	a:ɉ
+ld'j	Ʝ	a:ʝ
+ld"k	k	A:K T:ʞ
+ld"k	ķ	A:Ķ
 ld"k	ĸ
-ld"k	ƙ
-ld"k	ǩ
-ld"k	ʞ
-ld"k	ᴋ
+ld"k	ƙ	A:Ƙ
+ld"k	ǩ	A:Ǩ
+ld"k	ʞ	A:Ʞ t:k
+ld"k	ᴋ	s:K
 ld"k	ᶄ
-ld"k	ḱ
-ld"k	ḳ
-ld"k	ḵ
-ld"k	ⱪ
-ld"k	ꝁ
-ld"k	ꝃ
-ld"k	ꝅ
-ld"k	ꞣ
-ld'k	K
-ld'k	Ķ
-ld'k	Ƙ
-ld'k	Ǩ
-ld'k	Ḱ
-ld'k	Ḳ
-ld'k	Ḵ
-ld'k	Ⱪ
-ld'k	Ꝁ
-ld'k	Ꝃ
-ld'k	Ꝅ
-ld'k	Ꞣ
-ld'k	Ʞ
-ld"l	l
-ld"l	ĺ
-ld"l	ļ
-ld"l	ľ
-ld"l	ŀ
-ld"l	ł
-ld"l	ƚ
+ld"k	ḱ	A:Ḱ
+ld"k	ḳ	A:Ḳ
+ld"k	ḵ	A:Ḵ
+ld"k	ⱪ	A:Ⱪ
+ld"k	ꝁ	A:Ꝁ
+ld"k	ꝃ	A:Ꝃ
+ld"k	ꝅ	A:Ꝅ
+ld"k	ꞣ	A:Ꞣ
+ld'k	K	a:k T:Ʞ S:ᴋ
+ld'k	Ķ	a:ķ
+ld'k	Ƙ	a:ƙ
+ld'k	Ǩ	a:ǩ
+ld'k	Ḱ	a:ḱ
+ld'k	Ḳ	a:ḳ
+ld'k	Ḵ	a:ḵ
+ld'k	Ⱪ	a:ⱪ
+ld'k	Ꝁ	a:ꝁ
+ld'k	Ꝃ	a:ꝃ
+ld'k	Ꝅ	a:ꝅ
+ld'k	Ꞣ	a:ꞣ
+ld'k	Ʞ	a:ʞ t:K
+ld"l	l	A:L T:ꞁ
+ld"l	ĺ	A:Ĺ
+ld"l	ļ	A:Ļ
+ld"l	ľ	A:Ľ
+ld"l	ŀ	A:Ŀ
+ld"l	ł	A:Ł
+ld"l	ƚ	A:Ƚ
 ld"l	ȴ
-ld"l	ɫ
-ld"l	ɬ
+ld"l	ɫ	A:Ɫ
+ld"l	ɬ	A:Ɬ
 ld"l	ɭ
-ld"l	ʟ
-ld"l	ᴌ
+ld"l	ʟ	s:L
+ld"l	ᴌ	s:Ł
 ld"l	ᶅ
-ld"l	ḷ
-ld"l	ḹ
-ld"l	ḻ
-ld"l	ḽ
-ld"l	ⱡ
-ld"l	ꝇ
-ld"l	ꝉ
+ld"l	ḷ	A:Ḷ
+ld"l	ḹ	A:Ḹ
+ld"l	ḻ	A:Ḻ
+ld"l	ḽ	A:Ḽ
+ld"l	ⱡ	A:Ⱡ
+ld"l	ꝇ	A:Ꝇ
+ld"l	ꝉ	A:Ꝉ
 ld"l	ꝲ
-ld"l	ꞁ
+ld"l	ꞁ	A:Ꞁ t:l
 ld"l	ꞎ
 ld"l	ꬷ
 ld"l	ꬸ
 ld"l	ꬹ
-ld'l	L
-ld'l	Ĺ
-ld'l	Ļ
-ld'l	Ľ
-ld'l	Ŀ
-ld'l	Ł
-ld'l	Ƚ
-ld'l	Ḷ
-ld'l	Ḹ
-ld'l	Ḻ
-ld'l	Ḽ
-ld'l	Ⱡ
-ld'l	Ɫ
-ld'l	Ꝇ
-ld'l	Ꝉ
-ld'l	Ꞁ
-ld'l	Ɬ
-ld"lj	ǉ
-ld'lj	Ǉ
+ld'l	L	a:l T:Ꞁ S:ʟ
+ld'l	Ĺ	a:ĺ
+ld'l	Ļ	a:ļ
+ld'l	Ľ	a:ľ
+ld'l	Ŀ	a:ŀ
+ld'l	Ł	a:ł S:ᴌ
+ld'l	Ƚ	a:ƚ
+ld'l	Ḷ	a:ḷ
+ld'l	Ḹ	a:ḹ
+ld'l	Ḻ	a:ḻ
+ld'l	Ḽ	a:ḽ
+ld'l	Ⱡ	a:ⱡ
+ld'l	Ɫ	a:ɫ
+ld'l	Ꝇ	a:ꝇ
+ld'l	Ꝉ	a:ꝉ
+ld'l	Ꞁ	a:ꞁ t:L
+ld'l	Ɬ	a:ɬ
+ld"lj	ǉ	A:Ǉ
+ld'lj	Ǉ	a:ǉ
 ld'lj	ǈ
-ld"ll	ỻ
-ld'll	Ỻ
+ld"ll	ỻ	A:Ỻ
+ld'll	Ỻ	a:ỻ
 ld"ls	ʪ
 ld"lz	ɮ
 ld"lz	ʫ
-ld"m	m
-ld"m	ɯ
+ld"m	m	A:M T:ɯ
+ld"m	ɯ	A:Ɯ t:m
 ld"m	ɰ
-ld"m	ɱ
-ld"m	ᴍ
-ld"m	ᴟ
+ld"m	ɱ	A:Ɱ
+ld"m	ᴍ	s:M
+ld"m	ᴟ	-	ɯ
 ld"m	ᵯ
 ld"m	ᶆ
-ld"m	ḿ
-ld"m	ṁ
-ld"m	ṃ
+ld"m	ḿ	A:Ḿ
+ld"m	ṁ	A:Ṁ
+ld"m	ṃ	A:Ṃ
 ld"m	ꝳ
-ld"m	ꟺ
+ld"m	ꟺ	s:Ɯ
 ld"m	ꬺ
-ld'm	M
-ld'm	Ḿ
-ld'm	Ṁ
-ld'm	Ṃ
-ld'm	Ɱ
-ld'm	ꟽ
+ld'm	M	a:m I:ꟽ S:ᴍ
+ld'w	Ɯ	a:ɯ S:ꟺ
+ld'm	Ḿ	a:ḿ
+ld'm	Ṁ	a:ṁ
+ld'm	Ṃ	a:ṃ
+ld'm	Ɱ	a:ɱ
+ld'm	ꟽ	i:M
 ld'm	ꟿ
-ld"n	n
-ld"n	ñ
-ld"n	ń
-ld"n	ņ
-ld"n	ň
+ld"n	n	A:N
+ld"n	ñ	A:Ñ
+ld"n	ń	A:Ń
+ld"n	ņ	A:Ņ
+ld"n	ň	A:Ň
 ld"n	ŉ
-ld"n	ŋ
-ld"n	ƞ
-ld"n	ǹ
+ld"n	ŋ	A:Ŋ
+ld"n	ƞ	A:Ƞ
+ld"n	ǹ	A:Ǹ
 ld"n	ȵ
-ld"n	ɲ
+ld"n	ɲ	A:Ɲ
 ld"n	ɳ
-ld"n	ɴ
-ld"n	ᴎ
+ld"n	ɴ	s:N R:ᴎ
+ld"n	ᴎ	r:ɴ
 ld"n	ᵰ
 ld"n	ᶇ
-ld"n	ṅ
-ld"n	ṇ
-ld"n	ṉ
-ld"n	ṋ
-ld"n	ꝴ
-ld"n	ꞑ
-ld"n	ꞥ
+ld"n	ṅ	A:Ṅ
+ld"n	ṇ	A:Ṇ
+ld"n	ṉ	A:Ṉ
+ld"n	ṋ	A:Ṋ
+ld"n	ꝴ	A:ꝴ
+ld"n	ꞑ	A:Ꞑ
+ld"n	ꞥ	A:Ꞥ
 ld"n	ꬻ
 ld"n	ꬼ
-ld'n	N
-ld'n	Ñ
-ld'n	Ń
-ld'n	Ņ
-ld'n	Ň
-ld'n	Ŋ
-ld'n	Ɲ
-ld'n	Ǹ
-ld'n	Ƞ
-ld'n	Ṅ
-ld'n	Ṇ
-ld'n	Ṉ
-ld'n	Ṋ
-ld'n	Ꞑ
-ld'n	Ꞥ
-ld"nj	ǌ
-ld'nj	Ǌ
+ld'n	N	a:n S:ɴ
+ld'n	Ñ	a:ñ
+ld'n	Ń	a:ń
+ld'n	Ņ	a:ņ
+ld'n	Ň	a:ň
+ld'n	Ŋ	a:ŋ
+ld'n	Ɲ	a:ɲ
+ld'n	Ǹ	a:ǹ
+ld'n	Ƞ	a:ƞ
+ld'n	Ṅ	a:ṅ
+ld'n	Ṇ	a:ṇ
+ld'n	Ṉ	a:ṉ
+ld'n	Ṋ	a:ṋ
+ld'n	Ꞑ	a:ꞑ
+ld'n	Ꞥ	a:ꞥ
+ld"nj	ǌ	A:Ǌ
+ld'nj	Ǌ	a:ǌ
 ld'nj	ǋ
 ld"nn	ʭ
-ld:o	ʘ
-ld"o	o
-ld"o	ò
-ld"o	ó
-ld"o	ô
-ld"o	õ
-ld"o	ö
-ld"o	ø
-ld"o	ō
-ld"o	ŏ
-ld"o	ő
-ld"o	ơ
-ld"o	ǒ
-ld"o	ǫ
-ld"o	ǭ
-ld"o	ǿ
-ld"o	ȍ
-ld"o	ȏ
-ld"o	ȫ
-ld"o	ȭ
-ld"o	ȯ
-ld"o	ȱ
-ld"o	ɔ
-ld"o	ɵ
-ld"o	ɷ
+ld"o	o	A:O
+ld"o	ò	A:Ò
+ld"o	ó	A:Ó
+ld"o	ô	A:Ô
+ld"o	õ	A:Õ
+ld"o	ö	A:Ö
+ld"o	ø	A:Ø
+ld"o	ō	A:Ō
+ld"o	ŏ	A:Ŏ
+ld"o	ő	A:Ő
+ld"o	ơ	A:Ơ
+ld"o	ǒ	A:Ǒ
+ld"o	ǫ	A:Ǫ
+ld"o	ǭ	A:Ǭ
+ld"o	ǿ	A:Ǿ
+ld"o	ȍ	A:Ȍ
+ld"o	ȏ	A:Ȏ
+ld"o	ȫ	A:Ȫ
+ld"o	ȭ	A:Ȭ
+ld"o	ȯ	A:Ȯ
+ld"o	ȱ	A:Ȱ
+ld"o	ɔ	A:Ɔ	open o
+ld"o	ɵ	A:Ɵ
+ld"o	ɷ	-	closed ω
 ld"o	ɸ
-ld"o	θ	greek
-ld"o	ᴏ
-ld"o	ᴐ
-ld"o	ᴑ
-ld"o	ᴒ
-ld"o	ᴓ
-ld"o	ᴖ
-ld"o	ᴗ
+ld"o	ᴏ	s:O
+ld"o	ᴐ	s:Ɔ
+ld"o	ᴑ	-	o
+ld"o	ᴒ	-	ɔ
+ld"o	ᴓ	-	ø
+ld"o	ᴖ	-	half o
+ld"o	ᴗ	-	half o
 ld"o	ᶗ
-ld"o	ṍ
-ld"o	ṏ
-ld"o	ṑ
-ld"o	ṓ
-ld"o	ọ
-ld"o	ỏ
-ld"o	ố
-ld"o	ồ
-ld"o	ổ
-ld"o	ỗ
-ld"o	ộ
-ld"o	ớ
-ld"o	ờ
-ld"o	ở
-ld"o	ỡ
-ld"o	ợ
-ld"o	ⱷ
+ld"o	ṍ	A:Ṍ
+ld"o	ṏ	A:Ṏ
+ld"o	ṑ	A:Ṑ
+ld"o	ṓ	A:Ṓ
+ld"o	ọ	A:Ọ
+ld"o	ỏ	A:Ỏ
+ld"o	ố	A:Ố
+ld"o	ồ	A:Ồ
+ld"o	ổ	A:Ổ
+ld"o	ỗ	A:Ỗ
+ld"o	ộ	A:Ộ
+ld"o	ớ	A:Ớ
+ld"o	ờ	A:Ờ
+ld"o	ở	A:Ở
+ld"o	ỡ	A:Ỡ
+ld"o	ợ	A:Ợ
+ld"o	ⱷ	-	tailless φ
 ld"o	ⱺ
-ld"o	ꝋ
-ld"o	ꝍ
-ld"o	ꞷ
+ld"o	ꝋ	A:Ꝋ
+ld"o	ꝍ	A:Ꝍ
+ld"o	ꞷ	A:Ꞷ
 ld"o	ꬽ
 ld"o	ꬾ
 ld"o	ꬿ
-ld"o	ꭥ
-ld'o	O
-ld'o	Ò
-ld'o	Ó
-ld'o	Ô
-ld'o	Õ
-ld'o	Ö
-ld'o	Ø
-ld'o	Ō
-ld'o	Ŏ
-ld'o	Ő
-ld'o	Ɔ
-ld'o	Ɵ
-ld'o	Ơ
-ld'o	Ǒ
-ld'o	Ǫ
-ld'o	Ǭ
-ld'o	Ǿ
-ld'o	Ȍ
-ld'o	Ȏ
-ld'o	Ȫ
-ld'o	Ȭ
-ld'o	Ȯ
-ld'o	Ȱ
-ld'o	Ṍ
-ld'o	Ṏ
-ld'o	Ṑ
-ld'o	Ṓ
-ld'o	Ọ
-ld'o	Ỏ
-ld'o	Ố
-ld'o	Ồ
-ld'o	Ổ
-ld'o	Ỗ
-ld'o	Ộ
-ld'o	Ớ
-ld'o	Ờ
-ld'o	Ở
-ld'o	Ỡ
-ld'o	Ợ
-ld'o	Ꝋ
-ld'o	Ꝍ
-ld'o	Ꞷ
-ld"oe	œ
-ld"oe	ɶ
-ld"oe	ᴔ
-ld"oe	ꭀ
-ld"oe	ꭁ
-ld"oe	ꭂ
-ld"oe	ꭢ
-ld'oe	Œ
-ld"oi	ƣ
-ld'oi	Ƣ
-ld"oo	ꝏ
-ld"oo	ꭃ
-ld"oo	ꭄ
-ld'oo	Ꝏ
-ld"ou	ȣ
-ld"ou	ᴕ
-ld'ou	Ȣ
-ld"p	p
-ld"p	þ
-ld"p	ƥ
-ld"p	ƿ
-ld"p	ᴘ
+ld'o	O	a:o S:ᴏ
+ld'o	Ò	a:ò
+ld'o	Ó	a:ó
+ld'o	Ô	a:ô
+ld'o	Õ	a:õ
+ld'o	Ö	a:ö
+ld'o	Ø	a:ø
+ld'o	Ō	a:ō
+ld'o	Ŏ	a:ŏ
+ld'o	Ő	a:ő
+ld'o	Ɔ	a:ɔ S:ᴐ	open O
+ld'o	Ɵ	a:ɵ
+ld'o	Ơ	a:ơ
+ld'o	Ǒ	a:ǒ
+ld'o	Ǫ	a:ǫ
+ld'o	Ǭ	a:ǭ
+ld'o	Ǿ	a:ǿ
+ld'o	Ȍ	a:ȍ
+ld'o	Ȏ	a:ȏ
+ld'o	Ȫ	a:ȫ
+ld'o	Ȭ	a:ȭ
+ld'o	Ȯ	a:ȯ
+ld'o	Ȱ	a:ȱ
+ld'o	Ṍ	a:ṍ
+ld'o	Ṏ	a:ṏ
+ld'o	Ṑ	a:ṑ
+ld'o	Ṓ	a:ṓ
+ld'o	Ọ	a:ọ
+ld'o	Ỏ	a:ỏ
+ld'o	Ố	a:ố
+ld'o	Ồ	a:ồ
+ld'o	Ổ	a:ổ
+ld'o	Ỗ	a:ỗ
+ld'o	Ộ	a:ộ
+ld'o	Ớ	a:ớ
+ld'o	Ờ	a:ờ
+ld'o	Ở	a:ở
+ld'o	Ỡ	a:ỡ
+ld'o	Ợ	a:ợ
+ld'o	Ꝋ	a:ꝋ
+ld'o	Ꝍ	a:ꝍ
+ld'o	Ꞷ	a:ꞷ
+ld:o	ʘ
+ld"oe	œ	A:Œ I:ꭀ T:ᴔ
+ld"oe	ɶ	s:Œ
+ld"oe	ᴔ	r:ꭀ t:œ
+ld"oe	ꭀ	r:ᴔ i:œ
+ld"oe	ꭁ	-	turned œ with stroke
+ld"oe	ꭂ	-	turned œ with horizontal stroke
+ld"oe	ꭢ	-	ɔe
+ld"oi	ƣ	A:Ƣ
+ld"oo	ꝏ	A:Ꝏ
+ld"oo	ꭃ	-	turned (o + ɔ)
+ld"oo	ꭄ	-	ꭃ with stroke
+ld"ou	ȣ	A:Ȣ
+ld"ou	ᴕ	s:Ȣ
+ld'oe	Œ	a:œ S:ɶ
+ld'oi	Ƣ	a:ƣ
+ld'oo	Ꝏ	a:ꝏ
+ld'ou	Ȣ	a:ȣ S:ᴕ
+ld"p	p	A:P
+ld"p	þ	A:Þ	th [θ] [ð]
+ld"p	ƥ	A:Ƥ
+ld"p	ƿ	A:Ƿ	/w/
+ld"p	ᴘ	s:P
 ld"p	ᵱ
-ld"p	ᵽ
+ld"p	ᵽ	A:Ᵽ
 ld"p	ᶈ
-ld"p	ṕ
-ld"p	ṗ
-ld"p	ꝑ
-ld"p	ꝓ
-ld"p	ꝕ
-ld"p	ꝥ
-ld"p	ꝧ
-ld'p	P
-ld'p	Þ
-ld'p	Ƥ
-ld'p	Ƿ
-ld'p	Ṕ
-ld'p	Ṗ
-ld'p	Ᵽ
-ld'p	Ꝑ
-ld'p	Ꝓ
-ld'p	Ꝕ
-ld'p	Ꝥ
-ld'p	Ꝧ
-ld'p	ꟼ
-ld"q	q
-ld"q	ɋ
-ld"q	ʠ
-ld"q	ꝗ
-ld"q	ꝙ
-ld'q	Q
-ld'q	Ɋ
-ld'q	Ꝗ
-ld'q	Ꝙ
+ld"p	ṕ	A:Ṕ
+ld"p	ṗ	A:Ṗ
+ld"p	ꝑ	A:Ꝑ
+ld"p	ꝓ	A:Ꝓ
+ld"p	ꝕ	A:Ꝕ
+ld"p	ꝥ	A:Ꝥ	that
+ld"p	ꝧ	A:Ꝧ	that
+ld'p	P	a:p R:ꟼ S:ᴘ
+ld'p	Þ	a:þ	th /θ/ /ð/
+ld'p	Ƥ	a:ƥ
+ld'p	Ƿ	a:ƿ	/w/
+ld'p	Ṕ	a:ṕ
+ld'p	Ṗ	a:ṗ
+ld'p	Ᵽ	a:ᵽ
+ld'p	Ꝑ	a:ꝑ
+ld'p	Ꝓ	a:ꝓ
+ld'p	Ꝕ	a:ꝕ
+ld'p	Ꝥ	a:ꝥ	that
+ld'p	Ꝧ	a:ꝧ	that
+ld'p	ꟼ	r:P
+ld"q	q	A:Q
+ld"q	ɋ	A:Ɋ
+ld"q	ʠ	A:ʠ
+ld"q	ꝗ	A:Ꝗ
+ld"q	ꝙ	A:Ꝙ
+ld'q	Q	a:q
+ld'q	Ɋ	a:ɋ
+ld'q	Ꝗ	a:ꝗ
+ld'q	Ꝙ	a:ꝙ
 ld"qp	ȹ
-ld"r	r
-ld"r	ŕ
-ld"r	ŗ
-ld"r	ř
-ld"r	ȑ
-ld"r	ȓ
-ld"r	ɍ
-ld"r	ɣ
+ld"r	r	A:R T:ɹ
+ld"r	ŕ	A:Ŕ
+ld"r	ŗ	A:Ŗ
+ld"r	ř	A:Ř
+ld"r	ȑ	A:Ȑ
+ld"r	ȓ	A:Ȓ
+ld"r	ɍ	A:Ɍ
+ld"r	ɣ	A:Ɣ
 ld"r	ɤ
-ld"r	ɹ
-ld"r	ɺ
+ld"r	ɹ	t:r
+ld"r	ɺ	t:ɼ
 ld"r	ɻ
-ld"r	ɼ
-ld"r	ɽ
-ld"r	ɾ
-ld"r	ɿ
-ld"r	ʀ
-ld"r	ʁ
-ld"r	ᴙ
-ld"r	ᴚ
+ld"r	ɼ	T:ɺ
+ld"r	ɽ	A:Ɽ
+ld"r	ɾ	r:ɿ
+ld"r	ɿ	R:ɾ
+ld"r	ʀ	A:Ʀ s:R R:ᴙ I:ʁ T:ᴚ
+ld"r	ʁ	i:ʀ t:ᴙ
+ld"r	ʅ	-	ɿ with retroflex hook
+ld"r	ᴙ	r:ʀ I:ᴚ T:ʁ
+ld"r	ᴚ	i:ᴙ t:ʀ
 ld"r	ᵲ
 ld"r	ᵳ
 ld"r	ᶉ
-ld"r	ṙ
-ld"r	ṛ
-ld"r	ṝ
-ld"r	ṟ
+ld"r	ṙ	A:Ṙ
+ld"r	ṛ	A:Ṛ
+ld"r	ṝ	A:Ṝ
+ld"r	ṟ	A:Ṟ
 ld"r	ⱹ
+ld"r	ꝛ	A:Ꝛ	round r (half R), -rum, 2, et (⁊c → ꝛc → etc)
+ld"r	ꝝ	A:Ꝝ	-rum (ꝛ with stoke)
 ld"r	ꝵ
-ld"r	ꝶ
-ld"r	ꞃ
-ld"r	ꞟ
-ld"r	ꞧ
+ld"r	ꝶ	s:?
+ld"r	ꞃ	A:Ꞃ	Insular r
+ld"r	ꞟ	A:Ꞟ	Volapük UE ɛu
+ld"r	ꞧ	A:Ꞧ
 ld"r	ꭅ
-ld"r	ꭆ
-ld"r	ꭇ
+ld"r	ꭆ	s:?
+ld"r	ꭇ	-	r
 ld"r	ꭈ
 ld"r	ꭉ
 ld"r	ꭊ
 ld"r	ꭋ
 ld"r	ꭌ
-ld'r	R
-ld'r	Ŕ
-ld'r	Ŗ
-ld'r	Ř
-ld'r	Ɣ
-ld'r	Ʀ
-ld'r	Ȑ
-ld'r	Ȓ
-ld'r	Ɍ
-ld'r	Ṙ
-ld'r	Ṛ
-ld'r	Ṝ
-ld'r	Ṟ
-ld'r	Ɽ
-ld'r	Ꞃ
-ld'r	Ꞟ
-ld'r	Ꞧ
-ld"s	s
-ld"s	ś
-ld"s	ŝ
-ld"s	ş
-ld"s	š
-ld"s	ƨ	tone two
+ld'r	R	a:r S:ʀ
+ld'r	Ŕ	a:ŕ
+ld'r	Ŗ	a:ŗ
+ld'r	Ř	a:ř
+ld'r	Ɣ	a:ɣ
+ld'r	Ʀ	a:ʀ
+ld'r	Ȑ	a:ȑ
+ld'r	Ȓ	a:ȓ
+ld'r	Ɍ	a:ɍ
+ld'r	Ṙ	a:ṙ
+ld'r	Ṛ	a:ṛ
+ld'r	Ṝ	a:ṝ
+ld'r	Ṟ	a:ṟ
+ld'r	Ɽ	a:ɽ
+ld'r	Ꝛ	a:ꝛ	round R (half R), -rum, 2
+ld'r	Ꝝ	a:ꝝ	-rum (Ꝛ with stoke)
+ld'r	Ꞃ	a:ꞃ	Insular R
+ld'r	Ꞟ	a:ꞟ	Volapük UE ƐU
+ld'r	Ꞧ	a:ꞧ
+ld"s	s	A:S
+ld"s	ś	A:Ś
+ld"s	ŝ	A:Ŝ
+ld"s	ş	A:Ş
+ld"s	š	A:Š
+ld"s	ſ	-	s
+ld"s	ƨ	A:Ƨ	tone two
 ld"s	ƪ
-ld"s	ƽ	tone five
-ld"s	ș
-ld"s	ȿ
+ld"s	ƽ	A:Ƽ	tone five
+ld"s	ș	A:Ș
+ld"s	ȿ	A:Ȿ
 ld"s	ʂ
-ld"s	ʃ
-ld"s	ʄ
-ld"s	ʅ
+ld"s	ʃ	A:Ʃ
 ld"s	ʆ
 ld"s	ᵴ
 ld"s	ᶊ
 ld"s	ᶋ
 ld"s	ᶘ
-ld"s	ṡ
-ld"s	ṣ
-ld"s	ṥ
-ld"s	ṧ
-ld"s	ṩ
-ld"s	ẛ
-ld"s	ẜ
-ld"s	ẝ
-ld"s	ꜱ
-ld"s	ꝭ
+ld"s	ṡ	A:Ṡ
+ld"s	ṣ	A:Ṣ
+ld"s	ṥ	A:Ṥ
+ld"s	ṧ	A:Ṧ
+ld"s	ṩ	A:Ṩ
+ld"s	ẛ	-	ṡ
+ld"s	ẜ	-	ꞩ
+ld"s	ẝ	-	ſ with high stroke
+ld"s	ꜱ	s:S
+ld"s	ꝭ	A:Ꝭ
 ld"s	ꝸ
-ld"s	ꞅ
-ld"s	ꞩ
-ld"s	ꭍ
-ld's	S
-ld's	Ś
-ld's	Ŝ
-ld's	Ş
-ld's	Š
-ld's	Ƨ	tone two
-ld's	Ƽ	tone five
-ld's	Ș
-ld's	Ṡ
-ld's	Ṣ
-ld's	Ṥ
-ld's	Ṧ
-ld's	Ṩ
-ld's	Ȿ
-ld's	Ꝭ
-ld's	Ꞅ
-ld's	Ꞩ
-ld"ss	ß
-ld'ss	ẞ
-ld"st	ﬅ
+ld"s	ꞅ	A:Ꞅ	Insular s
+ld"s	ꞩ	A:Ꞩ
+ld"s	ꭍ	-	ʃ
+ld's	S	a:s S:ꜱ
+ld's	Ś	a:ś
+ld's	Ŝ	a:ŝ
+ld's	Ş	a:ş
+ld's	Š	a:š
+ld's	Ƨ	a:ƨ	tone two
+ld's	Ƽ	a:ƽ	tone five
+ld's	Ș	a:ș
+ld's	Ṡ	a:ṡ
+ld's	Ṣ	a:ṣ
+ld's	Ṥ	a:ṥ
+ld's	Ṧ	a:ṧ
+ld's	Ṩ	a:ṩ
+ld's	Ȿ	a:ȿ
+ld's	Ꝭ	a:ꝭ
+ld's	Ꞅ	a:ꞅ	Insular S
+ld's	Ꞩ	a:ꞩ
+ld"st	ﬅ	-	st
 ld"st	ﬆ
-ld"t	t
-ld"t	ţ
-ld"t	ť
-ld"t	ŧ
+ld"t	t	A:T T:ʇ
+ld"t	ţ	A:Ţ
+ld"t	ť	A:Ť
+ld"t	ŧ	A:Ŧ
 ld"t	ƫ
-ld"t	ƭ
-ld"t	ț
+ld"t	ƭ	A:Ƭ
+ld"t	ț	A:Ț
 ld"t	ȶ
-ld"t	ʇ
-ld"t	ʈ
-ld"t	ᴛ
+ld"t	ʇ	A:Ʇ t:t
+ld"t	ʈ	A:Ʈ
+ld"t	ᴛ	s:T
 ld"t	ᵵ
-ld"t	ṫ
-ld"t	ṭ
-ld"t	ṯ
-ld"t	ṱ
+ld"t	ṫ	A:Ṫ
+ld"t	ṭ	A:Ṭ
+ld"t	ṯ	A:Ṯ
+ld"t	ṱ	A:Ṱ
 ld"t	ẗ
-ld"t	ⱦ
+ld"t	ⱦ	A:Ⱦ
 ld"t	ꝷ
-ld"t	ꞇ
-ld't	T
-ld't	Ţ
-ld't	Ť
-ld't	Ŧ
-ld't	Ƭ
-ld't	Ʈ
-ld't	Ț
-ld't	Ⱦ
-ld't	Ṫ
-ld't	Ṭ
-ld't	Ṯ
-ld't	Ṱ
-ld't	Ꞇ
-ld't	Ʇ
+ld"t	ꞇ	A:Ꞇ	Insular t
+ld't	T	a:t T:Ʇ S:ᴛ
+ld't	Ţ	a:ţ
+ld't	Ť	a:ť
+ld't	Ŧ	a:ŧ
+ld't	Ƭ	a:ƭ
+ld't	Ʈ	a:ʈ
+ld't	Ț	a:ț
+ld't	Ⱦ	a:ⱦ
+ld't	Ṫ	a:ṫ
+ld't	Ṭ	a:ṭ
+ld't	Ṯ	a:ṯ
+ld't	Ṱ	a:ṱ
+ld't	Ꞇ	a:ꞇ	Insular T
+ld't	Ʇ	a:ʇ t:T
 ld"tc	ʨ
 ld"th	ᵺ
 ld"ts	ʦ
 ld"ts	ʧ
-ld"tz	ꜩ
-ld'tz	Ꜩ
-ld"u	u
-ld"u	ù
-ld"u	ú
-ld"u	û
-ld"u	ü
-ld"u	ũ
-ld"u	ū
-ld"u	ŭ
-ld"u	ů
-ld"u	ű
-ld"u	ų
-ld"u	ư
-ld"u	ǔ
-ld"u	ǖ
-ld"u	ǘ
-ld"u	ǚ
-ld"u	ǜ
-ld"u	ȕ
-ld"u	ȗ
-ld"u	ʉ
-ld"u	ʊ
-ld"u	ᴜ
-ld"u	ᴝ
-ld"u	ᴞ
-ld"u	ᵾ
+ld"tz	ꜩ	A:Ꜩ
+ld'tz	Ꜩ	a:ꜩ
+ld"u	u	A:U
+ld"u	ù	A:Ù
+ld"u	ú	A:Ú
+ld"u	û	A:Û
+ld"u	ü	A:Ü
+ld"u	ũ	A:Ũ
+ld"u	ū	A:Ū
+ld"u	ŭ	A:Ŭ
+ld"u	ů	A:Ů
+ld"u	ű	A:Ű
+ld"u	ų	A:Ų
+ld"u	ư	A:Ư
+ld"u	ǔ	A:Ǔ
+ld"u	ǖ	A:Ǖ
+ld"u	ǘ	A:Ǘ
+ld"u	ǚ	A:Ǚ
+ld"u	ǜ	A:Ǜ
+ld"u	ȕ	A:Ȕ
+ld"u	ȗ	A:Ȗ
+ld"u	ʉ	A:Ʉ
+ld"u	ʊ	A:Ʊ
+ld"u	ᴜ	s:U
+ld"u	ᴝ	-	u
+ld"u	ᴞ	-	ü
+ld"u	ᵾ	s:Ʉ
 ld"u	ᵿ
 ld"u	ᶙ
-ld"u	ṳ
-ld"u	ṵ
-ld"u	ṷ
-ld"u	ṹ
-ld"u	ṻ
-ld"u	ụ
-ld"u	ủ
-ld"u	ứ
-ld"u	ừ
-ld"u	ử
-ld"u	ữ
-ld"u	ự
+ld"u	ṳ	A:Ṳ
+ld"u	ṵ	A:Ṵ
+ld"u	ṷ	A:Ṷ
+ld"u	ṹ	A:Ṹ
+ld"u	ṻ	A:Ṻ
+ld"u	ụ	A:Ụ
+ld"u	ủ	A:Ủ
+ld"u	ứ	A:Ứ
+ld"u	ừ	A:Ừ
+ld"u	ử	A:Ử
+ld"u	ữ	A:Ữ
+ld"u	ự	A:Ự
 ld"u	ꭎ
 ld"u	ꭏ
 ld"u	ꭒ
-ld'u	U
-ld'u	Ù
-ld'u	Ú
-ld'u	Û
-ld'u	Ü
-ld'u	Ũ
-ld'u	Ū
-ld'u	Ŭ
-ld'u	Ů
-ld'u	Ű
-ld'u	Ų
-ld'u	Ư
-ld'u	Ʊ
-ld'u	Ǔ
-ld'u	Ǖ
-ld'u	Ǘ
-ld'u	Ǚ
-ld'u	Ǜ
-ld'u	Ȕ
-ld'u	Ȗ
-ld'u	Ʉ
-ld'u	Ṳ
-ld'u	Ṵ
-ld'u	Ṷ
-ld'u	Ṹ
-ld'u	Ṻ
-ld'u	Ụ
-ld'u	Ủ
-ld'u	Ứ
-ld'u	Ừ
-ld'u	Ử
-ld'u	Ữ
-ld'u	Ự
+ld'u	U	a:u S:ᴜ
+ld'u	Ù	a:ù
+ld'u	Ú	a:ú
+ld'u	Û	a:û
+ld'u	Ü	a:ü
+ld'u	Ũ	a:ũ
+ld'u	Ū	a:ū
+ld'u	Ŭ	a:ŭ
+ld'u	Ů	a:ů
+ld'u	Ű	a:ű
+ld'u	Ų	a:ų
+ld'u	Ư	a:ư
+ld'u	Ʊ	a:ʊ
+ld'u	Ǔ	a:ǔ
+ld'u	Ǖ	a:ǖ
+ld'u	Ǘ	a:ǘ
+ld'u	Ǚ	a:ǚ
+ld'u	Ǜ	a:ǜ
+ld'u	Ȕ	a:ȕ
+ld'u	Ȗ	a:ȗ
+ld'u	Ʉ	a:ʉ S:ᵾ
+ld'u	Ṳ	a:ṳ
+ld'u	Ṵ	a:ṵ
+ld'u	Ṷ	a:ṷ
+ld'u	Ṹ	a:ṹ
+ld'u	Ṻ	a:ṻ
+ld'u	Ụ	a:ụ
+ld'u	Ủ	a:ủ
+ld'u	Ứ	a:ứ
+ld'u	Ừ	a:ừ
+ld'u	Ử	a:ử
+ld'u	Ữ	a:ữ
+ld'u	Ự	a:ự
 ld"ue	ᵫ
-ld"ui	ꭐ
-ld"ui	ꭑ
+ld"ui	ꭐ	T:ꭑ
+ld"ui	ꭑ	t:ꭐ
 ld"uo	ꭣ
-ld"v	v
-ld"v	ʋ
-ld"v	ʌ
-ld"v	ᴠ
+ld"v	v	A:V T:ʌ
+ld"v	ʋ	A:Ʋ
+ld"v	ʌ	A:Ʌ t:v
+ld"v	ᴠ	s:V
 ld"v	ᶌ
-ld"v	ṽ
-ld"v	ṿ
-ld"v	ỽ
+ld"v	ṽ	A:Ṽ
+ld"v	ṿ	A:Ṿ
+ld"v	ỽ	A:Ỽ	Middle-Welsh /u/ /v/ /w/
 ld"v	ⱱ
 ld"v	ⱴ
-ld"v	ꝟ
-ld"v	ꝩ
-ld'v	V
-ld'v	Ʋ
-ld'v	Ʌ
-ld'v	Ṽ
-ld'v	Ṿ
-ld'v	Ỽ
-ld'v	Ꝟ
-ld'v	Ꝩ
-ld"vy	ꝡ
-ld'vy	Ꝡ
-ld"w	w
-ld"w	ŵ
-ld"w	ʍ
-ld"w	ᴡ
-ld"w	ẁ
-ld"w	ẃ
-ld"w	ẅ
-ld"w	ẇ
-ld"w	ẉ
+ld"v	ꝟ	A:Ꝟ
+ld'v	V	a:v T:Ʌ S:ᴠ
+ld'v	Ʋ	a:ʋ
+ld'v	Ʌ	a:ʌ t:V
+ld'v	Ṽ	a:ṽ
+ld'v	Ṿ	a:ṿ
+ld'v	Ỽ	a:ỽ	Middle-Welsh /u/ /v/ /w/
+ld'v	Ꝟ	a:ꝟ
+ld"vy	ꝡ	A:Ꝡ
+ld'vy	Ꝡ	a:ꝡ
+ld"w	w	A:W T:ʍ
+ld"w	ŵ	A:Ŵ
+ld"w	ʍ	t:w
+ld"w	ᴡ	s:W
+ld"w	ẁ	A:Ẁ
+ld"w	ẃ	A:Ẃ
+ld"w	ẅ	A:Ẅ
+ld"w	ẇ	A:Ẇ
+ld"w	ẉ	A:Ẉ
 ld"w	ẘ
-ld"w	ⱳ
-ld'w	W
-ld'w	Ŵ
-ld'w	Ɯ
-ld'w	Ẁ
-ld'w	Ẃ
-ld'w	Ẅ
-ld'w	Ẇ
-ld'w	Ẉ
-ld'w	Ⱳ
+ld"w	ⱳ	A:Ⱳ
+ld'w	W	a:w S:ᴡ
+ld'w	Ŵ	a:ŵ
+ld'w	Ẁ	a:ẁ
+ld'w	Ẃ	a:ẃ
+ld'w	Ẅ	a:ẅ
+ld'w	Ẇ	a:ẇ
+ld'w	Ẉ	a:ẉ
+ld'w	Ⱳ	a:ⱳ
 ld"ww	ʬ
-ld"x	x
-ld"x	χ	greek
+ld"x	x	A:X
 ld"x	ᶍ
-ld"x	ẋ
-ld"x	ẍ
-ld"x	ꭓ
-ld"x	ꭔ
-ld"x	ꭕ
-ld"x	ꭖ
-ld"x	ꭗ
-ld"x	ꭘ
-ld"x	ꭙ
-ld'x	X
-ld'x	Ẋ
-ld'x	Ẍ
-ld'x	Ꭓ
-ld"y	y
-ld"y	ý
-ld"y	ÿ
-ld"y	ŷ
-ld"y	ƛ
-ld"y	ƴ
-ld"y	ȳ
-ld"y	ɏ
-ld"y	ʎ
-ld"y	ʏ
-ld"y	λ	greek
-ld"y	ẏ
+ld"x	ẋ	A:Ẋ
+ld"x	ẍ	A:Ẍ
+ld"x	ꭓ	A:Ꭓ	χ
+ld"x	ꭔ	-	ꭓ
+ld"x	ꭕ	-	ꭓ
+ld"x	ꭖ	-	x
+ld"x	ꭗ	-	x
+ld"x	ꭘ	-	x
+ld"x	ꭙ	-	x
+ld'x	X	a:x
+ld'x	Ẋ	a:ẋ
+ld'x	Ẍ	a:ẍ
+ld'x	Ꭓ	a:ꭓ	Χ
+ld"y	y	A:Y T:ʎ
+ld"y	ý	A:Ý
+ld"y	ÿ	A:Ÿ
+ld"y	ŷ	A:Ŷ
+ld"y	ƛ	-	λ
+ld"y	ƴ	A:Ƴ
+ld"y	ȳ	A:Ȳ
+ld"y	ɏ	A:Ɏ
+ld"y	ʎ	t:y
+ld"y	ʏ	s:Y
+ld"y	ẏ	A:Ẏ
 ld"y	ẙ
-ld"y	ỳ
-ld"y	ỵ
-ld"y	ỷ
-ld"y	ỹ
-ld"y	ỿ
+ld"y	ỳ	A:Ỳ
+ld"y	ỵ	A:Ỵ
+ld"y	ỷ	A:Ỷ
+ld"y	ỹ	A:Ỹ
+ld"y	ỿ	A:Ỿ
+ld"y	ꝩ	A:Ꝩ	/u/ /v/ /w/
 ld"y	ꭚ
-ld'y	Y
-ld'y	Ý
-ld'y	Ŷ
-ld'y	Ÿ
-ld'y	Ƴ
-ld'y	Ȳ
-ld'y	Ɏ
-ld'y	Ẏ
-ld'y	Ỳ
-ld'y	Ỵ
-ld'y	Ỷ
-ld'y	Ỹ
-ld'y	Ỿ
-ld:z	ƻ
-ld"z	z
-ld"z	ź
-ld"z	ż
-ld"z	ž
-ld"z	ƶ
-ld"z	ƹ
+ld'y	Y	a:y S:ʏ
+ld'y	Ý	a:ý
+ld'y	Ŷ	a:ŷ
+ld'y	Ÿ	a:ÿ
+ld'y	Ƴ	a:ƴ
+ld'y	Ȳ	a:ȳ
+ld'y	Ɏ	a:ɏ
+ld'y	Ẏ	a:ẏ
+ld'y	Ỳ	a:ỳ
+ld'y	Ỵ	a:ỵ
+ld'y	Ỷ	a:ỷ
+ld'y	Ỹ	a:ỹ
+ld'y	Ỿ	a:ỿ
+ld'y	Ꝩ	a:ꝩ	/u/ /v/ /w/
+ld"z	z	A:Z
+ld"z	ź	A:Ź
+ld"z	ż	A:Ż
+ld"z	ž	A:Ž
+ld"z	ƶ	A:Ƶ
+ld"z	ƹ	A:Ƹ r:ʒ
 ld"z	ƺ
-ld"z	ǯ
-ld"z	ȝ
-ld"z	ȥ
-ld"z	ɀ
-ld"z	ʐ
-ld"z	ʑ
-ld"z	ʒ
+ld"z	ǯ	A:Ǯ
+ld"z	ȝ	A:Ȝ	yogh
+ld"z	ȥ	A:Ȥ
+ld"z	ɀ	A:Ɀ
+ld"z	ʐ	A:ʐ
+ld"z	ʑ	A:ʑ
+ld"z	ʒ	A:Ʒ R:ƹ	ezh
 ld"z	ʓ
-ld"z	ᴢ
-ld"z	ᴣ
+ld"z	ᴢ	s:Z
+ld"z	ᴣ	s:Ʒ
 ld"z	ᵶ
 ld"z	ᶎ
 ld"z	ᶚ
-ld"z	ẑ
-ld"z	ẓ
-ld"z	ẕ
-ld"z	ⱬ
-ld"z	ꝛ
-ld"z	ꝝ
-ld"z	ꝣ
-ld'z	Z
-ld'z	Ź
-ld'z	Ż
-ld'z	Ž
-ld'z	Ƶ
-ld'z	Ʒ
-ld'z	Ƹ
-ld'z	Ǯ
-ld'z	Ȝ
-ld'z	Ȥ
-ld'z	Ẑ
-ld'z	Ẓ
-ld'z	Ẕ
-ld'z	Ⱬ
-ld'z	Ɀ
-ld'z	Ꝛ
-ld'z	Ꝝ
-ld'z	Ꝣ
+ld"z	ẑ	A:Ẑ
+ld"z	ẓ	A:Ẓ
+ld"z	ẕ	A:Ẕ
+ld"z	ⱬ	A:Ⱬ
+ld"z	ꝣ	A:Ꝣ	Visigothic z
+ld'z	Z	a:z S:ᴢ
+ld'z	Ź	a:ź
+ld'z	Ż	a:ż
+ld'z	Ž	a:ž
+ld'z	Ƶ	a:ƶ
+ld'z	Ʒ	a:ʒ R:Ƹ S:ᴣ	ezh
+ld'z	Ƹ	a:ƹ r:Ʒ
+ld'z	Ǯ	a:ǯ
+ld'z	Ȝ	a:ȝ	yogh
+ld'z	Ȥ	a:ȥ
+ld'z	Ẑ	a:ẑ
+ld'z	Ẓ	a:ẓ
+ld'z	Ẕ	a:ẕ
+ld'z	Ⱬ	a:ⱬ
+ld'z	Ɀ	a:ɀ
+ld'z	Ꝣ	a:ꝣ	Visigothic Z
+ld:z	ƻ	-	2 with stroke
 # 拉丁字母 }
 
 # 國際音標 {
