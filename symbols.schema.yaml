@@ -128,8 +128,10 @@ speller:
     - derive/^sb:(?:greek|latin):/sb:/
     - derive/^xb:(?:greek|latin):/xb:/
     #} 拉丁 {
-    - derive/^ld"/ld:xx/
-    - derive/^ld'/ld:dx/
+    - derive/^ld"/ld:xx:/
+    - derive/^ld'/ld:dx:/
+    - derive/^ld:xx:(.+)$/ld:$1:xx/
+    - derive/^ld:dx:(.+)$/ld:$1:dx/
     #} 字母 {
     - derive/^([a-z])"$/zm:xx:$1/
     - derive/^([a-z])'$/zm:dx:$1/
