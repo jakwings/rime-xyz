@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.29'
+  version: '2016.8.31'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -128,10 +128,8 @@ speller:
     - derive/^sb:(?:greek|latin):/sb:/
     - derive/^xb:(?:greek|latin):/xb:/
     #} 拉丁 {
-    - derive/^ld"/ld:xx:/
-    - derive/^ld'/ld:dx:/
-    - derive/^ld:xx:(.+)$/ld:$1:xx/
-    - derive/^ld:dx:(.+)$/ld:$1:dx/
+    - derive/^ld"(.+)$/ld:$1:xx/
+    - derive/^ld'(.+)$/ld:$1:dx/
     #} 字母 {
     - derive/^([a-z])"$/zm:xx:$1/
     - derive/^([a-z])'$/zm:dx:$1/
