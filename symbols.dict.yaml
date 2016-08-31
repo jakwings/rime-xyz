@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.29'
+version: '2016.8.31'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -3571,6 +3571,7 @@ ld"c	ᴄ	s:C
 ld"c	ḉ	A:Ḉ
 ld"c	ↄ	r:c
 ld"c	ꜿ	A:Ꜿ
+ld"c	ꝯ	A:Ꝯ	con (reversed c)
 ld"c	ꞓ	A:Ꞓ
 ld"c	ꞔ
 ld'c	C	a:c S:ᴄ
@@ -3583,6 +3584,7 @@ ld'c	Ƈ	a:ƈ
 ld'c	Ȼ	a:ȼ
 ld'c	Ḉ	a:ḉ
 ld'c	Ꜿ	a:ꜿ
+ld'c	Ꝯ	a:ꝯ	con (reversed C)
 ld'c	Ꞓ	a:ꞓ
 ld:c	ʗ
 ld"d	d	A:D
@@ -3605,7 +3607,6 @@ ld"d	ḏ	A:Ḏ
 ld"d	ḑ	A:Ḑ
 ld"d	ḓ	A:Ḓ
 ld"d	ẟ	T:ƍ
-ld"d	ꝯ	A:Ꝯ
 ld"d	ꝱ
 ld"d	ꝺ	A:Ꝺ	Insular d
 ld'd	D	a:d S:ᴅ
@@ -3620,7 +3621,6 @@ ld'd	Ḍ	a:ḍ
 ld'd	Ḏ	a:ḏ
 ld'd	Ḑ	a:ḑ
 ld'd	Ḓ	a:ḓ
-ld'd	Ꝯ	a:ꝯ
 ld'd	Ꝺ	a:ꝺ	Insular D
 ld"db	ȸ
 ld"dz	ǆ	A:Ǆ
