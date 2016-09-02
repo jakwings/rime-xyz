@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.8.31'
+version: '2016.9.2'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -6374,13 +6374,14 @@ sb:xl:d	ᵟ
 sb:xl:o	ᵠ
 sb:xl:r	ᵞ
 sb:xl:x	ᵡ
-sb:ld:??	ˀ
-sb:ld:??	ˁ
-sb:ld:??	ˤ
+sb:ld:?	ˀ
+sb:ld:?	ˁ
+sb:ld:?	ˤ
+sb:ld:?	˞
+sb:ld:?	ᵜ
 sb:ld:a	ᵃ
 sb:ld:a	ᵄ
 sb:ld:a	ᵅ
-sb:ld:a	ᵜ
 sb:ld:a	ᶛ
 sb:ld:ae	ᴬ
 sb:ld:ae	ᴭ
@@ -6390,10 +6391,10 @@ sb:ld:b	ᴯ
 sb:ld:b	ᵇ
 sb:ld:c	ᶜ
 sb:ld:c	ᶝ
+sb:ld:c	ꝰ
 sb:ld:d	ᴰ
 sb:ld:d	ᵈ
 sb:ld:d	ᶞ
-sb:ld:d	ꝰ
 sb:ld:e	ᴱ
 sb:ld:e	ᴲ
 sb:ld:e	ᵉ
@@ -6460,7 +6461,6 @@ sb:ld:r	ʳ
 sb:ld:r	ʴ
 sb:ld:r	ʵ
 sb:ld:r	ʶ
-sb:ld:r	˞
 sb:ld:r	ˠ
 sb:ld:r	ᴿ
 sb:ld:s	ˢ
