@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.9.2'
+  version: '2016.9.3'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -42,7 +42,7 @@ engine:
     - echo_translator
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba?ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba?0123456789'
   delimiter: " '"     # 在自動上屏的情況下没什麼用
   auto_select: true   # 自動上屏
   algebra:
@@ -138,7 +138,6 @@ speller:
     - derive/^lm'/lm:xx:/
     - derive/^lm"/lm:dx:/
     - derive/^sz:s[cz]:/sz:/
-    - xlit 0123456789 ABCDEFGHIJ  # 三十六進制數字減十
     #} 簡化輸入 {
     - xform/[!"':]//
     #} 縮略碼表 {
@@ -160,14 +159,15 @@ translator:
   enable_sentence: false
   enable_user_dict: false
   encode_commit_history: false
-  preedit_format:
-    - xlit ABCDEFGHIJ 0123456789
   comment_format:
     - xform/[!"':]+/:/
 
 key_binder:
   import_preset: default
 
-# 強制使用豎式候選框（被嵌至其它方案時無效）
+menu:
+  alternative_select_keys: 'ABCDEFGHIJ'  # 自定選字鍵
+
 style:
-  horizontal: false
+  horizontal: false               # 豎式候選框
+  label_font_face: 'Courier New'  # 等寬字符
