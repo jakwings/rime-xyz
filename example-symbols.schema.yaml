@@ -20,7 +20,7 @@
 schema:
   name: 例·特殊字符
   schema_id: &id example-symbols
-  version: '2016.8.29'
+  version: '2016.9.3'
   author:
     - Jak Wings #!@Gmail.com
   description: |
@@ -45,10 +45,10 @@ engine:
   processors:
     - ascii_composer
     - key_binder
-    - selector
     - navigator
     - recognizer               # 配合 engine/segmentors/matcher
     - speller
+    - selector                 # 放在 speller 後面降低選字鍵優先級
     - punctuator
     - fluid_editor
   segmentors:
@@ -89,8 +89,6 @@ symbol:
   enable_sentence: true         # 開啓自動造句（連打模式）
   enable_user_dict: false       # 不記錄新詞、不自動調頻
   encode_commit_history: false  # 不爲上屏詞自動編碼
-  preedit_format:
-    - xlit ABCDEFGHIJ 0123456789
   comment_format:
     - xform/[!"':]+/:/
 
@@ -103,4 +101,4 @@ punctuator:
 recognizer:
   import_preset: default
   patterns:
-    symbol: /[a-zA-Z?']+;?  # 標識 symbol 字段所用正則表達式
+    symbol: /[a-z0-9?']+;?  # 標識 symbol 字段所用正則表達式
