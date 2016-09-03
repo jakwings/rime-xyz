@@ -30,3 +30,5 @@
 *   特殊字符（symbols）
 
     用於擴展其它輸入方案的特殊字符輸入方案。鍵入 <kbd>?</kbd> 查看縮略碼表。
+
+    可參考 [example-symbols](others/example-symbols.schema.yaml) 方案瞭解如何套用該方案於其它輸入方案。
