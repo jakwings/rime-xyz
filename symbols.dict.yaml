@@ -2366,13 +2366,13 @@ zy:h	ㄏ	厓厈	[x] [h]
 zy:j	ㄐ	糾結	[t͡ɕ]
 zy:q	ㄑ	畎畝	[t͡ɕʰ]
 zy:x	ㄒ	向下	[ɕ]
-zy:zh	ㄓ	之中	[ʈ͡ʂ]
-zy:ch	ㄔ	彳亍	[ʈ͡ʂʰ]
-zy:sh	ㄕ	屍首	[ʂ]
-zy:r	ㄖ	日月	[ʐ]
-zy:z	ㄗ	節子	[t͡s]
-zy:c	ㄘ	七次	[t͡sʰ]
-zy:s	ㄙ	徇私	[s]
+zy:zh	ㄓ	之中	[ʈ͡ʂ] zhi
+zy:ch	ㄔ	彳亍	[ʈ͡ʂʰ] chi
+zy:sh	ㄕ	屍首	[ʂ] shi
+zy:r	ㄖ	日月	[ʐ] ri
+zy:z	ㄗ	節子	[t͡s] zi
+zy:c	ㄘ	七次	[t͡sʰ] ci
+zy:s	ㄙ	徇私	[s] si
 zy:a	ㄚ	丫頭	[ä] [a]
 zy:o	ㄛ	哦哦	[o] [uɔ]
 zy:e	ㄜ	呃呃	[ə] [ɯʌ]
@@ -2382,18 +2382,30 @@ zy:ei	ㄟ	飛賊	[eɪ]
 zy:ao	ㄠ	幺麼	[ɑʊ] [au]
 zy:ou	ㄡ	又是	[ɤʊ] [ou]
 zy:an	ㄢ	鞍山	[än] [an]
-zy:en	ㄣ	伸縮	[ən]
+zy:en	ㄣ	伸縮	[ən] -n
 zy:ang	ㄤ	尢㝿	[ɑŋ] [aŋ]
-zy:eng	ㄥ	奉公	[ɤŋ] [əŋ]
+zy:eng	ㄥ	奉公	[ɤŋ] [əŋ] -ng
 zy:er	ㄦ	兒女	[ɑɻ]
-zy:i	ㄧ	一橫	[i]
-zy:i	丨	一豎	[i]
-zy:u	ㄨ	五文	[u]
+zy:i	ㄧ	一橫	[i] yi y-
+zy:i	丨	一豎	[i] yi y-
+zy:u	ㄨ	五文	[u] wu w-
 zy:v	ㄩ	𠙴盧	[y] ü
 zy:v	ㄪ	萬貫	[v]
 zy:ng	ㄫ	兀立	[ŋ]
 zy:gn	ㄬ	崖广	[ɲ]
 zy:i	ㄭ	周匝	[ʅ] [ɿ] zh/ch/sh/r- z/c/s-
+zy:iu	ㄧㄡ	you
+zy:ui	ㄨㄟ	wei
+zy:un	ㄨㄣ	wen
+zy:in	ㄧㄣ	yin
+zy:vn	ㄩㄣ	yun
+zy:uan	ㄩㄢ	yuan
+zy:van	ㄩㄢ	yuan
+zy:ing	ㄧㄥ	ying
+zy:ong	ㄨㄥ	wong
+zy:ung	ㄨㄥ	wong
+zy:iong	ㄩㄥ	yong
+zy:iung	ㄩㄥ	yong
 zy:b	ㆠ	[b]
 zy:z	ㆡ	[z]
 zy:j	ㆢ	[d͡ʑ]
