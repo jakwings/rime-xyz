@@ -20,7 +20,7 @@
 schema:
   name: 例·特殊字符
   schema_id: &id example-symbols
-  version: '2016.9.3'
+  version: '2016.9.6'
   author:
     - Jak Wings #!@Gmail.com
   description: |
@@ -101,4 +101,5 @@ punctuator:
 recognizer:
   import_preset: default
   patterns:
+    punct: null             # 禁用默認的特殊字符匹配以防衝突
     symbol: /[a-z0-9?']+;?  # 標識 symbol 字段所用正則表達式
