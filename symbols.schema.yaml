@@ -138,6 +138,9 @@ speller:
     - derive/^lm'/lm:xx:/
     - derive/^lm"/lm:dx:/
     - derive/^sz:s[cz]:/sz:/
+    # ※
+    - derive/^lm:([dx])x:(\d+)$/$2:l:$1/
+    - derive/^([sx])b:(\d+)$/$2:$1/
     #} 簡化輸入 {
     - xform/[!"':]//
     #} 縮略碼表 {
