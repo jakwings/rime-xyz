@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.9.6'
+  version: '2016.9.29'
   schema_id: &id muddy-pinyin
   name: 泥巴拼音
   author:
@@ -127,7 +127,7 @@ translator:
   prism: *id
   spelling_hints: 5  # 幾個字以內提示拼音
   enable_sentence: true  # 是否自動造句
-  enable_user_dict: true  # 是否記錄生詞並自動調頻
+  enable_user_dict: false  # 是否記錄生詞並自動調頻
   enable_charset_filter: true
   preedit_format: &format  # {
     - xlit -/<\> 12345
