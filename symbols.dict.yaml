@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.9.28'
+version: '2016.9.29'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -1101,11 +1101,11 @@ kb:interlinear-annotation-separator	￺	INTERLINEAR ANNOTATION SEPARATOR
 kb:interlinear-annotation-terminator	￻	INTERLINEAR ANNOTATION TERMINATOR
 kb:emoji-off	︎	VARIATION SELECTOR-15
 kb:emoji-on	️	VARIATION SELECTOR-16
-kb:emoji-type-2	🏻	EMOJI MODIFIER FITZPATRICK TYPE-1-2
-kb:emoji-type-3	🏼	EMOJI MODIFIER FITZPATRICK TYPE-1-3
-kb:emoji-type-4	🏽	EMOJI MODIFIER FITZPATRICK TYPE-1-4
-kb:emoji-type-5	🏾	EMOJI MODIFIER FITZPATRICK TYPE-1-5
-kb:emoji-type-6	🏿	EMOJI MODIFIER FITZPATRICK TYPE-1-6
+kb:emoji-type-2	🏻	EMOJI MODIFIER FITZPATRICK TYPE-2
+kb:emoji-type-3	🏼	EMOJI MODIFIER FITZPATRICK TYPE-3
+kb:emoji-type-4	🏽	EMOJI MODIFIER FITZPATRICK TYPE-4
+kb:emoji-type-5	🏾	EMOJI MODIFIER FITZPATRICK TYPE-5
+kb:emoji-type-6	🏿	EMOJI MODIFIER FITZPATRICK TYPE-6
 # 空白字符 }
 
 # 筆畫 {
