@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.9.29'
+  version: '2016.10.10'
   schema_id: &id muddy-pinyin
   name: 泥巴拼音
   author:
@@ -103,10 +103,10 @@ speller:
     - derive/^([csz]h|[bcdfghjklmnpqrstwxyz])[a-z]+\>/$1*/
     # 略聲母
     - derive/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+)\>/*$1/
-    - derive/^wu?([a-z]+)\>/*u$1/
+    - derive/^w(?:u([a-z]*)|([a-z]+))\>/*u$1$2/
     - derive/^we([in])\>/*u$1/
     - derive/^y(?!(?:en?|an)\>)([a-z]+)\>/*$1/
-    - derive/^yi?([a-z]+)\>/*i$1/
+    - derive/^y(?:i([a-z]*)|([a-z]+))\>/*i$1$2/
     - derive/^you\>/*iu/
     # 簡拼
     - abbrev/^([a-z])[a-z]+\>/$1/
