@@ -19,7 +19,7 @@
 
 ---
 name: muddy-pinyin
-version: '2016.9.29'
+version: '2016.10.10'
 use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100
@@ -28,3 +28,7 @@ import_tables:
 sort: by_weight
 columns: [ text, code, weight ]
 ...
+
+中州韻	zhong1 zhou1 yun4
+小狼毫	xiao3 lang2 hao2
+鼠鬚管	shu3 xu1 guan3
