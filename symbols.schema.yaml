@@ -82,6 +82,9 @@ speller:
     - derive/^kb:(\w)\w*-(\w)\w*-(\w)\w*$/kb:$1$2$3/
     - derive/^kb:(\w)\w*-(\w)\w*-(\w)\w*-(\w)\w*$/kb:$1$2$3$4/
     - derive/^kb:/kg:/
+    #} 國家地區 {
+    - derive/^dq:(.+?)::.*?(:-)?$/dq:$1$2/
+    - derive/^dq:saint:/dq:/
     #} 幾何圖形 {
     - derive/^tx:fx$/tx:zfx/
     - derive/^tx:wbx$/tx:wjx/

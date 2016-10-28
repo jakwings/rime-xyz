@@ -7003,249 +7003,256 @@ tl:21:collective	🃵
 # 採用 ISO 3166-1 國家地區代碼
 dq:aa:-	🇦🇦
 dq:ab:-	🇦🇧
-dq:ascension_island:-	🇦🇨
+dq:ascension::island:-	🇦🇨	Ascension Island
 dq:ac:-	🇦🇨
-dq:andorra	🇦🇩
+dq:andorra::principality:of	🇦🇩	Principality of Andorra
 dq:ad	🇦🇩
 dq:and	🇦🇩
 dq:020	🇦🇩
-dq:united_arab_emirates	🇦🇪
+dq:united:arab:emirates	🇦🇪	United Arab Emirates
 dq:ae	🇦🇪
 dq:are	🇦🇪
 dq:784	🇦🇪
-dq:afghanistan	🇦🇫
+dq:afghanistan::islamic:republic:of	🇦🇫	Islamic Republic of Afghanistan
 dq:af	🇦🇫
 dq:afg	🇦🇫
 dq:004	🇦🇫
-dq:antigua_and_barbuda	🇦🇬
+dq:antigua:and:barbuda	🇦🇬	Antigua and Barbuda
 dq:ag	🇦🇬
 dq:atg	🇦🇬
 dq:028	🇦🇬
 dq:ah:-	🇦🇭
-dq:anguilla	🇦🇮
+dq:anguilla	🇦🇮	Anguilla
 dq:ai	🇦🇮
 dq:aia	🇦🇮
 dq:660	🇦🇮
 dq:aj:-	🇦🇯
 dq:ak:-	🇦🇰
-dq:albania	🇦🇱
+dq:albania::republic:of	🇦🇱	Republic of Albania
 dq:al	🇦🇱
 dq:alb	🇦🇱
 dq:008	🇦🇱
-dq:armenia	🇦🇲
+dq:armenia::republic:of	🇦🇲	Republic of Armenia
 dq:am	🇦🇲
 dq:arm	🇦🇲
 dq:051	🇦🇲
 dq:an:-	🇦🇳
-dq:angola	🇦🇴
+dq:angola::republic:of	🇦🇴	Republic of Angola
 dq:ao	🇦🇴
 dq:ago	🇦🇴
 dq:024	🇦🇴
 dq:ap:-	🇦🇵
-dq:antarctica	🇦🇶
+dq:antarctica	🇦🇶	Antarctica
 dq:aq	🇦🇶
 dq:ata	🇦🇶
 dq:010	🇦🇶
-dq:argentina	🇦🇷
+dq:argentine::republic	🇦🇷	Argentine Republic
+dq:argentina	🇦🇷	Argentine Republic
 dq:ar	🇦🇷
 dq:arg	🇦🇷
 dq:032	🇦🇷
-dq:american_samoa	🇦🇸
+dq:american:samoa	🇦🇸	American Samoa
 dq:as	🇦🇸
 dq:asm	🇦🇸
 dq:016	🇦🇸
-dq:austria	🇦🇹
+dq:austria::republic:of	🇦🇹	Republic of Austria
 dq:at	🇦🇹
 dq:aut	🇦🇹
 dq:040	🇦🇹
-dq:australia	🇦🇺
+dq:australia::commonwealth:of	🇦🇺	Commonwealth of Australia
 dq:au	🇦🇺
 dq:aus	🇦🇺
 dq:036	🇦🇺
 dq:av:-	🇦🇻
-dq:aruba	🇦🇼
+dq:aruba	🇦🇼	Aruba
 dq:aw	🇦🇼
 dq:abw	🇦🇼
 dq:533	🇦🇼
-dq:aland_islands	🇦🇽
+dq:aland::islands	🇦🇽	Åland Islands
 dq:ax	🇦🇽
 dq:ala	🇦🇽
 dq:248	🇦🇽
 dq:ay:-	🇦🇾
-dq:azerbaijan	🇦🇿
+dq:azerbaijan::republic:of	🇦🇿	Republic of Azerbaijan
 dq:az	🇦🇿
 dq:aze	🇦🇿
 dq:031	🇦🇿
-dq:bosnia_and_herzegovina	🇧🇦
+dq:bosnia:and:herzegovina	🇧🇦	Bosnia and Herzegovina
 dq:ba	🇧🇦
 dq:bih	🇧🇦
 dq:070	🇧🇦
-dq:barbados	🇧🇧
+dq:barbados	🇧🇧	Barbados
 dq:bb	🇧🇧
 dq:brb	🇧🇧
 dq:052	🇧🇧
 dq:bc:-	🇧🇨
-dq:bangladesh	🇧🇩
+dq:bangladesh::peoples:republic:of	🇧🇩	People's Republic of Bangladesh
 dq:bd	🇧🇩
 dq:bgd	🇧🇩
 dq:050	🇧🇩
-dq:belgium	🇧🇪
+dq:belgium::kingdom:of	🇧🇪	Kingdom of Belgium
 dq:be	🇧🇪
 dq:bel	🇧🇪
 dq:056	🇧🇪
-dq:burkina_faso	🇧🇫
+dq:burkina:faso	🇧🇫	Burkina Faso
 dq:bf	🇧🇫
 dq:bfa	🇧🇫
 dq:854	🇧🇫
-dq:bulgaria	🇧🇬
+dq:bulgaria::republic:of	🇧🇬	Republic of Bulgaria
 dq:bg	🇧🇬
 dq:bgr	🇧🇬
 dq:100	🇧🇬
-dq:bahrain	🇧🇭
+dq:bahrain::kingdom:of	🇧🇭	Kingdom of Bahrain
 dq:bh	🇧🇭
 dq:bhr	🇧🇭
 dq:048	🇧🇭
-dq:burundi	🇧🇮
+dq:burundi::republic:of	🇧🇮	Republic of Burundi
 dq:bi	🇧🇮
 dq:bdi	🇧🇮
 dq:108	🇧🇮
-dq:benin	🇧🇯
+dq:benin::republic:of	🇧🇯	Republic of Benin
 dq:bj	🇧🇯
 dq:ben	🇧🇯
 dq:204	🇧🇯
 dq:bk:-	🇧🇰
-dq:saint_barthélemy	🇧🇱
+dq:saint:barthelemy::territorial:collectivity:of	🇧🇱	Territorial collectivity of Saint-Barthélemy
 dq:bl	🇧🇱
 dq:blm	🇧🇱
 dq:652	🇧🇱
-dq:bermuda	🇧🇲
+dq:bermuda	🇧🇲	Bermuda
 dq:bm	🇧🇲
 dq:bmu	🇧🇲
 dq:060	🇧🇲
-dq:brunei_darussalam	🇧🇳
+dq:brunei::nation:of	🇧🇳	Nation of Brunei, the Abode of Peace
 dq:bn	🇧🇳
 dq:brn	🇧🇳
 dq:096	🇧🇳
-dq:bolivia,plurinational_state_of	🇧🇴
+dq:bolivia::plurinational:state:of	🇧🇴	Plurinational State of Bolivia
 dq:bo	🇧🇴
 dq:bol	🇧🇴
 dq:068	🇧🇴
 dq:bp:-	🇧🇵
-dq:bonaire,sint_eustatius_and_saba	🇧🇶
+dq:caribbean:netherlands	🇧🇶	Caribbean Netherlands
+dq:bonaire	🇧🇶	Bonaire
+dq:sint:eustatius	🇧🇶	Sint Eustatius
+dq:saba	🇧🇶	Saba
 dq:bq	🇧🇶
 dq:bes	🇧🇶
 dq:535	🇧🇶
-dq:brazil	🇧🇷
+dq:brazil::federative:republic:of	🇧🇷	Federative Republic of Brazil
 dq:br	🇧🇷
 dq:bra	🇧🇷
 dq:076	🇧🇷
-dq:bahamas	🇧🇸
+dq:bahamas::commonwealth:of	🇧🇸	Commonwealth of the Bahamas
 dq:bs	🇧🇸
 dq:bhs	🇧🇸
 dq:044	🇧🇸
-dq:bhutan	🇧🇹
+dq:bhutan::kingdom:of	🇧🇹	Kingdom of Bhutan
 dq:bt	🇧🇹
 dq:btn	🇧🇹
 dq:064	🇧🇹
 dq:bu:-	🇧🇺
-dq:bouvet_island	🇧🇻
+dq:bouvet::island	🇧🇻	Bouvet Island
 dq:bv	🇧🇻
 dq:bvt	🇧🇻
 dq:074	🇧🇻
-dq:botswana	🇧🇼
+dq:botswana::republic:of	🇧🇼	Republic of Botswana
 dq:bw	🇧🇼
 dq:bwa	🇧🇼
 dq:072	🇧🇼
 dq:bx:-	🇧🇽
-dq:belarus	🇧🇾
+dq:belarus::republic:of	🇧🇾	Republic of Belarus
 dq:by	🇧🇾
 dq:blr	🇧🇾
 dq:112	🇧🇾
-dq:belize	🇧🇿
+dq:belize	🇧🇿	Belize
 dq:bz	🇧🇿
 dq:blz	🇧🇿
 dq:084	🇧🇿
-dq:canada	🇨🇦
+dq:canada	🇨🇦	Canada
 dq:ca	🇨🇦
 dq:can	🇨🇦
 dq:124	🇨🇦
 dq:cb:-	🇨🇧
-dq:cocos,keeling_islands	🇨🇨
+dq:cocos::islands::territory:of	🇨🇨	Territory of the Cocos Islands
+dq:keeling::islands::territory:of	🇨🇨	Territory of the Keeling Islands
 dq:cc	🇨🇨
 dq:cck	🇨🇨
 dq:166	🇨🇨
-dq:congo,democratic_republic_of_the	🇨🇩
+dq:congo::democratic:republic:of	🇨🇩	Democratic Republic of the Congo
 dq:cd	🇨🇩
 dq:cod	🇨🇩
 dq:180	🇨🇩
 dq:ce:-	🇨🇪
-dq:central_african_republic	🇨🇫
+dq:central:african::republic	🇨🇫	Central African Republic
 dq:cf	🇨🇫
 dq:caf	🇨🇫
 dq:140	🇨🇫
-dq:congo	🇨🇬
+dq:congo::republic:of	🇨🇬	Republic of the Congo
 dq:cg	🇨🇬
 dq:cog	🇨🇬
 dq:178	🇨🇬
-dq:switzerland	🇨🇭
+dq:swiss:confederation	🇨🇭	Swiss Confederation
+dq:switzerland	🇨🇭	Swiss Confederation
 dq:ch	🇨🇭
 dq:che	🇨🇭
 dq:756	🇨🇭
-dq:cote_divoire	🇨🇮
+dq:cote:divoire::republic:of	🇨🇮	Republic of Côte d'Ivoire
 dq:ci	🇨🇮
 dq:civ	🇨🇮
 dq:384	🇨🇮
 dq:cj:-	🇨🇯
-dq:cook_islands	🇨🇰
+dq:cook::islands	🇨🇰	Cook Islands
 dq:ck	🇨🇰
 dq:cok	🇨🇰
 dq:184	🇨🇰
-dq:chile	🇨🇱
+dq:chile::republic:of	🇨🇱	Republic of Chile
 dq:cl	🇨🇱
 dq:chl	🇨🇱
 dq:152	🇨🇱
-dq:cameroon	🇨🇲
+dq:cameroon::republic:of	🇨🇲	Republic of Cameroon
 dq:cm	🇨🇲
 dq:cmr	🇨🇲
 dq:120	🇨🇲
-dq:china	🇨🇳
+dq:china::peoples:republic:of	🇨🇳	People's Republic of China
 dq:cn	🇨🇳
 dq:chn	🇨🇳
 dq:156	🇨🇳
-dq:colombia	🇨🇴
+dq:colombia::republic:of	🇨🇴	Republic of Colombia
 dq:co	🇨🇴
 dq:col	🇨🇴
 dq:170	🇨🇴
-dq:clipperton_island:-	🇨🇵
+dq:clipperton::island:-	🇨🇵	Clipperton Island
 dq:cp:-	🇨🇵
 dq:cq:-	🇨🇶
-dq:costa_rica	🇨🇷
+dq:costa:rica::republic:of	🇨🇷	Republic of Costa Rica
 dq:cr	🇨🇷
 dq:cri	🇨🇷
 dq:188	🇨🇷
 dq:cs:-	🇨🇸
 dq:ct:-	🇨🇹
-dq:cuba	🇨🇺
+dq:cuba::republic:of	🇨🇺	Republic of Cuba
 dq:cu	🇨🇺
 dq:cub	🇨🇺
 dq:192	🇨🇺
-dq:cabo_verde	🇨🇻
+dq:cabo:verde::republic:of	🇨🇻	Republic of Cabo Verde
 dq:cv	🇨🇻
 dq:cpv	🇨🇻
 dq:132	🇨🇻
-dq:curacao	🇨🇼
+dq:curacao::country:of	🇨🇼	Country of Curaçao
 dq:cw	🇨🇼
 dq:cuw	🇨🇼
 dq:531	🇨🇼
-dq:christmas_island	🇨🇽
+dq:christmas::island::territory:of	🇨🇽	Territory of Christmas Island
 dq:cx	🇨🇽
 dq:cxr	🇨🇽
 dq:162	🇨🇽
-dq:cyprus	🇨🇾
+dq:cyprus::republic:of	🇨🇾	Republic of Cyprus
 dq:cy	🇨🇾
 dq:cyp	🇨🇾
 dq:196	🇨🇾
-dq:czech_republic	🇨🇿
+dq:czech::republic	🇨🇿	Czech Republic
+dq:czechia	🇨🇿	Czech Republic
 dq:cz	🇨🇿
 dq:cze	🇨🇿
 dq:203	🇨🇿
@@ -7253,7 +7260,7 @@ dq:da:-	🇩🇦
 dq:db:-	🇩🇧
 dq:dc:-	🇩🇨
 dq:dd:-	🇩🇩
-dq:germany	🇩🇪
+dq:germany::federal:republic:of	🇩🇪	Federal Republic of Germany
 dq:de	🇩🇪
 dq:deu	🇩🇪
 dq:276	🇩🇪
@@ -7261,21 +7268,21 @@ dq:df:-	🇩🇫
 dq:dg:-	🇩🇬
 dq:dh:-	🇩🇭
 dq:di:-	🇩🇮
-dq:djibouti	🇩🇯
+dq:djibouti::republic:of	🇩🇯	Republic of Djibouti
 dq:dj	🇩🇯
 dq:dji	🇩🇯
 dq:262	🇩🇯
-dq:denmark	🇩🇰
+dq:denmark::kingdom:of	🇩🇰	Kingdom of Denmark
 dq:dk	🇩🇰
 dq:dnk	🇩🇰
 dq:208	🇩🇰
 dq:dl:-	🇩🇱
-dq:dominica	🇩🇲
+dq:dominica::commonwealth:of	🇩🇲	Commonwealth of Dominica
 dq:dm	🇩🇲
 dq:dma	🇩🇲
 dq:212	🇩🇲
 dq:dn:-	🇩🇳
-dq:dominican_republic	🇩🇴
+dq:dominican::republic	🇩🇴	Dominican Republic
 dq:do	🇩🇴
 dq:dom	🇩🇴
 dq:214	🇩🇴
@@ -7289,28 +7296,29 @@ dq:dv:-	🇩🇻
 dq:dw:-	🇩🇼
 dq:dx:-	🇩🇽
 dq:dy:-	🇩🇾
-dq:algeria	🇩🇿
+dq:algeria::peoples:democratic:republic:of	🇩🇿	People's Democratic Republic of Algeria
 dq:dz	🇩🇿
 dq:dza	🇩🇿
 dq:012	🇩🇿
-dq:ceuta,melilla:-	🇪🇦
+dq:ceuta:-	🇪🇦	Ceuta
+dq:melilla:-	🇪🇦	Melilla
 dq:ea:-	🇪🇦
 dq:eb:-	🇪🇧
-dq:ecuador	🇪🇨
+dq:ecuador::republic:of	🇪🇨	Republic of Ecuador
 dq:ec	🇪🇨
 dq:ecu	🇪🇨
 dq:218	🇪🇨
 dq:ed:-	🇪🇩
-dq:estonia	🇪🇪
+dq:estonia::republic:of	🇪🇪	Republic of Estonia
 dq:ee	🇪🇪
 dq:est	🇪🇪
 dq:233	🇪🇪
 dq:ef:-	🇪🇫
-dq:egypt	🇪🇬
+dq:egypt::arab:republic:of	🇪🇬	Arab Republic of Egypt
 dq:eg	🇪🇬
 dq:egy	🇪🇬
 dq:818	🇪🇬
-dq:western_sahara	🇪🇭
+dq:western:sahara	🇪🇭	Western Sahara
 dq:eh	🇪🇭
 dq:esh	🇪🇭
 dq:732	🇪🇭
@@ -7323,19 +7331,19 @@ dq:en:-	🇪🇳
 dq:eo:-	🇪🇴
 dq:ep:-	🇪🇵
 dq:eq:-	🇪🇶
-dq:eritrea	🇪🇷
+dq:eritrea::state:of	🇪🇷	State of Eritrea
 dq:er	🇪🇷
 dq:eri	🇪🇷
 dq:232	🇪🇷
-dq:spain	🇪🇸
+dq:spain::kingdom:of	🇪🇸	Kingdom of Spain
 dq:es	🇪🇸
 dq:esp	🇪🇸
 dq:724	🇪🇸
-dq:ethiopia	🇪🇹
+dq:ethiopia::federal:democratic:republic:of	🇪🇹	Federal Democratic Republic of Ethiopia
 dq:et	🇪🇹
 dq:eth	🇪🇹
 dq:231	🇪🇹
-dq:european_union:-	🇪🇺
+dq:european:union:-	🇪🇺	European Union
 dq:eu:-	🇪🇺
 dq:ev:-	🇪🇻
 dq:ew:-	🇪🇼
@@ -7350,7 +7358,7 @@ dq:fe:-	🇫🇪
 dq:ff:-	🇫🇫
 dq:fg:-	🇫🇬
 dq:fh:-	🇫🇭
-dq:finland	🇫🇮
+dq:finland::republic:of	🇫🇮	Republic of Finland
 dq:fi	🇫🇮
 dq:fin	🇫🇮
 dq:246	🇫🇮
@@ -7358,23 +7366,28 @@ dq:fiji	🇫🇯
 dq:fj	🇫🇯
 dq:fji	🇫🇯
 dq:242	🇫🇯
-dq:falkland_islands,malvinas	🇫🇰
+dq:falkland::islands	🇫🇰	Falkland Islands
+dq:falklands	🇫🇰	Falklands
+dq:islas:malvinas	🇫🇰	Islas Malvinas
+dq:malvinas::islands	🇫🇰	Malvinas Islands
 dq:fk	🇫🇰
 dq:flk	🇫🇰
 dq:238	🇫🇰
 dq:fl:-	🇫🇱
-dq:micronesia,federated_states_of	🇫🇲
+dq:micronesia::federated:states:of	🇫🇲	Federated States of Micronesia
 dq:fm	🇫🇲
 dq:fsm	🇫🇲
 dq:583	🇫🇲
 dq:fn:-	🇫🇳
-dq:faroe_islands	🇫🇴
+dq:faroe::islands	🇫🇴	Faroe Islands
+dq:faroes	🇫🇴	Faroes
 dq:fo	🇫🇴
 dq:fro	🇫🇴
 dq:234	🇫🇴
 dq:fp:-	🇫🇵
 dq:fq:-	🇫🇶
-dq:france	🇫🇷
+dq:french::republic	🇫🇷	French Republic
+dq:france	🇫🇷	French Republic
 dq:fr	🇫🇷
 dq:fra	🇫🇷
 dq:250	🇫🇷
@@ -7386,85 +7399,93 @@ dq:fw:-	🇫🇼
 dq:fx:-	🇫🇽
 dq:fy:-	🇫🇾
 dq:fz:-	🇫🇿
-dq:gabon	🇬🇦
+dq:gabonese::republic	🇬🇦	Gabonese Republic
+dq:gabon	🇬🇦	Gabonese Republic
 dq:ga	🇬🇦
 dq:gab	🇬🇦
 dq:266	🇬🇦
-dq:united_kingdom_of_great_britain_and_northern_ireland	🇬🇧
+dq:united:kingdom	🇬🇧	United Kingdom
+dq:great:britain	🇬🇧	Great Britain
+dq:england	🇬🇧	England
+dq:wales	🇬🇧	Wales
+dq:scotland	🇬🇧	Scotland
+dq:northern:ireland	🇬🇧	Northern Ireland
 dq:gb	🇬🇧
 dq:gbr	🇬🇧
 dq:826	🇬🇧
 dq:gc:-	🇬🇨
-dq:grenada	🇬🇩
+dq:grenada	🇬🇩	Grenada
 dq:gd	🇬🇩
 dq:grd	🇬🇩
 dq:308	🇬🇩
-dq:georgia	🇬🇪
+dq:georgia	🇬🇪	Georgia
 dq:ge	🇬🇪
 dq:geo	🇬🇪
 dq:268	🇬🇪
-dq:french_guiana	🇬🇫
+dq:french:guiana	🇬🇫	French Guiana
+dq:guiana	🇬🇫	French Guiana
 dq:gf	🇬🇫
 dq:guf	🇬🇫
 dq:254	🇬🇫
-dq:guernsey	🇬🇬
+dq:guernsey	🇬🇬	Guernsey
 dq:gg	🇬🇬
 dq:ggy	🇬🇬
 dq:831	🇬🇬
-dq:ghana	🇬🇭
+dq:ghana::republic:of	🇬🇭	Republic of Ghana
 dq:gh	🇬🇭
 dq:gha	🇬🇭
 dq:288	🇬🇭
-dq:gibraltar	🇬🇮
+dq:gibraltar	🇬🇮	Gibraltar
 dq:gi	🇬🇮
 dq:gib	🇬🇮
 dq:292	🇬🇮
 dq:gj:-	🇬🇯
 dq:gk:-	🇬🇰
-dq:greenland	🇬🇱
+dq:greenland	🇬🇱	Greenland
 dq:gl	🇬🇱
 dq:grl	🇬🇱
 dq:304	🇬🇱
-dq:gambia	🇬🇲
+dq:gambia::islamic:republic:of	🇬🇲	Islamic Republic of The Gambia
 dq:gm	🇬🇲
 dq:gmb	🇬🇲
 dq:270	🇬🇲
-dq:guinea	🇬🇳
+dq:guinea::republic:of	🇬🇳	Republic of Guinea
 dq:gn	🇬🇳
 dq:gin	🇬🇳
 dq:324	🇬🇳
 dq:go:-	🇬🇴
-dq:guadeloupe	🇬🇵
+dq:guadeloupe	🇬🇵	Guadeloupe
 dq:gp	🇬🇵
 dq:glp	🇬🇵
 dq:312	🇬🇵
-dq:equatorial_guinea	🇬🇶
+dq:equatorial:guinea::republic:of	🇬🇶	Republic of Equatorial Guinea
 dq:gq	🇬🇶
 dq:gnq	🇬🇶
 dq:226	🇬🇶
-dq:greece	🇬🇷
+dq:hellenic::republic	🇬🇷	Hellenic Republic
+dq:greece	🇬🇷	Hellenic Republic
 dq:gr	🇬🇷
 dq:grc	🇬🇷
 dq:300	🇬🇷
-dq:south_georgia_and_the_south_sandwich_islands	🇬🇸
+dq:south:georgia:and:the:south:sandwich::islands	🇬🇸	South Georgia and the South Sandwich Islands
 dq:gs	🇬🇸
 dq:sgs	🇬🇸
 dq:239	🇬🇸
-dq:guatemala	🇬🇹
+dq:guatemala::republic:of	🇬🇹	Republic of Guatemala
 dq:gt	🇬🇹
 dq:gtm	🇬🇹
 dq:320	🇬🇹
-dq:guam	🇬🇺
+dq:guam::territory:of	🇬🇺	Territory of Guam
 dq:gu	🇬🇺
 dq:gum	🇬🇺
 dq:316	🇬🇺
 dq:gv:-	🇬🇻
-dq:guinea-bissau	🇬🇼
+dq:guinea:bissau::republic:of	🇬🇼	Republic of Guinea-Bissau
 dq:gw	🇬🇼
 dq:gnb	🇬🇼
 dq:624	🇬🇼
 dq:gx:-	🇬🇽
-dq:guyana	🇬🇾
+dq:guyana::cooperative:republic:of	🇬🇾	Co-operative Republic of Guyana
 dq:gy	🇬🇾
 dq:guy	🇬🇾
 dq:328	🇬🇾
@@ -7479,32 +7500,32 @@ dq:hg:-	🇭🇬
 dq:hh:-	🇭🇭
 dq:hi:-	🇭🇮
 dq:hj:-	🇭🇯
-dq:hong_kong	🇭🇰
+dq:hong:kong	🇭🇰	Hong Kong Special Administrative Region of the People's Republic of China
 dq:hk	🇭🇰
 dq:hkg	🇭🇰
 dq:344	🇭🇰
 dq:hl:-	🇭🇱
-dq:heard_island_and_mcdonald_islands	🇭🇲
+dq:heard:island:and:mcdonald::islands	🇭🇲	Heard Island and McDonald Islands
 dq:hm	🇭🇲
 dq:hmd	🇭🇲
 dq:334	🇭🇲
-dq:honduras	🇭🇳
+dq:honduras::republic:of	🇭🇳	Republic of Honduras
 dq:hn	🇭🇳
 dq:hnd	🇭🇳
 dq:340	🇭🇳
 dq:ho:-	🇭🇴
 dq:hp:-	🇭🇵
 dq:hq:-	🇭🇶
-dq:croatia	🇭🇷
+dq:croatia::republic:of	🇭🇷	Republic of Croatia
 dq:hr	🇭🇷
 dq:hrv	🇭🇷
 dq:191	🇭🇷
 dq:hs:-	🇭🇸
-dq:haiti	🇭🇹
+dq:haiti::republic:of	🇭🇹	Republic of Haiti
 dq:ht	🇭🇹
 dq:hti	🇭🇹
 dq:332	🇭🇹
-dq:hungary	🇭🇺
+dq:hungary	🇭🇺	Hungary
 dq:hu	🇭🇺
 dq:hun	🇭🇺
 dq:348	🇭🇺
@@ -7515,13 +7536,13 @@ dq:hy:-	🇭🇾
 dq:hz:-	🇭🇿
 dq:ia:-	🇮🇦
 dq:ib:-	🇮🇧
-dq:canary_islands:-	🇮🇨
+dq:canary::islands:-	🇮🇨	Canary Islands
 dq:ic:-	🇮🇨
-dq:indonesia	🇮🇩
+dq:indonesia::republic:of	🇮🇩	Republic of Indonesia
 dq:id	🇮🇩
 dq:idn	🇮🇩
 dq:360	🇮🇩
-dq:ireland	🇮🇪
+dq:ireland::republic:of	🇮🇪	Republic of Ireland
 dq:ie	🇮🇪
 dq:irl	🇮🇪
 dq:372	🇮🇪
@@ -7531,36 +7552,37 @@ dq:ih:-	🇮🇭
 dq:ii:-	🇮🇮
 dq:ij:-	🇮🇯
 dq:ik:-	🇮🇰
-dq:israel	🇮🇱
+dq:israel::state:of	🇮🇱	State of Israel
 dq:il	🇮🇱
 dq:isr	🇮🇱
 dq:376	🇮🇱
-dq:isle_of_man	🇮🇲
+dq:isle:of:man	🇮🇲	Isle of Man
 dq:im	🇮🇲
 dq:imn	🇮🇲
 dq:833	🇮🇲
-dq:india	🇮🇳
+dq:india::republic:of	🇮🇳	Republic of India
 dq:in	🇮🇳
 dq:ind	🇮🇳
 dq:356	🇮🇳
-dq:british_indian_ocean_territory	🇮🇴
+dq:british:indian:ocean:territory	🇮🇴	British Indian Ocean Territory
 dq:io	🇮🇴
 dq:iot	🇮🇴
 dq:086	🇮🇴
 dq:ip:-	🇮🇵
-dq:iraq	🇮🇶
+dq:iraq::republic:of	🇮🇶	Republic of Iraq
 dq:iq	🇮🇶
 dq:irq	🇮🇶
 dq:368	🇮🇶
-dq:iran,islamic_republic_of	🇮🇷
+dq:iran::islamic:republic:of	🇮🇷	Islamic Republic of Iran
 dq:ir	🇮🇷
 dq:irn	🇮🇷
 dq:364	🇮🇷
-dq:iceland	🇮🇸
+dq:iceland::republic:of	🇮🇸	Republic of Iceland
 dq:is	🇮🇸
 dq:isl	🇮🇸
 dq:352	🇮🇸
-dq:italy	🇮🇹
+dq:italian::republic	🇮🇹	Italian Republic
+dq:italy	🇮🇹	Italian Republic
 dq:it	🇮🇹
 dq:ita	🇮🇹
 dq:380	🇮🇹
@@ -7574,7 +7596,7 @@ dq:ja:-	🇯🇦
 dq:jb:-	🇯🇧
 dq:jc:-	🇯🇨
 dq:jd:-	🇯🇩
-dq:jersey	🇯🇪
+dq:jersey::bailiwick:of	🇯🇪	Bailiwick of Jersey
 dq:je	🇯🇪
 dq:jey	🇯🇪
 dq:832	🇯🇪
@@ -7585,16 +7607,16 @@ dq:ji:-	🇯🇮
 dq:jj:-	🇯🇯
 dq:jk:-	🇯🇰
 dq:jl:-	🇯🇱
-dq:jamaica	🇯🇲
+dq:jamaica	🇯🇲	Jamaica
 dq:jm	🇯🇲
 dq:jam	🇯🇲
 dq:388	🇯🇲
 dq:jn:-	🇯🇳
-dq:jordan	🇯🇴
+dq:jordan::hashemite:kingdom:of	🇯🇴	Hashemite Kingdom of Jordan
 dq:jo	🇯🇴
 dq:jor	🇯🇴
 dq:400	🇯🇴
-dq:japan	🇯🇵
+dq:japan	🇯🇵	Japan
 dq:jp	🇯🇵
 dq:jpn	🇯🇵
 dq:392	🇯🇵
@@ -7612,41 +7634,44 @@ dq:ka:-	🇰🇦
 dq:kb:-	🇰🇧
 dq:kc:-	🇰🇨
 dq:kd:-	🇰🇩
-dq:kenya	🇰🇪
+dq:kenya::republic:of	🇰🇪	Republic of Kenya
 dq:ke	🇰🇪
 dq:ken	🇰🇪
 dq:404	🇰🇪
 dq:kf:-	🇰🇫
-dq:kyrgyzstan	🇰🇬
+dq:kyrgyz::republic	🇰🇬	Kyrgyz Republic
+dq:kyrgyzstan	🇰🇬	Kyrgyz Republic
 dq:kg	🇰🇬
 dq:kgz	🇰🇬
 dq:417	🇰🇬
-dq:cambodia	🇰🇭
+dq:cambodia::kingdom:of	🇰🇭	Kingdom of Cambodia
 dq:kh	🇰🇭
 dq:khm	🇰🇭
 dq:116	🇰🇭
-dq:kiribati	🇰🇮
+dq:kiribati::republic:of	🇰🇮	Republic of Kiribati
 dq:ki	🇰🇮
 dq:kir	🇰🇮
 dq:296	🇰🇮
 dq:kj:-	🇰🇯
 dq:kk:-	🇰🇰
 dq:kl:-	🇰🇱
-dq:comoros	🇰🇲
+dq:comoros::union:of	🇰🇲	Union of the Comoros
 dq:km	🇰🇲
 dq:com	🇰🇲
 dq:174	🇰🇲
-dq:saint_kitts_and_nevis	🇰🇳
+dq:saint:kitts:and:nevis	🇰🇳	Saint Kitts and Nevis
 dq:kn	🇰🇳
 dq:kna	🇰🇳
 dq:659	🇰🇳
 dq:ko:-	🇰🇴
-dq:korea,democratic_peoples_republic_of	🇰🇵
+dq:korea::democratic:peoples:republic:of	🇰🇵	Democratic People's Republic of Korea
+dq:north:korea	🇰🇵	Democratic People's Republic of Korea
 dq:kp	🇰🇵
 dq:prk	🇰🇵
 dq:408	🇰🇵
 dq:kq:-	🇰🇶
-dq:korea,republic_of	🇰🇷
+dq:korea::republic:of	🇰🇷	Republic of Korea
+dq:south:korea	🇰🇷	Republic of Korea
 dq:kr	🇰🇷
 dq:kor	🇰🇷
 dq:410	🇰🇷
@@ -7654,28 +7679,30 @@ dq:ks:-	🇰🇸
 dq:kt:-	🇰🇹
 dq:ku:-	🇰🇺
 dq:kv:-	🇰🇻
-dq:kuwait	🇰🇼
+dq:kuwait::state:of	🇰🇼	State of Kuwait
 dq:kw	🇰🇼
 dq:kwt	🇰🇼
 dq:414	🇰🇼
 dq:kx:-	🇰🇽
-dq:cayman_islands	🇰🇾
+dq:cayman::islands	🇰🇾	Cayman Islands
 dq:ky	🇰🇾
 dq:cym	🇰🇾
 dq:136	🇰🇾
-dq:kazakhstan	🇰🇿
+dq:kazakhstan::republic:of	🇰🇿	Republic of Kazakhstan
 dq:kz	🇰🇿
 dq:kaz	🇰🇿
 dq:398	🇰🇿
-dq:lao_peoples_democratic_republic	🇱🇦
+dq:lao::peoples:democratic:republic	🇱🇦	Lao People's Democratic Republic
+dq:laos	🇱🇦	Lao People's Democratic Republic
 dq:la	🇱🇦
 dq:lao	🇱🇦
 dq:418	🇱🇦
-dq:lebanon	🇱🇧
+dq:lebanese::republic	🇱🇧	Lebanese Republic
+dq:lebanon	🇱🇧	Lebanese Republic
 dq:lb	🇱🇧
 dq:lbn	🇱🇧
 dq:422	🇱🇧
-dq:saint_lucia	🇱🇨
+dq:saint:lucia	🇱🇨	Saint Lucia
 dq:lc	🇱🇨
 dq:lca	🇱🇨
 dq:662	🇱🇨
@@ -7684,12 +7711,12 @@ dq:le:-	🇱🇪
 dq:lf:-	🇱🇫
 dq:lg:-	🇱🇬
 dq:lh:-	🇱🇭
-dq:liechtenstein	🇱🇮
+dq:liechtenstein::principality:of	🇱🇮	Principality of Liechtenstein
 dq:li	🇱🇮
 dq:lie	🇱🇮
 dq:438	🇱🇮
 dq:lj:-	🇱🇯
-dq:sri_lanka	🇱🇰
+dq:sri:lanka::democratic:socialist:republic:of	🇱🇰	Democratic Socialist Republic of Sri Lanka
 dq:lk	🇱🇰
 dq:lka	🇱🇰
 dq:144	🇱🇰
@@ -7699,173 +7726,176 @@ dq:ln:-	🇱🇳
 dq:lo:-	🇱🇴
 dq:lp:-	🇱🇵
 dq:lq:-	🇱🇶
-dq:liberia	🇱🇷
+dq:liberia::republic:of	🇱🇷	Republic of Liberia
 dq:lr	🇱🇷
 dq:lbr	🇱🇷
 dq:430	🇱🇷
-dq:lesotho	🇱🇸
+dq:lesotho::kingdom:of	🇱🇸	Kingdom of Lesotho
 dq:ls	🇱🇸
 dq:lso	🇱🇸
 dq:426	🇱🇸
-dq:lithuania	🇱🇹
+dq:lithuania::republic:of	🇱🇹	Republic of Lithuania
 dq:lt	🇱🇹
 dq:ltu	🇱🇹
 dq:440	🇱🇹
-dq:luxembourg	🇱🇺
+dq:luxembourg::grand:duchy:of	🇱🇺	Grand Duchy of Luxembourg
 dq:lu	🇱🇺
 dq:lux	🇱🇺
 dq:442	🇱🇺
-dq:latvia	🇱🇻
+dq:latvia::republic:of	🇱🇻	Republic of Latvia
 dq:lv	🇱🇻
 dq:lva	🇱🇻
 dq:428	🇱🇻
 dq:lw:-	🇱🇼
 dq:lx:-	🇱🇽
-dq:libya	🇱🇾
+dq:libya	🇱🇾	Libya
 dq:ly	🇱🇾
 dq:lby	🇱🇾
 dq:434	🇱🇾
 dq:lz:-	🇱🇿
-dq:morocco	🇲🇦
+dq:morocco::kingdom:of	🇲🇦	Kingdom of Morocco
 dq:ma	🇲🇦
 dq:mar	🇲🇦
 dq:504	🇲🇦
 dq:mb:-	🇲🇧
-dq:monaco	🇲🇨
+dq:monaco::principality:of	🇲🇨	Principality of Monaco
 dq:mc	🇲🇨
 dq:mco	🇲🇨
 dq:492	🇲🇨
-dq:moldova,republic_of	🇲🇩
+dq:moldova::republic:of	🇲🇩	Republic of Moldova
 dq:md	🇲🇩
 dq:mda	🇲🇩
 dq:498	🇲🇩
-dq:montenegro	🇲🇪
+dq:montenegro	🇲🇪	Montenegro
 dq:me	🇲🇪
 dq:mne	🇲🇪
 dq:499	🇲🇪
-dq:saint_martin,french_part	🇲🇫
+dq:saint:martin	🇲🇫	Saint Martin
 dq:mf	🇲🇫
 dq:maf	🇲🇫
 dq:663	🇲🇫
-dq:madagascar	🇲🇬
+dq:madagascar::republic:of	🇲🇬	Republic of Madagascar
 dq:mg	🇲🇬
 dq:mdg	🇲🇬
 dq:450	🇲🇬
-dq:marshall_islands	🇲🇭
+dq:marshall::islands	🇲🇭	Marshall Islands
 dq:mh	🇲🇭
 dq:mhl	🇲🇭
 dq:584	🇲🇭
 dq:mi:-	🇲🇮
 dq:mj:-	🇲🇯
-dq:macedonia,the_former_yugoslav_republic_of	🇲🇰
+dq:macedonia::republic:of	🇲🇰	Republic of Macedonia
 dq:mk	🇲🇰
 dq:mkd	🇲🇰
 dq:807	🇲🇰
-dq:mali	🇲🇱
+dq:mali::republic:of	🇲🇱	Republic of Mali
 dq:ml	🇲🇱
 dq:mli	🇲🇱
 dq:466	🇲🇱
-dq:myanmar	🇲🇲
+dq:myanmar::republic:of:the:union:of	🇲🇲	Republic of the Union of Myanmar
+dq:burma	🇲🇲	Republic of the Union of Myanmar
 dq:mm	🇲🇲
 dq:mmr	🇲🇲
 dq:104	🇲🇲
-dq:mongolia	🇲🇳
+dq:mongolia	🇲🇳	Mongolia
 dq:mn	🇲🇳
 dq:mng	🇲🇳
 dq:496	🇲🇳
-dq:macao	🇲🇴
+dq:macao	🇲🇴	Macao Special Administrative Region of the People's Republic of China
+dq:macau	🇲🇴	Macao Special Administrative Region of the People's Republic of China
 dq:mo	🇲🇴
 dq:mac	🇲🇴
 dq:446	🇲🇴
-dq:northern_mariana_islands	🇲🇵
+dq:northern:mariana::islands::commonwealth:of	🇲🇵	Commonwealth of the Northern Mariana Islands
 dq:mp	🇲🇵
 dq:mnp	🇲🇵
 dq:580	🇲🇵
-dq:martinique	🇲🇶
+dq:martinique	🇲🇶	Martinique
 dq:mq	🇲🇶
 dq:mtq	🇲🇶
 dq:474	🇲🇶
-dq:mauritania	🇲🇷
+dq:mauritania::islamic:republic:of	🇲🇷	Islamic Republic of Mauritania
 dq:mr	🇲🇷
 dq:mrt	🇲🇷
 dq:478	🇲🇷
-dq:montserrat	🇲🇸
+dq:montserrat	🇲🇸	Montserrat
 dq:ms	🇲🇸
 dq:msr	🇲🇸
 dq:500	🇲🇸
-dq:malta	🇲🇹
+dq:malta::republic:of	🇲🇹	Republic of Malta
 dq:mt	🇲🇹
 dq:mlt	🇲🇹
 dq:470	🇲🇹
-dq:mauritius	🇲🇺
+dq:mauritius::republic:of	🇲🇺	Republic of Mauritius
 dq:mu	🇲🇺
 dq:mus	🇲🇺
 dq:480	🇲🇺
-dq:maldives	🇲🇻
+dq:maldives::republic:of	🇲🇻	Republic of Maldives
 dq:mv	🇲🇻
 dq:mdv	🇲🇻
 dq:462	🇲🇻
-dq:malawi	🇲🇼
+dq:malawi::republic:of	🇲🇼	Republic of Malawi
 dq:mw	🇲🇼
 dq:mwi	🇲🇼
 dq:454	🇲🇼
-dq:mexico	🇲🇽
+dq:united:mexican:states	🇲🇽	United Mexican States
+dq:mexico	🇲🇽	United Mexican States
 dq:mx	🇲🇽
 dq:mex	🇲🇽
 dq:484	🇲🇽
-dq:malaysia	🇲🇾
+dq:malaysia	🇲🇾	Malaysia
 dq:my	🇲🇾
 dq:mys	🇲🇾
 dq:458	🇲🇾
-dq:mozambique	🇲🇿
+dq:mozambique::republic:of	🇲🇿	Republic of Mozambique
 dq:mz	🇲🇿
 dq:moz	🇲🇿
 dq:508	🇲🇿
-dq:namibia	🇳🇦
+dq:namibia::republic:of	🇳🇦	Republic of Namibia
 dq:na	🇳🇦
 dq:nam	🇳🇦
 dq:516	🇳🇦
 dq:nb:-	🇳🇧
-dq:new_caledonia	🇳🇨
+dq:new:caledonia	🇳🇨	New Caledonia
 dq:nc	🇳🇨
 dq:ncl	🇳🇨
 dq:540	🇳🇨
 dq:nd:-	🇳🇩
-dq:niger	🇳🇪
+dq:niger::republic:of	🇳🇪	Republic of Niger
 dq:ne	🇳🇪
 dq:ner	🇳🇪
 dq:562	🇳🇪
-dq:norfolk_island	🇳🇫
+dq:norfolk::island::territory:of	🇳🇫	Territory of Norfolk Island
 dq:nf	🇳🇫
 dq:nfk	🇳🇫
 dq:574	🇳🇫
-dq:nigeria	🇳🇬
+dq:nigeria::federal:republic:of	🇳🇬	Federal Republic of Nigeria
 dq:ng	🇳🇬
 dq:nga	🇳🇬
 dq:566	🇳🇬
 dq:nh:-	🇳🇭
-dq:nicaragua	🇳🇮
+dq:nicaragua::republic:of	🇳🇮	Republic of Nicaragua
 dq:ni	🇳🇮
 dq:nic	🇳🇮
 dq:558	🇳🇮
 dq:nj:-	🇳🇯
 dq:nk:-	🇳🇰
-dq:netherlands	🇳🇱
+dq:netherlands	🇳🇱	Netherlands
 dq:nl	🇳🇱
 dq:nld	🇳🇱
 dq:528	🇳🇱
 dq:nm:-	🇳🇲
 dq:nn:-	🇳🇳
-dq:norway	🇳🇴
+dq:norway::kingdom:of	🇳🇴	Kingdom of Norway
 dq:no	🇳🇴
 dq:nor	🇳🇴
 dq:578	🇳🇴
-dq:nepal	🇳🇵
+dq:nepal::federal:democratic:republic:of	🇳🇵	Federal Democratic Republic of Nepal
 dq:np	🇳🇵
 dq:npl	🇳🇵
 dq:524	🇳🇵
 dq:nq:-	🇳🇶
-dq:nauru	🇳🇷
+dq:nauru::republic:of	🇳🇷	Republic of Nauru
 dq:nr	🇳🇷
 dq:nru	🇳🇷
 dq:520	🇳🇷
@@ -7879,7 +7909,7 @@ dq:nv:-	🇳🇻
 dq:nw:-	🇳🇼
 dq:nx:-	🇳🇽
 dq:ny:-	🇳🇾
-dq:new_zealand	🇳🇿
+dq:new:zealand	🇳🇿	New Zealand
 dq:nz	🇳🇿
 dq:nzl	🇳🇿
 dq:554	🇳🇿
@@ -7895,7 +7925,7 @@ dq:oi:-	🇴🇮
 dq:oj:-	🇴🇯
 dq:ok:-	🇴🇰
 dq:ol:-	🇴🇱
-dq:oman	🇴🇲
+dq:oman::sultanate:of	🇴🇲	Sultanate of Oman
 dq:om	🇴🇲
 dq:omn	🇴🇲
 dq:512	🇴🇲
@@ -7912,7 +7942,7 @@ dq:ow:-	🇴🇼
 dq:ox:-	🇴🇽
 dq:oy:-	🇴🇾
 dq:oz:-	🇴🇿
-dq:panama	🇵🇦
+dq:panama::republic:of	🇵🇦	Republic of Panama
 dq:pa	🇵🇦
 dq:pan	🇵🇦
 dq:591	🇵🇦
@@ -7923,64 +7953,68 @@ dq:peru	🇵🇪
 dq:pe	🇵🇪
 dq:per	🇵🇪
 dq:604	🇵🇪
-dq:french_polynesia	🇵🇫
+dq:french:polynesia	🇵🇫	French Polynesia
 dq:pf	🇵🇫
 dq:pyf	🇵🇫
 dq:258	🇵🇫
-dq:papua_new_guinea	🇵🇬
+dq:papua:new:guinea::independent:state:of	🇵🇬	Independent State of Papua New Guinea
 dq:pg	🇵🇬
 dq:png	🇵🇬
 dq:598	🇵🇬
-dq:philippines	🇵🇭
+dq:philippines::republic:of	🇵🇭	Republic of the Philippines
 dq:ph	🇵🇭
 dq:phl	🇵🇭
 dq:608	🇵🇭
 dq:pi:-	🇵🇮
 dq:pj:-	🇵🇯
-dq:pakistan	🇵🇰
+dq:pakistan::islamic:republic:of	🇵🇰	Islamic Republic of Pakistan
 dq:pk	🇵🇰
 dq:pak	🇵🇰
 dq:586	🇵🇰
-dq:poland	🇵🇱
+dq:poland::republic:of	🇵🇱	Republic of Poland
 dq:pl	🇵🇱
 dq:pol	🇵🇱
 dq:616	🇵🇱
-dq:saint_pierre_and_miquelon	🇵🇲
+dq:saint:pierre:and:miquelon::overseas:collectivity:of	🇵🇲	Overseas collectivity of Saint Pierre and Miquelon
 dq:pm	🇵🇲
 dq:spm	🇵🇲
 dq:666	🇵🇲
-dq:pitcairn	🇵🇳
+dq:pitcairn::islands	🇵🇳	Pitcairn, Henderson, Ducie and Oeno Islands
+dq:henderson::islands	🇵🇳	Pitcairn, Henderson, Ducie and Oeno Islands
+dq:ducie::islands	🇵🇳	Pitcairn, Henderson, Ducie and Oeno Islands
+dq:oeno::islands	🇵🇳	Pitcairn, Henderson, Ducie and Oeno Islands
 dq:pn	🇵🇳
 dq:pcn	🇵🇳
 dq:612	🇵🇳
 dq:po:-	🇵🇴
 dq:pp:-	🇵🇵
 dq:pq:-	🇵🇶
-dq:puerto_rico	🇵🇷
+dq:puerto:rico::commonwealth:of	🇵🇷	Commonwealth of Puerto Rico
 dq:pr	🇵🇷
 dq:pri	🇵🇷
 dq:630	🇵🇷
-dq:palestine,state_of	🇵🇸
+dq:palestine,state:of	🇵🇸
 dq:ps	🇵🇸
 dq:pse	🇵🇸
 dq:275	🇵🇸
-dq:portugal	🇵🇹
+dq:portuguese::republic	🇵🇹	Portuguese Republic
+dq:portugal	🇵🇹	Portuguese Republic
 dq:pt	🇵🇹
 dq:prt	🇵🇹
 dq:620	🇵🇹
 dq:pu:-	🇵🇺
 dq:pv:-	🇵🇻
-dq:palau	🇵🇼
+dq:palau::republic:of	🇵🇼	Republic of Palau
 dq:pw	🇵🇼
 dq:plw	🇵🇼
 dq:585	🇵🇼
 dq:px:-	🇵🇽
-dq:paraguay	🇵🇾
+dq:paraguay::republic:of	🇵🇾	Republic of Paraguay
 dq:py	🇵🇾
 dq:pry	🇵🇾
 dq:600	🇵🇾
 dq:pz:-	🇵🇿
-dq:qatar	🇶🇦
+dq:qatar::state:of	🇶🇦	State of Qatar
 dq:qa	🇶🇦
 dq:qat	🇶🇦
 dq:634	🇶🇦
@@ -8013,7 +8047,7 @@ dq:ra:-	🇷🇦
 dq:rb:-	🇷🇧
 dq:rc:-	🇷🇨
 dq:rd:-	🇷🇩
-dq:reunion	🇷🇪
+dq:reunion::holy:empire:of	🇷🇪	Holy Empire of Reunion
 dq:re	🇷🇪
 dq:reu	🇷🇪
 dq:638	🇷🇪
@@ -8026,195 +8060,208 @@ dq:rk:-	🇷🇰
 dq:rl:-	🇷🇱
 dq:rm:-	🇷🇲
 dq:rn:-	🇷🇳
-dq:romania	🇷🇴
+dq:romania	🇷🇴	Romania
 dq:ro	🇷🇴
 dq:rou	🇷🇴
 dq:642	🇷🇴
 dq:rp:-	🇷🇵
 dq:rq:-	🇷🇶
 dq:rr:-	🇷🇷
-dq:serbia	🇷🇸
+dq:serbia::republic:of	🇷🇸	Republic of Serbia
 dq:rs	🇷🇸
 dq:srb	🇷🇸
 dq:688	🇷🇸
 dq:rt:-	🇷🇹
-dq:russian_federation	🇷🇺
+dq:russian:federation	🇷🇺	Russian Federation
+dq:russia	🇷🇺	Russian Federation
 dq:ru	🇷🇺
 dq:rus	🇷🇺
 dq:643	🇷🇺
 dq:rv:-	🇷🇻
-dq:rwanda	🇷🇼
+dq:rwanda::republic:of	🇷🇼	Republic of Rwanda
 dq:rw	🇷🇼
 dq:rwa	🇷🇼
 dq:646	🇷🇼
 dq:rx:-	🇷🇽
 dq:ry:-	🇷🇾
 dq:rz:-	🇷🇿
-dq:saudi_arabia	🇸🇦
+dq:saudi:arabia::kingdom:of	🇸🇦	Kingdom of Saudi Arabia
 dq:sa	🇸🇦
 dq:sau	🇸🇦
 dq:682	🇸🇦
-dq:solomon_islands	🇸🇧
+dq:solomon::islands	🇸🇧	Solomon Islands
 dq:sb	🇸🇧
 dq:slb	🇸🇧
 dq:090	🇸🇧
-dq:seychelles	🇸🇨
+dq:seychelles::republic:of	🇸🇨	Republic of Seychelles
 dq:sc	🇸🇨
 dq:syc	🇸🇨
 dq:690	🇸🇨
-dq:sudan	🇸🇩
+dq:sudan::republic:of	🇸🇩	Republic of the Sudan
 dq:sd	🇸🇩
 dq:sdn	🇸🇩
 dq:729	🇸🇩
-dq:sweden	🇸🇪
+dq:sweden::kingdom:of	🇸🇪	Kingdom of Sweden
 dq:se	🇸🇪
 dq:swe	🇸🇪
 dq:752	🇸🇪
 dq:sf:-	🇸🇫
-dq:singapore	🇸🇬
+dq:singapore::republic:of	🇸🇬	Republic of Singapore
 dq:sg	🇸🇬
 dq:sgp	🇸🇬
 dq:702	🇸🇬
-dq:saint_helena,ascension_and_tristan_da_cunha	🇸🇭
+dq:saint:helenians	🇸🇭	Saint Helena, Ascension and Tristan da Cunha
+dq:saint:helena	🇸🇭	Saint Helena
+dq:ascension:island	🇸🇭	Ascension Island
+dq:tristan:da:cunha	🇸🇭	Tristan da Cunha
 dq:sh	🇸🇭
 dq:shn	🇸🇭
 dq:654	🇸🇭
-dq:slovenia	🇸🇮
+dq:slovenia::republic:of	🇸🇮	Republic of Slovenia
 dq:si	🇸🇮
 dq:svn	🇸🇮
 dq:705	🇸🇮
-dq:svalbard_and_jan_mayen	🇸🇯
+dq:svalbard:and:jan:mayen	🇸🇯	Svalbard and Jan Mayen
+dq:svalbard	🇸🇯	Svalbard
+dq:jan:mayen	🇸🇯	Jan Mayen
 dq:sj	🇸🇯
 dq:sjm	🇸🇯
 dq:744	🇸🇯
-dq:slovakia	🇸🇰
+dq:slovak::republic	🇸🇰	Slovak Republic
+dq:slovakia	🇸🇰	Slovak Republic
 dq:sk	🇸🇰
 dq:svk	🇸🇰
 dq:703	🇸🇰
-dq:sierra_leone	🇸🇱
+dq:sierra:leone::republic:of	🇸🇱	Republic of Sierra Leone
 dq:sl	🇸🇱
 dq:sle	🇸🇱
 dq:694	🇸🇱
-dq:san_marino	🇸🇲
+dq:san:marino::republic:of	🇸🇲	(Most Serene) Republic of San Marino
 dq:sm	🇸🇲
 dq:smr	🇸🇲
 dq:674	🇸🇲
-dq:senegal	🇸🇳
+dq:senegal::republic:of	🇸🇳	Republic of Senegal
 dq:sn	🇸🇳
 dq:sen	🇸🇳
 dq:686	🇸🇳
-dq:somalia	🇸🇴
+dq:somalia::federal:republic:of	🇸🇴	Federal Republic of Somalia
 dq:so	🇸🇴
 dq:som	🇸🇴
 dq:706	🇸🇴
 dq:sp:-	🇸🇵
 dq:sq:-	🇸🇶
-dq:suriname	🇸🇷
+dq:suriname::republic:of	🇸🇷	Republic of Suriname
 dq:sr	🇸🇷
 dq:sur	🇸🇷
 dq:740	🇸🇷
-dq:south_sudan	🇸🇸
+dq:south:sudan::republic:of	🇸🇸	Republic of South Sudan
 dq:ss	🇸🇸
 dq:ssd	🇸🇸
 dq:728	🇸🇸
-dq:sao_tome_and_principe	🇸🇹
+dq:sao:tome:and:principe::democratic:republic:of	🇸🇹	Democratic Republic of São Tomé and Príncipe
 dq:st	🇸🇹
 dq:stp	🇸🇹
 dq:678	🇸🇹
 dq:su:-	🇸🇺
-dq:el_salvador	🇸🇻
+dq:el:salvador::republic:of	🇸🇻	Republic of El Salvador
 dq:sv	🇸🇻
 dq:slv	🇸🇻
 dq:222	🇸🇻
 dq:sw:-	🇸🇼
-dq:sint_maarten,dutch_part	🇸🇽
+dq:sint:maarten	🇸🇽	Sint Maarten
 dq:sx	🇸🇽
 dq:sxm	🇸🇽
 dq:534	🇸🇽
-dq:syrian_arab_republic	🇸🇾
+dq:syrian::arab:republic	🇸🇾	Syrian Arab Republic
+dq:syria	🇸🇾	Syrian Arab Republic
 dq:sy	🇸🇾
 dq:syr	🇸🇾
 dq:760	🇸🇾
-dq:swaziland	🇸🇿
+dq:swaziland::kingdom:of	🇸🇿	Kingdom of Swaziland
 dq:sz	🇸🇿
 dq:swz	🇸🇿
 dq:748	🇸🇿
-dq:tristan_da_cunha:-	🇹🇦
+dq:tristan:da:cunha:-	🇹🇦	Tristan da Cunha
 dq:ta:-	🇹🇦
 dq:tb:-	🇹🇧
-dq:turks_and_caicos_islands	🇹🇨
+dq:turks:and:caicos::islands	🇹🇨	Turks and Caicos Islands
+dq:turks::islands	🇹🇨	Turks Islands
+dq:caicos::islands	🇹🇨	Caicos Islands
 dq:tc	🇹🇨
 dq:tca	🇹🇨
 dq:796	🇹🇨
-dq:chad	🇹🇩
+dq:chad::republic:of	🇹🇩	Republic of Chad
 dq:td	🇹🇩
 dq:tcd	🇹🇩
 dq:148	🇹🇩
 dq:te:-	🇹🇪
-dq:french_southern_territories	🇹🇫
+dq:french:southern:territories	🇹🇫	French Southern Territories
 dq:tf	🇹🇫
 dq:atf	🇹🇫
 dq:260	🇹🇫
-dq:togo	🇹🇬
+dq:togolese::republic	🇹🇬	Togolese Republic
+dq:togo	🇹🇬	Togolese Republic
 dq:tg	🇹🇬
 dq:tgo	🇹🇬
 dq:768	🇹🇬
-dq:thailand	🇹🇭
+dq:thailand::kingdom:of	🇹🇭	Kingdom of Thailand
 dq:th	🇹🇭
 dq:tha	🇹🇭
 dq:764	🇹🇭
 dq:ti:-	🇹🇮
-dq:tajikistan	🇹🇯
+dq:tajikistan::republic:of	🇹🇯	Republic of Tajikistan
 dq:tj	🇹🇯
 dq:tjk	🇹🇯
 dq:762	🇹🇯
-dq:tokelau	🇹🇰
+dq:tokelau	🇹🇰	Tokelau
 dq:tk	🇹🇰
 dq:tkl	🇹🇰
 dq:772	🇹🇰
-dq:timor_leste	🇹🇱
+dq:timor:leste::democratic:republic:of	🇹🇱	Democratic Republic of Timor-Leste
+dq:east:timor	🇹🇱	Democratic Republic of Timor-Leste
 dq:tl	🇹🇱
 dq:tls	🇹🇱
 dq:626	🇹🇱
-dq:turkmenistan	🇹🇲
+dq:turkmenistan	🇹🇲	Turkmenistan
 dq:tm	🇹🇲
 dq:tkm	🇹🇲
 dq:795	🇹🇲
-dq:tunisia	🇹🇳
+dq:tunisian::republic	🇹🇳	Tunisian Republic
+dq:tunisia	🇹🇳	Tunisian Republic
 dq:tn	🇹🇳
 dq:tun	🇹🇳
 dq:788	🇹🇳
-dq:tonga	🇹🇴
+dq:tonga::kingdom:of	🇹🇴	Kingdom of Tonga
 dq:to	🇹🇴
 dq:ton	🇹🇴
 dq:776	🇹🇴
 dq:tp:-	🇹🇵
 dq:tq:-	🇹🇶
-dq:turkey	🇹🇷
+dq:turkey::republic:of	🇹🇷	Republic of Turkey
 dq:tr	🇹🇷
 dq:tur	🇹🇷
 dq:792	🇹🇷
 dq:ts:-	🇹🇸
-dq:trinidad_and_tobago	🇹🇹
+dq:trinidad:and:tobago::republic:of	🇹🇹	Republic of Trinidad and Tobago
 dq:tt	🇹🇹
 dq:tto	🇹🇹
 dq:780	🇹🇹
 dq:tu:-	🇹🇺
-dq:tuvalu	🇹🇻
+dq:tuvalu	🇹🇻	Tuvalu
 dq:tv	🇹🇻
 dq:tuv	🇹🇻
 dq:798	🇹🇻
-dq:taiwan,province_of_china	🇹🇼
+dq:taiwan	🇹🇼	Taiwan Province of the People's Republic of China / Republic of China
 dq:tw	🇹🇼
 dq:twn	🇹🇼
 dq:158	🇹🇼
 dq:tx:-	🇹🇽
 dq:ty:-	🇹🇾
-dq:tanzania,united_republic_of	🇹🇿
+dq:tanzania::united:republic:of	🇹🇿	United Republic of Tanzania
 dq:tz	🇹🇿
 dq:tza	🇹🇿
 dq:834	🇹🇿
-dq:ukraine	🇺🇦
+dq:ukraine	🇺🇦	Ukraine
 dq:ua	🇺🇦
 dq:ukr	🇺🇦
 dq:804	🇺🇦
@@ -8223,7 +8270,7 @@ dq:uc:-	🇺🇨
 dq:ud:-	🇺🇩
 dq:ue:-	🇺🇪
 dq:uf:-	🇺🇫
-dq:uganda	🇺🇬
+dq:uganda::republic:of	🇺🇬	Republic of Uganda
 dq:ug	🇺🇬
 dq:uga	🇺🇬
 dq:800	🇺🇬
@@ -8232,7 +8279,7 @@ dq:ui:-	🇺🇮
 dq:uj:-	🇺🇯
 dq:uk:-	🇺🇰
 dq:ul:-	🇺🇱
-dq:united_states_minor_outlying_islands	🇺🇲
+dq:united:states:minor:outlying::islands	🇺🇲	United States Minor Outlying Islands
 dq:um	🇺🇲
 dq:umi	🇺🇲
 dq:581	🇺🇲
@@ -8241,7 +8288,8 @@ dq:uo:-	🇺🇴
 dq:up:-	🇺🇵
 dq:uq:-	🇺🇶
 dq:ur:-	🇺🇷
-dq:united_states_of_america	🇺🇸
+dq:america::united:states:of	🇺🇸	United States of America
+dq:united:states::of:america	🇺🇸	United States of America
 dq:us	🇺🇸
 dq:usa	🇺🇸
 dq:840	🇺🇸
@@ -8250,35 +8298,35 @@ dq:uu:-	🇺🇺
 dq:uv:-	🇺🇻
 dq:uw:-	🇺🇼
 dq:ux:-	🇺🇽
-dq:uruguay	🇺🇾
+dq:uruguay::oriental:republic:of	🇺🇾	Oriental Republic of Uruguay
 dq:uy	🇺🇾
 dq:ury	🇺🇾
 dq:858	🇺🇾
-dq:uzbekistan	🇺🇿
+dq:uzbekistan::republic:of	🇺🇿	Republic of Uzbekistan
 dq:uz	🇺🇿
 dq:uzb	🇺🇿
 dq:860	🇺🇿
-dq:holy_see	🇻🇦
+dq:vatican:city::state:of	🇻🇦	Vatican City State
 dq:va	🇻🇦
 dq:vat	🇻🇦
 dq:336	🇻🇦
 dq:vb:-	🇻🇧
-dq:saint_vincent_and_the_grenadines	🇻🇨
+dq:saint:vincent::and:the:grenadines	🇻🇨	Saint Vincent and the Grenadines
 dq:vc	🇻🇨
 dq:vct	🇻🇨
 dq:670	🇻🇨
 dq:vd:-	🇻🇩
-dq:venezuela,bolivarian_republic_of	🇻🇪
+dq:venezuela::bolivarian:republic:of	🇻🇪	Bolivarian Republic of Venezuela
 dq:ve	🇻🇪
 dq:ven	🇻🇪
 dq:862	🇻🇪
 dq:vf:-	🇻🇫
-dq:virgin_islands,british	🇻🇬
+dq:virgin::islands:british	🇻🇬	(British) Virgin Islands
 dq:vg	🇻🇬
 dq:vgb	🇻🇬
 dq:092	🇻🇬
 dq:vh:-	🇻🇭
-dq:virgin_islands,u.s.	🇻🇮
+dq:virgin::islands:american	🇻🇮	Virgin Islands of the United States
 dq:vi	🇻🇮
 dq:vir	🇻🇮
 dq:850	🇻🇮
@@ -8286,7 +8334,7 @@ dq:vj:-	🇻🇯
 dq:vk:-	🇻🇰
 dq:vl:-	🇻🇱
 dq:vm:-	🇻🇲
-dq:viet_nam	🇻🇳
+dq:vietnam::socialist:republic:of	🇻🇳	Socialist Republic of Vietnam
 dq:vn	🇻🇳
 dq:vnm	🇻🇳
 dq:704	🇻🇳
@@ -8296,7 +8344,7 @@ dq:vq:-	🇻🇶
 dq:vr:-	🇻🇷
 dq:vs:-	🇻🇸
 dq:vt:-	🇻🇹
-dq:vanuatu	🇻🇺
+dq:vanuatu::republic:of	🇻🇺	Republic of Vanuatu
 dq:vu	🇻🇺
 dq:vut	🇻🇺
 dq:548	🇻🇺
@@ -8310,7 +8358,7 @@ dq:wb:-	🇼🇧
 dq:wc:-	🇼🇨
 dq:wd:-	🇼🇩
 dq:we:-	🇼🇪
-dq:wallis_and_futuna	🇼🇫
+dq:wallis:and:futuna::territory:of	🇼🇫	Territory of the Wallis and Futuna Islands
 dq:wf	🇼🇫
 dq:wlf	🇼🇫
 dq:876	🇼🇫
@@ -8326,7 +8374,7 @@ dq:wo:-	🇼🇴
 dq:wp:-	🇼🇵
 dq:wq:-	🇼🇶
 dq:wr:-	🇼🇷
-dq:samoa	🇼🇸
+dq:samoa::independent:state:of	🇼🇸	Independent State of Samoa
 dq:ws	🇼🇸
 dq:wsm	🇼🇸
 dq:882	🇼🇸
@@ -8347,7 +8395,7 @@ dq:xg:-	🇽🇬
 dq:xh:-	🇽🇭
 dq:xi:-	🇽🇮
 dq:xj:-	🇽🇯
-dq:kosovo:-	🇽🇰
+dq:kosovo::republic:of:-	🇽🇰	Republic of Kosovo
 dq:xk:-	🇽🇰
 dq:xl:-	🇽🇱
 dq:xm:-	🇽🇲
@@ -8368,7 +8416,7 @@ dq:ya:-	🇾🇦
 dq:yb:-	🇾🇧
 dq:yc:-	🇾🇨
 dq:yd:-	🇾🇩
-dq:yemen	🇾🇪
+dq:yemen::republic:of	🇾🇪	Republic of Yemen
 dq:ye	🇾🇪
 dq:yem	🇾🇪
 dq:887	🇾🇪
@@ -8386,7 +8434,7 @@ dq:yp:-	🇾🇵
 dq:yq:-	🇾🇶
 dq:yr:-	🇾🇷
 dq:ys:-	🇾🇸
-dq:mayotte	🇾🇹
+dq:mayotte::department:of	🇾🇹	Department of Mayotte
 dq:yt	🇾🇹
 dq:myt	🇾🇹
 dq:175	🇾🇹
@@ -8396,7 +8444,7 @@ dq:yw:-	🇾🇼
 dq:yx:-	🇾🇽
 dq:yy:-	🇾🇾
 dq:yz:-	🇾🇿
-dq:south_africa	🇿🇦
+dq:south:africa::republic:of	🇿🇦	Republic of South Africa
 dq:za	🇿🇦
 dq:zaf	🇿🇦
 dq:710	🇿🇦
@@ -8411,7 +8459,7 @@ dq:zi:-	🇿🇮
 dq:zj:-	🇿🇯
 dq:zk:-	🇿🇰
 dq:zl:-	🇿🇱
-dq:zambia	🇿🇲
+dq:zambia::republic:of	🇿🇲	Republic of Zambia
 dq:zm	🇿🇲
 dq:zmb	🇿🇲
 dq:894	🇿🇲
@@ -8424,7 +8472,7 @@ dq:zs:-	🇿🇸
 dq:zt:-	🇿🇹
 dq:zu:-	🇿🇺
 dq:zv:-	🇿🇻
-dq:zimbabwe	🇿🇼
+dq:zimbabwe::republic:of	🇿🇼	Republic of Zimbabwe
 dq:zw	🇿🇼
 dq:zwe	🇿🇼
 dq:716	🇿🇼
