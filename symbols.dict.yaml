@@ -7979,10 +7979,11 @@ dq:saint:pierre:and:miquelon::overseas:collectivity:of	🇵🇲	Overseas collect
 dq:pm	🇵🇲
 dq:spm	🇵🇲
 dq:666	🇵🇲
-dq:pitcairn::islands	🇵🇳	Pitcairn, Henderson, Ducie and Oeno Islands
-dq:henderson::islands	🇵🇳	Pitcairn, Henderson, Ducie and Oeno Islands
-dq:ducie::islands	🇵🇳	Pitcairn, Henderson, Ducie and Oeno Islands
-dq:oeno::islands	🇵🇳	Pitcairn, Henderson, Ducie and Oeno Islands
+dq:pitcairn:henderson:ducie:oeno::islands	🇵🇳	Pitcairn, Henderson, Ducie and Oeno Islands
+dq:pitcairn::island	🇵🇳	Pitcairn Island
+dq:henderson::island	🇵🇳	Henderson Island
+dq:ducie::island	🇵🇳	Ducie Island
+dq:oeno::island	🇵🇳	Oeno Island
 dq:pn	🇵🇳
 dq:pcn	🇵🇳
 dq:612	🇵🇳
@@ -7993,7 +7994,7 @@ dq:puerto:rico::commonwealth:of	🇵🇷	Commonwealth of Puerto Rico
 dq:pr	🇵🇷
 dq:pri	🇵🇷
 dq:630	🇵🇷
-dq:palestine,state:of	🇵🇸
+dq:palestine::state:of	🇵🇸	State of Palestine
 dq:ps	🇵🇸
 dq:pse	🇵🇸
 dq:275	🇵🇸

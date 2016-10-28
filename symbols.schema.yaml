@@ -84,7 +84,7 @@ speller:
     - derive/^kb:/kg:/
     #} 國家地區 {
     - derive/^dq:(.+?)::.*?(:-)?$/dq:$1$2/
-    - derive/^dq:saint:/dq:/
+    - derive/^dq:sa?int:/dq:/
     #} 幾何圖形 {
     - derive/^tx:fx$/tx:zfx/
     - derive/^tx:wbx$/tx:wjx/
