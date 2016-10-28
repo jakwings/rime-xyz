@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.9.29'
+version: '2016.10.28'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -2401,18 +2401,36 @@ zy:v	ㄪ	萬貫	[v]
 zy:ng	ㄫ	兀立	[ŋ]
 zy:gn	ㄬ	崖广	[ɲ]
 zy:i	ㄭ	周匝	[ʅ] [ɿ] zh/ch/sh/r- z/c/s-
+zy:yi	ㄧ	yi
+zy:yi	丨	yi
+zy:wu	ㄨ	wu
 zy:iu	ㄧㄡ	you
+zy:you	ㄧㄡ	you
 zy:ui	ㄨㄟ	wei
+zy:wei	ㄨㄟ	wei
 zy:un	ㄨㄣ	wen
+zy:wen	ㄨㄣ	wen
 zy:in	ㄧㄣ	yin
+zy:yin	ㄧㄣ	yin
 zy:vn	ㄩㄣ	yun
+zy:yvn	ㄩㄣ	yun
+zy:yun	ㄩㄣ	yun
 zy:uan	ㄩㄢ	yuan
+zy:yuan	ㄩㄢ	yuan
 zy:van	ㄩㄢ	yuan
+zy:yvan	ㄩㄢ	yuan
 zy:ing	ㄧㄥ	ying
+zy:ying	ㄧㄥ	ying
+zy:ung	ㄨㄥ	weng
+zy:weng	ㄨㄥ	weng
 zy:ong	ㄨㄥ	wong
+zy:wong	ㄨㄥ	wong
 zy:ung	ㄨㄥ	wong
+zy:wung	ㄨㄥ	wong
 zy:iong	ㄩㄥ	yong
+zy:yong	ㄩㄥ	yong
 zy:iung	ㄩㄥ	yong
+zy:yung	ㄩㄥ	yong
 zy:b	ㆠ	[b]
 zy:z	ㆡ	[z]
 zy:j	ㆢ	[d͡ʑ]
