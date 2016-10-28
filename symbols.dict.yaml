@@ -4580,7 +4580,7 @@ ld:z	ƻ	-	2 with stroke
 # 拉丁字母 }
 
 # 國際音標 {
-# TODO
+yb	TODO
 # 國際音標 }
 
 # 計量單位 {
@@ -4762,7 +4762,7 @@ hb:yen	￥
 # 貨币單位 }
 
 # 箭頭 {
-# s:上 x:下 z:左 y:右 jc:交叉 ssz:順時針 nsz:逆時針 g:拐
+# s:上 x:下 z:左 y:右 g:拐 jc:交叉 ssz:順時針 nsz:逆時針
 jt	→
 jt	←
 jt	↓
