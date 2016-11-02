@@ -3,7 +3,7 @@
 # encoding: utf-8
 # ------------------------------------------------------------------------------
 # Copyright (c) 2016 Jak Wings https://github.com/jakwings/rime-xyz
-# 
+#
 # Permission to use, copy, modify, and/or distribute this software for any
 # purpose with or without fee is hereby granted, provided that the above
 # copyright notice and this permission notice appear in all copies.
@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.10.28'
+  version: '2016.11.2'
   schema_id: &id symbols
   name: 特殊字符
   author:
