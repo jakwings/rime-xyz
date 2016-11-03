@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.11.2'
+version: '2016.11.3'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -7881,6 +7881,7 @@ dq:558	🇳🇮
 dq:nj:-	🇳🇯
 dq:nk:-	🇳🇰
 dq:netherlands	🇳🇱	Netherlands
+dq:holland	🇳🇱	Netherlands
 dq:nl	🇳🇱
 dq:nld	🇳🇱
 dq:528	🇳🇱
