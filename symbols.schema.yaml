@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.11.25'
+  version: '2016.12.20'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -74,7 +74,12 @@ speller:
     - derive/^dx:/sd:/
     - derive/^\?dx$/\?sd/
     #} 時間日期 {
+    - derive/^sj:\d+$/sj/
     - derive/^sj:(?:rq|sk|yf|yr):/sj:/
+    - derive/^sj:yf:(\d+)$/sj:$1:y/
+    - derive/^sj:rq:(\d+)$/sj:$1:r/
+    - derive/^sj:sk:(\d+)$/sj:$1:s/
+    - derive/^sj:sk:(\d+)$/sj:$1:d/
     #} 空白字符 {
     - derive/^kb:ideographic$/kb/
     - derive/^kb:ideographic$/kb:qj/

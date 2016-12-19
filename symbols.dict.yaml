@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2016.11.25'
+version: '2016.12.20'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -2463,13 +2463,13 @@ zy:z	ㆺ	[ʑ]
 
 # 時間日期 {
 # yr:曜日 yf:月份 sk:時刻 rq:日期
-sj	月
-sj	火
-sj	水
-sj	木
-sj	金
-sj	土
-sj	日
+sj:1	月
+sj:2	火
+sj:3	水
+sj:4	木
+sj:5	金
+sj:6	土
+sj:7	日
 sj:rq:1	㏠
 sj:rq:2	㏡
 sj:rq:3	㏢
