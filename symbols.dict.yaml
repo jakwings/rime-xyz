@@ -2394,7 +2394,7 @@ zy:ang	ㄤ	尢㝿	[ɑŋ] [aŋ]
 zy:eng	ㄥ	奉公	[ɤŋ] [əŋ] -ng
 zy:er	ㄦ	兒女	[ɑɻ]
 zy:i	ㄧ	一橫	[i] yi y-
-zy:i	丨	一豎	[i] yi y-
+#zy:i	丨	一豎	[i] yi y-
 zy:u	ㄨ	五文	[u] wu w-
 zy:v	ㄩ	𠙴盧	[y] ü
 zy:v	ㄪ	萬貫	[v]
@@ -2402,20 +2402,15 @@ zy:ng	ㄫ	兀立	[ŋ]
 zy:gn	ㄬ	崖广	[ɲ]
 zy:i	ㄭ	周匝	[ʅ] [ɿ] zh/ch/sh/r- z/c/s-
 zy:yi	ㄧ	yi
-zy:yi	丨	yi
 zy:wu	ㄨ	wu
 zy:iu	ㄧㄡ	you
-zy:iu	丨ㄡ	you
 zy:you	ㄧㄡ	you
-zy:you	丨ㄡ	you
 zy:ui	ㄨㄟ	wei
 zy:wei	ㄨㄟ	wei
 zy:un	ㄨㄣ	wen
 zy:wen	ㄨㄣ	wen
 zy:in	ㄧㄣ	yin
-zy:in	丨ㄣ	yin
 zy:yin	ㄧㄣ	yin
-zy:yin	丨ㄣ	yin
 zy:vn	ㄩㄣ	yun
 zy:yvn	ㄩㄣ	yun
 zy:yun	ㄩㄣ	yun
@@ -2424,9 +2419,7 @@ zy:yuan	ㄩㄢ	yuan
 zy:van	ㄩㄢ	yuan
 zy:yvan	ㄩㄢ	yuan
 zy:ing	ㄧㄥ	ying
-zy:ing	丨ㄥ	ying
 zy:ying	ㄧㄥ	ying
-zy:ying	丨ㄥ	ying
 zy:ung	ㄨㄥ	weng
 zy:weng	ㄨㄥ	weng
 zy:ong	ㄨㄥ	wong
@@ -2474,17 +2467,11 @@ zy:bei	ㄅㄟ
 zy:ben	ㄅㄣ
 zy:beng	ㄅㄥ
 zy:bi	ㄅㄧ
-zy:bi	ㄅ丨
 zy:bian	ㄅㄧㄢ
-zy:bian	ㄅ丨ㄢ
 zy:biao	ㄅㄧㄠ
-zy:biao	ㄅ丨ㄠ
 zy:bie	ㄅㄧㄝ
-zy:bie	ㄅ丨ㄝ
 zy:bin	ㄅㄧㄣ
-zy:bin	ㄅ丨ㄣ
 zy:bing	ㄅㄧㄥ
-zy:bing	ㄅ丨ㄥ
 zy:bo	ㄅㄛ
 zy:bu	ㄅㄨ
 zy:ca	ㄘㄚ
@@ -2531,19 +2518,12 @@ zy:de	ㄉㄜ
 zy:dei	ㄉㄟ
 zy:deng	ㄉㄥ
 zy:di	ㄉㄧ
-zy:di	ㄉ丨
 zy:dian	ㄉㄧㄢ
-zy:dian	ㄉ丨ㄢ
 zy:diang	ㄉㄧㄤ
-zy:diang	ㄉ丨ㄤ
 zy:diao	ㄉㄧㄠ
-zy:diao	ㄉ丨ㄠ
 zy:die	ㄉㄧㄝ
-zy:die	ㄉ丨ㄝ
 zy:ding	ㄉㄧㄥ
-zy:ding	ㄉ丨ㄥ
 zy:diu	ㄉㄧㄡ
-zy:diu	ㄉ丨ㄡ
 zy:dong	ㄉㄨㄥ
 zy:dou	ㄉㄡ
 zy:du	ㄉㄨ
@@ -2599,24 +2579,15 @@ zy:hui	ㄏㄨㄟ
 zy:hun	ㄏㄨㄣ
 zy:huo	ㄏㄨㄛ
 zy:ji	ㄐㄧ
-zy:ji	ㄐ丨
 zy:jia	ㄐㄧㄚ
-zy:jia	ㄐ丨ㄚ
 zy:jian	ㄐㄧㄢ
-zy:jian	ㄐ丨ㄢ
 zy:jiang	ㄐㄧㄤ
-zy:jiang	ㄐ丨ㄤ
 zy:jiao	ㄐㄧㄠ
-zy:jiao	ㄐ丨ㄠ
 zy:jie	ㄐㄧㄝ
-zy:jie	ㄐ丨ㄝ
 zy:jin	ㄐㄧㄣ
-zy:jin	ㄐ丨ㄣ
 zy:jing	ㄐㄧㄥ
-zy:jing	ㄐ丨ㄥ
 zy:jiong	ㄐㄩㄥ
 zy:jiu	ㄐㄧㄡ
-zy:jiu	ㄐ丨ㄡ
 zy:ju	ㄐㄩ
 zy:jv	ㄐㄩ
 zy:juan	ㄐㄩㄢ
@@ -2652,23 +2623,14 @@ zy:le	ㄌㄜ
 zy:lei	ㄌㄟ
 zy:leng	ㄌㄥ
 zy:li	ㄌㄧ
-zy:li	ㄌ丨
 zy:lia	ㄌㄧㄚ
-zy:lia	ㄌ丨ㄚ
 zy:lian	ㄌㄧㄢ
-zy:lian	ㄌ丨ㄢ
 zy:liang	ㄌㄧㄤ
-zy:liang	ㄌ丨ㄤ
 zy:liao	ㄌㄧㄠ
-zy:liao	ㄌ丨ㄠ
 zy:lie	ㄌㄧㄝ
-zy:lie	ㄌ丨ㄝ
 zy:lin	ㄌㄧㄣ
-zy:lin	ㄌ丨ㄣ
 zy:ling	ㄌㄧㄥ
-zy:ling	ㄌ丨ㄥ
 zy:liu	ㄌㄧㄡ
-zy:liu	ㄌ丨ㄡ
 zy:lo	ㄌㄛ
 zy:long	ㄌㄨㄥ
 zy:lou	ㄌㄡ
@@ -2690,19 +2652,12 @@ zy:mei	ㄇㄟ
 zy:men	ㄇㄣ
 zy:meng	ㄇㄥ
 zy:mi	ㄇㄧ
-zy:mi	ㄇ丨
 zy:mian	ㄇㄧㄢ
-zy:mian	ㄇ丨ㄢ
 zy:miao	ㄇㄧㄠ
-zy:miao	ㄇ丨ㄠ
 zy:mie	ㄇㄧㄝ
-zy:mie	ㄇ丨ㄝ
 zy:min	ㄇㄧㄣ
-zy:min	ㄇ丨ㄣ
 zy:ming	ㄇㄧㄥ
-zy:ming	ㄇ丨ㄥ
 zy:miu	ㄇㄧㄡ
-zy:miu	ㄇ丨ㄡ
 zy:mo	ㄇㄛ
 zy:mou	ㄇㄡ
 zy:mu	ㄇㄨ
@@ -2716,23 +2671,14 @@ zy:nei	ㄋㄟ
 zy:nen	ㄋㄣ
 zy:neng	ㄋㄥ
 zy:ni	ㄋㄧ
-zy:ni	ㄋ丨
 zy:nia	ㄋㄧㄚ
-zy:nia	ㄋ丨ㄚ
 zy:nian	ㄋㄧㄢ
-zy:nian	ㄋ丨ㄢ
 zy:niang	ㄋㄧㄤ
-zy:niang	ㄋ丨ㄤ
 zy:niao	ㄋㄧㄠ
-zy:niao	ㄋ丨ㄠ
 zy:nie	ㄋㄧㄝ
-zy:nie	ㄋ丨ㄝ
 zy:nin	ㄋㄧㄣ
-zy:nin	ㄋ丨ㄣ
 zy:ning	ㄋㄧㄥ
-zy:ning	ㄋ丨ㄥ
 zy:niu	ㄋㄧㄡ
-zy:niu	ㄋ丨ㄡ
 zy:nong	ㄋㄨㄥ
 zy:nou	ㄋㄡ
 zy:nu	ㄋㄨ
@@ -2750,39 +2696,24 @@ zy:pei	ㄆㄟ
 zy:pen	ㄆㄣ
 zy:peng	ㄆㄥ
 zy:pi	ㄆㄧ
-zy:pi	ㄆ丨
 zy:pian	ㄆㄧㄢ
-zy:pian	ㄆ丨ㄢ
 zy:piao	ㄆㄧㄠ
-zy:piao	ㄆ丨ㄠ
 zy:pie	ㄆㄧㄝ
-zy:pie	ㄆ丨ㄝ
 zy:pin	ㄆㄧㄣ
-zy:pin	ㄆ丨ㄣ
 zy:ping	ㄆㄧㄥ
-zy:ping	ㄆ丨ㄥ
 zy:po	ㄆㄛ
 zy:pou	ㄆㄡ
 zy:pu	ㄆㄨ
 zy:qi	ㄑㄧ
-zy:qi	ㄑ丨
 zy:qia	ㄑㄧㄚ
-zy:qia	ㄑ丨ㄚ
 zy:qian	ㄑㄧㄢ
-zy:qian	ㄑ丨ㄢ
 zy:qiang	ㄑㄧㄤ
-zy:qiang	ㄑ丨ㄤ
 zy:qiao	ㄑㄧㄠ
-zy:qiao	ㄑ丨ㄠ
 zy:qie	ㄑㄧㄝ
-zy:qie	ㄑ丨ㄝ
 zy:qin	ㄑㄧㄣ
-zy:qin	ㄑ丨ㄣ
 zy:qing	ㄑㄧㄥ
-zy:qing	ㄑ丨ㄥ
 zy:qiong	ㄑㄩㄥ
 zy:qiu	ㄑㄧㄡ
-zy:qiu	ㄑ丨ㄡ
 zy:qu	ㄑㄩ
 zy:qv	ㄑㄩ
 zy:quan	ㄑㄩㄢ
@@ -2849,15 +2780,10 @@ zy:te	ㄊㄜ
 zy:tei	ㄊㄟ
 zy:teng	ㄊㄥ
 zy:ti	ㄊㄧ
-zy:ti	ㄊ丨
 zy:tian	ㄊㄧㄢ
-zy:tian	ㄊ丨ㄢ
 zy:tiao	ㄊㄧㄠ
-zy:tiao	ㄊ丨ㄠ
 zy:tie	ㄊㄧㄝ
-zy:tie	ㄊ丨ㄝ
 zy:ting	ㄊㄧㄥ
-zy:ting	ㄊ丨ㄥ
 zy:tong	ㄊㄨㄥ
 zy:tou	ㄊㄡ
 zy:tu	ㄊㄨ
@@ -2871,24 +2797,15 @@ zy:wan	ㄨㄢ
 zy:wang	ㄨㄤ
 zy:wo	ㄨㄛ
 zy:xi	ㄒㄧ
-zy:xi	ㄒ丨
 zy:xia	ㄒㄧㄚ
-zy:xia	ㄒ丨ㄚ
 zy:xian	ㄒㄧㄢ
-zy:xian	ㄒ丨ㄢ
 zy:xiang	ㄒㄧㄤ
-zy:xiang	ㄒ丨ㄤ
 zy:xiao	ㄒㄧㄠ
-zy:xiao	ㄒ丨ㄠ
 zy:xie	ㄒㄧㄝ
-zy:xie	ㄒ丨ㄝ
 zy:xin	ㄒㄧㄣ
-zy:xin	ㄒ丨ㄣ
 zy:xing	ㄒㄧㄥ
-zy:xing	ㄒ丨ㄥ
 zy:xiong	ㄒㄩㄥ
 zy:xiu	ㄒㄧㄡ
-zy:xiu	ㄒ丨ㄡ
 zy:xu	ㄒㄩ
 zy:xv	ㄒㄩ
 zy:xuan	ㄒㄩㄢ
@@ -2898,15 +2815,10 @@ zy:xve	ㄒㄩㄝ
 zy:xun	ㄒㄩㄣ
 zy:xvn	ㄒㄩㄣ
 zy:ya	ㄧㄚ
-zy:ya	丨ㄚ
 zy:yan	ㄧㄢ
-zy:yan	丨ㄢ
 zy:yang	ㄧㄤ
-zy:yang	丨ㄤ
 zy:yao	ㄧㄠ
-zy:yao	丨ㄠ
 zy:ye	ㄧㄝ
-zy:ye	丨ㄝ
 zy:yu	ㄩ
 zy:yv	ㄩ
 zy:yue	ㄩㄝ
