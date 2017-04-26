@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2017.1.17'
+version: '2017.4.26'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -6027,19 +6027,19 @@ tt:0:sun	☉
 tt:0:moon:1	☽
 tt:0:moon:2	☾
 tt:0:comet	☄
-tt:ty	☉
-tt:yl	☽
-tt:yl	☾
-tt:sx	☿
-tt:jx	♀
-tt:dq	♁
-tt:hx	♂
-tt:mx	♃
-tt:tx	♄
-tt:twx	♅
-tt:hwx	♆
-tt:mwx	♇
-tt:hx	☄
+tt:ty	☉	太陽
+tt:yl	☽	月亮
+tt:yl	☾	月亮
+tt:sx	☿	水星
+tt:jx	♀	金星
+tt:dq	♁	地球
+tt:hx	♂	火星
+tt:mx	♃	木星
+tt:tx	♄	土星
+tt:twx	♅	天王星
+tt:hwx	♆	海王星
+tt:mwx	♇	冥王星
+tt:hx	☄	彗星
 # 天體 }
 
 # 煉金 {
