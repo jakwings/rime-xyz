@@ -67,9 +67,6 @@ speller:
     - derive/^rw'/kk:/
     - derive/^rw'/rw:wy:/
     - derive/^kk"/rw:wy:/
-    - derive/^rw:zx:(?:gojyuu|iroha):/rw:zx:/
-    - derive/^rw:zx:gojyuu:/rw:zx:g:/
-    - derive/^rw:zx:iroha:/rw:zx:i:/
     #} 調型、聲調 {
     - derive/^dx:/sd:/
     - derive/^\?dx$/\?sd/

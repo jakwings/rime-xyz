@@ -115,8 +115,6 @@ use_preset_vocabulary: false
 ?rw	按日本式 = rw + 羅馬字
 ?rw	按黑本式 = rw + 羅馬字
 ?rw	外語轉寫 = rw + wy
-?rw	按五十音序 = rw + zx + g
-?rw	按伊呂波序 = rw + zx + i
 ?hg	─╴平假名╶────
 ?hg	按日本式 = hg + 羅馬字
 ?hg	按黑本式 = hg + 羅馬字
@@ -3483,105 +3481,6 @@ rw:wy'ye	イェ
 rw:wy'yi	イィ
 rw:wy'zi	ズィ
 # 日文～外語 }
-
-# 日文～字音順序 {
-rw:zx:gojyuu:1	あ
-rw:zx:gojyuu:2	い
-rw:zx:gojyuu:3	う
-rw:zx:gojyuu:4	え
-rw:zx:gojyuu:5	お
-rw:zx:gojyuu:6	か
-rw:zx:gojyuu:7	き
-rw:zx:gojyuu:8	く
-rw:zx:gojyuu:9	け
-rw:zx:gojyuu:10	こ
-rw:zx:gojyuu:11	さ
-rw:zx:gojyuu:12	し
-rw:zx:gojyuu:13	す
-rw:zx:gojyuu:14	せ
-rw:zx:gojyuu:15	そ
-rw:zx:gojyuu:16	た
-rw:zx:gojyuu:17	ち
-rw:zx:gojyuu:18	つ
-rw:zx:gojyuu:19	て
-rw:zx:gojyuu:20	と
-rw:zx:gojyuu:21	な
-rw:zx:gojyuu:22	に
-rw:zx:gojyuu:23	ぬ
-rw:zx:gojyuu:24	ね
-rw:zx:gojyuu:25	の
-rw:zx:gojyuu:26	は
-rw:zx:gojyuu:27	ひ
-rw:zx:gojyuu:28	ふ
-rw:zx:gojyuu:29	へ
-rw:zx:gojyuu:30	ほ
-rw:zx:gojyuu:31	ま
-rw:zx:gojyuu:32	み
-rw:zx:gojyuu:33	む
-rw:zx:gojyuu:34	め
-rw:zx:gojyuu:35	も
-rw:zx:gojyuu:36	や
-rw:zx:gojyuu:37	ゆ
-rw:zx:gojyuu:38	よ
-rw:zx:gojyuu:39	ら
-rw:zx:gojyuu:40	り
-rw:zx:gojyuu:41	る
-rw:zx:gojyuu:42	れ
-rw:zx:gojyuu:43	ろ
-rw:zx:gojyuu:44	わ
-rw:zx:gojyuu:45	ゐ
-rw:zx:gojyuu:46	ゑ
-rw:zx:gojyuu:47	を
-rw:zx:gojyuu:48	ん
-rw:zx:iroha:1	い
-rw:zx:iroha:2	ろ
-rw:zx:iroha:3	は
-rw:zx:iroha:4	に
-rw:zx:iroha:5	ほ
-rw:zx:iroha:6	へ
-rw:zx:iroha:7	と
-rw:zx:iroha:8	ち
-rw:zx:iroha:9	り
-rw:zx:iroha:10	ぬ
-rw:zx:iroha:11	る
-rw:zx:iroha:12	を
-rw:zx:iroha:13	わ
-rw:zx:iroha:14	か
-rw:zx:iroha:15	よ
-rw:zx:iroha:16	た
-rw:zx:iroha:17	れ
-rw:zx:iroha:18	そ
-rw:zx:iroha:19	つ
-rw:zx:iroha:20	ね
-rw:zx:iroha:21	な
-rw:zx:iroha:22	ら
-rw:zx:iroha:23	む
-rw:zx:iroha:24	う
-rw:zx:iroha:25	ゐ
-rw:zx:iroha:26	の
-rw:zx:iroha:27	お
-rw:zx:iroha:28	く
-rw:zx:iroha:29	や
-rw:zx:iroha:30	ま
-rw:zx:iroha:31	け
-rw:zx:iroha:32	ふ
-rw:zx:iroha:33	こ
-rw:zx:iroha:34	え
-rw:zx:iroha:35	て
-rw:zx:iroha:36	あ
-rw:zx:iroha:37	さ
-rw:zx:iroha:38	き
-rw:zx:iroha:39	ゆ
-rw:zx:iroha:40	め
-rw:zx:iroha:41	み
-rw:zx:iroha:42	し
-rw:zx:iroha:43	ゑ
-rw:zx:iroha:44	ひ
-rw:zx:iroha:45	も
-rw:zx:iroha:46	せ
-rw:zx:iroha:47	す
-rw:zx:iroha:48	ん
-# 日文～字音順序 }
 
 # 日文～漢字批註 {
 pz:rw	㆐
