@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2017.5.15'
+version: '2017.5.17'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -4896,6 +4896,7 @@ dw:weber	㏝	weber	韋伯
 hb:afghani	؋
 hb:austral	₳
 hb:baht	฿
+hb:bitcoin	₿
 hb:cedi	₵
 hb:cent	¢
 hb:cent	￠
