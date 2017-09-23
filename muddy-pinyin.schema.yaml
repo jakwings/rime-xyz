@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2017.5.14'
+  version: '2017.9.23'
   schema_id: &id muddy-pinyin
   name: 泥巴拼音
   author:
@@ -26,10 +26,11 @@ schema:
   description: |
     該方案借用「地球拼音」碼表。專爲查詞典而設計。
     突出介音；區分 a/ê、e/ê、o/u、o/uo、u/ü。
-    可略聲母、韻母、音調。可配全音節專用隔音符："
+    強制加入零聲母編碼："
+    可略聲母、韻母、音調。
     平上去入輕略：- / < \ > *
 
-    例如，輸入 hao<*"hao<*i (hɑ̌o …" hɑ̌o …i) 索得：
+    例如，輸入 hao<*hao<*i\（hɑ̌o … hɑ̌o …ì）索得：
     * 好人好事（hɑ̌o rén hɑ̌o ŝì）
     * 好心好意（hɑ̌o xīn hɑ̌o yì）
     * 好聲好氣（hɑ̌o ŝēŋ hɑ̌o qì）
@@ -78,49 +79,59 @@ speller:
   algebra:
     # ※
     - xform/\d/:$&/
-    # 略音調
-    - derive/:\d//
+    - xform/\<([csz])h/\u$1/
     # 區分 e/ê
     - xform/eh/ea/
+    - xform/([iuv]|\<y)e/$1E/
     # 區分 o/uo
-    - xform/^([bpmf])o\>/$1uo/
+    - xform/\<([bpmf])o\>/$1uo/
     # 區分 u/ü
-    - xform/^([jqxy])u/$1v/
+    - xform/\<([jqxy])u/$1v/
     # 區分 o/u
     - xform/ong\>/ung/
     # 區分 a/ê
-    - derive/([iv]|^y)an\>/$1en/
+    - xform/([iv]|\<y)an\>/$1En/
     # 介音
     - derive/iu\>/iou/
     - derive/ui\>/uei/
     - derive/un\>/uen/
-    # 隔音符
-    - derive/$/"/
+    # 兒音
+    - xform/\<r\>/er/
+    # 零聲母
+    - derive/\<(?![aeiouvE])[a-zA-Z]/"$&/
+    - xform/\<[aeiouvE]/"$&/
+    - abbrev/"([aeiouvE])[a-zA-Z]*\>/$1/
     # 略音節
-    - derive/^[a-z]+(:\d)?"$/*$1"/
+    - derive/"?\<[a-zA-Z]+\>/_/
     # 略韻母
-    - derive/^(?:[aeiouv][a-z]*|r)\>/*/
-    - derive/^([csz]h|[bcdfghjklmnpqrstwxyz])[a-z]+\>/$1*/
+    - derive/\<[aeiouvE][a-zA-Z]*\>/"_/
+    - derive/\<(?![aeiouvE])([a-zA-Z])[a-zA-Z]+\>/$1_/
     # 略聲母
-    - derive/^(?:zh|sh|ch|[bcdfghjklmnpqrstwxz])([a-z]+)\>/*$1/
-    - derive/^w(?:u([a-z]*)|([a-z]+))\>/*u$1$2/
-    - derive/^we([in])\>/*u$1/
-    - derive/^y(?!(?:en?|an)\>)([a-z]+)\>/*$1/
-    - derive/^y(?:i([a-z]*)|([a-z]+))\>/*i$1$2/
-    - derive/^you\>/*iu/
-    # 簡拼
-    - abbrev/^([a-z])[a-z]+\>/$1/
-    - abbrev/^([zcs]h)[a-z]+\>/$1/
+    - derive/\<(?![aeiouvEy])[a-zA-Z]([a-zA-Z]+)\>/_$1/
+    - derive/\<w(?:u([a-zA-Z]*)|([a-zA-Z]+))\>/_u$1$2/
+    - derive/\<we([in])\>/_u$1/
+    - derive/\<y(?!E)([a-zA-Z]+)\>/_$1/
+    - derive/\<y(?:i([a-zA-Z]*)|([a-zA-Z]+))\>/_i$1$2/
+    - derive/\<you\>/_iu/
+    # 略音調
+    - derive/\d//
     # 兼容
-    - derive/^([bpmf])uo\>/$1o/
-    - derive/^\*ve\>/*ue/
-    - derive/^([jqxy])v/$1u/
+    - derive/\<([bpmf])uo\>/$1o/
+    - derive/\<((?!_)[a-zA-Z]*i|y)En\>/$1an/
+    - derive/\<((?!_)[a-zA-Z]*)vEn\>/$1uan/
+    - derive/\<_vE\>/_ue/
+    - derive/\<([jqxy])v/$1u/
     - derive/ung\>/ong/
-    - derive/^r\>/er/
+    # 簡拼
+    - abbrev/\<(?<!")([a-zA-Z])[a-zA-Z]+\>/$1/
+    - abbrev/\<(?<!")([CSZ])[a-zA-Z]+\>/\l$1/
     # 聲調
     - xlit 12345 -/<\>
     # ※
-    - xform/://
+    - derive/[CSZ]/\l$&v/
+    - xform/[CSZ]/\l$&h/
+    - xlit E_ e*
+    - xform/[:]//
 
 translator:
   dictionary: *id
@@ -134,6 +145,7 @@ translator:
     - xform/\d/:$&;/
     # 特殊拼寫 {
     - xform/ea/E/
+    - xform/\<([csz])v/$1h/
     - xform/\<([bfmp])o\>/$1uo/
     - xform/\<([ln]?)ue\>/$1vE/
     - xform/\<([jqxy])u([en]|[ae]n)?\>/$1v$2/
@@ -151,11 +163,11 @@ translator:
     - xform/([aeiouvE])([a-z]*):(\d)/$1$3$2/
     # 聲調定位 }
     # 組合性聲調符號 {
-    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?1/$1\u0304/"
-    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?2/$1\u0301/"
-    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?3/$1\u030C/"
-    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?4/$1\u0300/"
-    - "xform/([aeiouvE*]|\\<(?:[bcdfghjklmnpqrstwxyz])):?5/$1\u0307/"
+    - "xform/([aeiouvE*]|\\<(?:[csz]h|(?![aeiouv])[a-z])):?1/$1\u0304/"
+    - "xform/([aeiouvE*]|\\<(?:[csz]h|(?![aeiouv])[a-z])):?2/$1\u0301/"
+    - "xform/([aeiouvE*]|\\<(?:[csz]h|(?![aeiouv])[a-z])):?3/$1\u030C/"
+    - "xform/([aeiouvE*]|\\<(?:[csz]h|(?![aeiouv])[a-z])):?4/$1\u0300/"
+    - "xform/([aeiouvE*]|\\<(?:[csz]h|(?![aeiouv])[a-z])):?5/$1\u0307/"
     # 組合性聲調符號 }
     # 特殊拼寫 {
     - xform/\<ch/ĉ/
@@ -190,7 +202,7 @@ translator:
     - "xform/ü\u030C/ǚ/"
     - "xform/ü\u0300/ǜ/"
     # 雙字符組合變單字符 }
-    - xform/[:;]//
+    - xform/[:;"]//
     - xlit 12345* ˉˊ˅ˋ˙…
   # }
   comment_format: *format
