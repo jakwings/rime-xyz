@@ -8,11 +8,11 @@
 
     可略聲母、韻母、音調。突出介音；區分 a/ê、e/ê、o/u、o/uo、u/ü。
 
+    強制加入零聲母編碼：<kbd>"</kbd>
+
     平上去入輕略：<kbd>-</kbd> <kbd>/</kbd> <kbd>\<</kbd> <kbd>\\</kbd> <kbd>\></kbd> <kbd>\*</kbd>
 
-    比 <kbd>'</kbd> 更強力的全音節專用隔音符：<kbd>"</kbd>
-
-    例如，輸入 `hao<*"hao<*\"`（hɑ̌o …" hɑ̌o …̀"）索得：
+    例如，輸入 `hao<*hao<*i\`（hɑ̌o … hɑ̌o …ì）索得：
 
     *   好人好事（hɑ̌o rén hɑ̌o ŝì）
     *   好心好意（hɑ̌o xīn hɑ̌o yì）
