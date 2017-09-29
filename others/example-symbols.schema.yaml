@@ -1,0 +1,105 @@
+# ------------------------------------------------------------------------------
+# Rime schema
+# encoding: utf-8
+# ------------------------------------------------------------------------------
+# Copyright (c) 2016 Jak Wings https://github.com/jakwings/rime-xyz
+# 
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+# REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+# AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+# INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+# LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+# OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+# PERFORMANCE OF THIS SOFTWARE.
+# ------------------------------------------------------------------------------
+
+schema:
+  name: 例·特殊字符
+  schema_id: &id example-symbols
+  version: '2016.9.6'
+  author:
+    - Jak Wings #!@Gmail.com
+  description: |
+    展示如何將「特殊字符」方案嵌入該方案中。
+  dependencies:
+    - &symbol symbols  # 聲明依頼碼表 ID
+
+switches:
+  - name: ascii_mode
+    reset: 0
+  - name: full_shape
+    states: [ 半角, 全角 ]
+    reset: 0
+  - name: extended_charset
+    states: [ 通用, 增廣 ]
+    reset: 1
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - navigator
+    - recognizer               # 配合 engine/segmentors/matcher
+    - speller
+    - selector                 # 放在 speller 後面降低選字鍵優先級
+    - punctuator
+    - fluid_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher                  # 配合 recognizer/patterns/symbol 打標籤（tag）
+    - abc_segmentor
+    - affix_segmentor@symbol   # 使用自訂分詞器
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@symbol  # 使用自訂轉譯器
+    - script_translator        # 原有轉譯
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+
+translator:
+  dictionary: *id
+  prism: *id
+  spelling_hints: 0
+  enable_sentence: true
+  enable_user_dict: false
+
+symbol:
+  tag: symbol  # 作用於標籤爲 symbol 的字段
+  prefix: '/'  # 進入該模式的按鍵符號
+  suffix: ';'  # 臨時退出模式用的按鍵
+  tips: 【符號】
+  closing_tips: 【一般】
+  dictionary: *symbol
+  prism: *symbol
+  enable_completion: true       # 編碼提示
+  enable_encoder: false         # 不自動組詞
+  enable_sentence: true         # 開啓自動造句（連打模式）
+  enable_user_dict: false       # 不記錄新詞、不自動調頻
+  encode_commit_history: false  # 不爲上屏詞自動編碼
+  comment_format:
+    - xform/[!"':]+/:/
+
+key_binder:
+  import_preset: default
+
+punctuator:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: null             # 禁用默認的特殊字符匹配以防衝突
+    symbol: /[a-z0-9?']+;?  # 標識 symbol 字段所用正則表達式
