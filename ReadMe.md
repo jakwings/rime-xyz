@@ -37,4 +37,8 @@
 
     可參考 [example-symbols](others/example-symbols.schema.yaml) 方案瞭解如何套用該方案於其它輸入方案。
 
+*   化學式（chemistry）
+
+    方便輸入簡單的分子式、離子式。例如：Na⁺（Na+），SO⁴⁻（`SO/4-`），CuSO₄·5H₂O（`CuSO4*\5H2O`），Ca(OH)₂（`Ca(OH)2`）。
+
 以上方案均爲我的主要輸入方案中嵌套的方案，故其按鍵設計有些許怪異。若覺得修改不便可通過內附郵箱地址深入交流。
