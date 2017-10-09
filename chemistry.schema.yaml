@@ -1,0 +1,87 @@
+# ------------------------------------------------------------------------------
+# Rime schema
+# encoding: utf-8
+# ------------------------------------------------------------------------------
+# Copyright (c) 2016 Jak Wings https://github.com/jakwings/rime-xyz
+#
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+# REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+# AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+# INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+# LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+# OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+# PERFORMANCE OF THIS SOFTWARE.
+# ------------------------------------------------------------------------------
+
+schema:
+  version: '2017.10.9'
+  schema_id: &id chemistry
+  name: 化學式
+  author:
+    - Jak Wings #!@Gmail.com
+  description: |
+    方便輸入簡單的分子式、離子式。
+    例如：
+    * Na⁺         : Na+
+    * SO⁴⁻        : SO/4-
+    * CuSO₄·5H₂O  : CuSO4*\5H2O
+    * Ca(OH)₂     : Ca(OH)2
+
+engine:
+  processors:
+    - key_binder
+    - navigator
+    - speller
+    - selector
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+-*/\()[]{}'
+  delimiter: " '"
+
+translator:
+  dictionary: *id
+  prism: *id
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: true
+  enable_user_dict: false
+  encode_commit_history: false
+  preedit_format: &format  # {
+    - xform/ //
+    - xform/--/~/
+    - xform@/0@⁰@
+    - xform@/1@¹@
+    - xform@/2@²@
+    - xform@/3@³@
+    - xform@/4@⁴@
+    - xform@/5@⁵@
+    - xform@/6@⁶@
+    - xform@/7@⁷@
+    - xform@/8@⁸@
+    - xform@/9@⁹@
+    - xform@\\0@〇@
+    - xform@\\1@一@
+    - xform@\\2@二@
+    - xform@\\3@三@
+    - xform@\\4@四@
+    - xform@\\5@五@
+    - xform@\\6@六@
+    - xform@\\7@七@
+    - xform@\\8@八@
+    - xform@\\9@九@
+    - xlit 0123456789+-*~〇一二三四五六七八九 ₀₁₂₃₄₅₆₇₈₉⁺⁻·-0123456789
+  # }
+  comment_format: *format
+
+key_binder:
+  import_preset: default
