@@ -4,7 +4,7 @@ punctuator:
 
   half_shape:
     ' ': {commit: ' '}
-    '`': ['`', '．', '•', '·', '・', '⸱']  # full, bullet, middle, kata, joiner
+    '`': ['`', '．', '•', '·', '⸱', '・']  # full, bullet, middle, joiner, kata
     '~': {commit: '～'}
     '!': {commit: '！'}
     '@': {commit: '@'}
