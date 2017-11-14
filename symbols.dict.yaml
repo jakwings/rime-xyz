@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2017.7.13'
+version: '2017.11.14'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -1010,6 +1010,7 @@ bd:hg:em	—
 bd:hg:en	–
 bd:hg:figure	‒
 bd:hg:swung	⁓
+bd:hg:bar	―
 bd:hg:em*s	﹘
 bd:hg:em*2	⸺
 bd:hg:em*3	⸻
@@ -4871,10 +4872,10 @@ dw:nanovolt	㎵	nanovolt	毫微伏（特）
 dw:nanowatt	㎻	nanowatt	毫微瓦（特）
 dw:parsec	㍶	parsec	秒差距
 dw:pascal	㎩	pascal	帕（斯卡）
-dw:per:mill	‰	per mill	千分率
+dw:per:cent	％	per cent	百分率
+dw:per:mille	‰	per mille	千分率
 dw:per:million	㏙	parts per million	百萬分率
 dw:per:ten:thousand	‱	per ten thousand	萬分率
-dw:percent	％	percent	百分率
 dw:picoampere	㎀	picoampere	皮安（培）
 dw:picofarad	㎊	picofarad	皮法（拉第）
 dw:picosecond	㎰	picosecond	皮秒
