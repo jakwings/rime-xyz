@@ -18,15 +18,15 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2016.8.4'
+  version: '2017.11.24'
   schema_id: &id pinyin-ext
   name: 擴展拼音
   author:
     - Jak Wings #!@Gmail.com
   description: |
-    Kuò’zhɑ̌n Pīn’yīn 的拼法爲 Kuo\'zhan< Pin-'yin-
+    Kuò’zhǎn Pīn’yīn 的拼法爲 Kuo\'zhan< Pin-'yin-
     回車鍵上屏 平上去入：- / < \ 隔音符：' " 替補空格鍵：>
-    允許不標準拼法，如：jüé (`jve/`) duɑ̄nɡ (`duang-`) yế (`yea/`)。
+    允許不標準拼法，如：jüé (`jve/`) duāng (`duang-`) yế (`yea/`)。
 
 switches:
   - name: ascii_mode
