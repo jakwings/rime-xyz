@@ -24,7 +24,7 @@ schema:
   author:
     - Jak Wings #!@Gmail.com
   description: |
-    Kuò’zhǎn Pīn’yīn 的拼法爲 Kuo\'zhan< Pin-'yin-
+    Kuò'zhǎn Pīn'yīn 的拼法爲 Kuo\'zhan< Pin-'yin-
     回車鍵上屏 平上去入：- / < \ 隔音符：' " 替補空格鍵：>
     允許不標準拼法，如：jüé (`jve/`) duāng (`duang-`) yế (`yea/`)。
 
@@ -141,7 +141,7 @@ translator:
     - "xform/\\<Ü\u0300/Ǜ/"
     # 雙字符組合變單字符 }
     - xform/[:;.]//
-    - xlit|1234>|ˉˊ˅ˋ |
+    - xlit|1234'>|ˉˊ˅ˋ’ |
   # }
 
 editor:
