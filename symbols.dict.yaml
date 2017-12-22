@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2017.11.14'
+version: '2017.12.22'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -2178,11 +2178,10 @@ dx:111	˩˩˩
 # 聲調調型 }
 
 # 漢語拼音 {
-py"a	ɑ̄
-py"a	ɑ́
-py"a	ɑ̌
-py"a	ɑ̀
-py"a	ɑ
+py"a	ā
+py"a	á
+py"a	ǎ
+py"a	à
 py"e	ē
 py"e	é
 py"e	ě
@@ -2229,10 +2228,11 @@ py'v	Ǘ
 py'v	Ǚ
 py'v	Ǜ
 py'v	Ü
-py:a	ā
-py:a	á
-py:a	ǎ
-py:a	à
+py:a	ɑ̄
+py:a	ɑ́
+py:a	ɑ̌
+py:a	ɑ̀
+py:a	ɑ
 py:ea	ê
 py:ea	Ê
 py:g	ɡ
