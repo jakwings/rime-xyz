@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2017.12.22'
+version: '2018.4.12'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -1052,6 +1052,8 @@ bd:dx	⎭
 # 標點符號 }
 
 # 空白字符 {
+kg	␣
+kg	〿
 kb:em	 	EM SPACE
 kb:em/3	 	THREE-PER-EM SPACE
 kb:em/4	 	FOUR-PER-EM SPACE
