@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2018.4.12'
+version: '2018.4.23'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -2952,6 +2952,7 @@ hg'q	っ
 hg"vu	ゔ
 hg'ka	ゕ
 hg'ke	ゖ
+hg:x	ー
 # 日文～HiraGana }
 
 # 日文～KataKana {
@@ -3073,6 +3074,7 @@ kk'ri	ㇼ
 kk'ru	ㇽ
 kk're	ㇾ
 kk'ro	ㇿ
+kk:x	ー
 # 日文～KataKana }
 
 # 日文～片假名～半角 {
@@ -3302,6 +3304,7 @@ kk::ruuburu	㍔	rouble (俄羅斯貨幣單位：盧布)
 kk::remu	㍕	rem (輻射劑量單位：雷姆)
 kk::rentogen	㍖	roentgon (輻射劑量單位：倫琴)
 kk::watto	㍗	watt (功率單位：瓦特)
+rw	ー
 rw	゙	♪゙
 rw	゚	♪゚
 # 日文～其它 }
