@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2018.4.23'
+version: '2018.4.24'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -2898,8 +2898,6 @@ hg"tu	つ
 hg"tsu	つ
 hg"du	づ
 hg"zu	づ
-hg'tu	っ
-hg'tsu	っ
 hg"te	て
 hg"de	で
 hg"to	と
@@ -2947,12 +2945,14 @@ hg"wi	ゐ
 hg"wu	う
 hg"we	ゑ
 hg"wo	を
+hg"vu	ゔ
 hg"n	ん
 hg'q	っ
-hg"vu	ゔ
+hg:x	ー
 hg'ka	ゕ
 hg'ke	ゖ
-hg:x	ー
+hg'tu	っ
+hg'tsu	っ
 # 日文～HiraGana }
 
 # 日文～KataKana {
@@ -2998,8 +2998,6 @@ kk"tu	ツ
 kk"tsu	ツ
 kk"du	ヅ
 kk"zu	ヅ
-kk'tu	ッ
-kk'tsu	ッ
 kk"te	テ
 kk"de	デ
 kk"to	ト
@@ -3047,19 +3045,22 @@ kk"wi	ヰ
 kk"wu	ウ
 kk"we	ヱ
 kk"wo	ヲ
-kk"n	ン
-kk'q	ッ
 kk"va	ヷ
 kk"vi	ヸ
 kk"vu	ヴ
 kk"ve	ヹ
 kk"vo	ヺ
+kk"n	ン
+kk'q	ッ
+kk:x	ー
 kk'ka	ヵ
 kk'ke	ヶ
 kk'ku	ㇰ
 kk'si	ㇱ
 kk'shi	ㇱ
 kk'su	ㇲ
+kk'tu	ッ
+kk'tsu	ッ
 kk'to	ㇳ
 kk'nu	ㇴ
 kk'ha	ㇵ
@@ -3074,7 +3075,6 @@ kk'ri	ㇼ
 kk'ru	ㇽ
 kk're	ㇾ
 kk'ro	ㇿ
-kk:x	ー
 # 日文～KataKana }
 
 # 日文～片假名～半角 {
