@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2018.4.24'
+version: '2018.7.4'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -2857,15 +2857,10 @@ sj:yr:7	㈰
 
 # 日文～HiraGana {
 hg"a	あ
-hg'a	ぁ
 hg"i	い
-hg'i	ぃ
 hg"u	う
-hg'u	ぅ
 hg"e	え
-hg'e	ぇ
 hg"o	お
-hg'o	ぉ
 hg"ka	か
 hg"ga	が
 hg"ki	き
@@ -2934,13 +2929,9 @@ hg"ru	る
 hg"re	れ
 hg"ro	ろ
 hg"ya	や
-hg'ya	ゃ
 hg"yu	ゆ
-hg'yu	ゅ
 hg"yo	よ
-hg'yo	ょ
 hg"wa	わ
-hg'wa	ゎ
 hg"wi	ゐ
 hg"wu	う
 hg"we	ゑ
@@ -2949,23 +2940,27 @@ hg"vu	ゔ
 hg"n	ん
 hg'q	っ
 hg:x	ー
+hg'a	ぁ
+hg'i	ぃ
+hg'u	ぅ
+hg'e	ぇ
+hg'o	ぉ
 hg'ka	ゕ
 hg'ke	ゖ
 hg'tu	っ
 hg'tsu	っ
+hg'ya	ゃ
+hg'yu	ゅ
+hg'yo	ょ
+hg'wa	ゎ
 # 日文～HiraGana }
 
 # 日文～KataKana {
 kk"a	ア
-kk'a	ァ
 kk"i	イ
-kk'i	ィ
 kk"u	ウ
-kk'u	ゥ
 kk"e	エ
-kk'e	ェ
 kk"o	オ
-kk'o	ォ
 kk"ka	カ
 kk"ga	ガ
 kk"ki	キ
@@ -3034,13 +3029,9 @@ kk"ru	ル
 kk"re	レ
 kk"ro	ロ
 kk"ya	ヤ
-kk'ya	ャ
 kk"yu	ユ
-kk'yu	ュ
 kk"yo	ヨ
-kk'yo	ョ
 kk"wa	ワ
-kk'wa	ヮ
 kk"wi	ヰ
 kk"wu	ウ
 kk"we	ヱ
@@ -3053,6 +3044,11 @@ kk"vo	ヺ
 kk"n	ン
 kk'q	ッ
 kk:x	ー
+kk'a	ァ
+kk'i	ィ
+kk'u	ゥ
+kk'e	ェ
+kk'o	ォ
 kk'ka	ヵ
 kk'ke	ヶ
 kk'ku	ㇰ
@@ -3075,6 +3071,10 @@ kk'ri	ㇼ
 kk'ru	ㇽ
 kk're	ㇾ
 kk'ro	ㇿ
+kk'ya	ャ
+kk'yu	ュ
+kk'yo	ョ
+kk'wa	ヮ
 # 日文～KataKana }
 
 # 日文～片假名～半角 {
