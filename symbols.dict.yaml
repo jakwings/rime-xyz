@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2018.7.4'
+version: '2018.8.22'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -6895,6 +6895,20 @@ xq:white	☖
 xq:black	☗
 xq:white	⛉
 xq:black	⛊
+xq:shuai	🩠	帥
+xq:shi	🩡	仕
+xq:xiang	🩢	相
+xq:ma	🩣	馬
+xq:ju	🩤	車
+xq:pao	🩥	炮
+xq:bing	🩦	兵
+xq:jiang	🩧	將
+xq:shi	🩨	士
+xq:xiang	🩩	象
+xq:ma	🩪	馬
+xq:ju	🩫	車
+xq:pao	🩬	砲
+xq:zu	🩭	卒
 # 象棋 }
 
 # 骰子 {

@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2018.7.4'
+  version: '2018.8.22'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -162,6 +162,7 @@ translator:
   # 提示碼被配匹後CommentFormat才生效（prematch_comment_format？）；
   # 提示碼含非法輸入碼時匹配錯誤（忽略字符？）。
   enable_completion: true
+  always_show_comments: true
 
   enable_encoder: false
   enable_sentence: false
