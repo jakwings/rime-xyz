@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2017.12.22'
+  version: '2018.10.24'
   schema_id: &id muddy-pinyin
   name: 泥巴拼音
   author:
@@ -154,6 +154,7 @@ translator:
     - xform/\<ye/yE/
     - xform/([iv])e\>/$1E/
     - xform/ong\>/ung/
+    - xform/au\>/ao/
     - xform/iu\>/iou/
     - xform/ui\>/uei/
     - xform/un\>/uen/
