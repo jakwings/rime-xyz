@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2018.8.22'
+version: '2019.3.6'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -102,6 +102,8 @@ use_preset_vocabulary: false
 ?sz	─╴其它數字╶─────
 ?sz	算籌 = sz + sc
 ?sz	蘇州碼 = sz + sz
+?sz	正字計數 = sz + zz
+?sz	西方統計 = sz + xf
 ?sx	─╴數學算符╶─────
 ?sx	常數 = sx + cs
 ?sx	集合 = sx + jh
@@ -528,25 +530,32 @@ sz:sz:30	〺
 # 數字～蘇州碼 }
 
 # 數字～算籌 {
-sz:sc:0	〇
-sz:sc:1	𝍠
-sz:sc:2	𝍡
-sz:sc:3	𝍢
-sz:sc:4	𝍣
-sz:sc:5	𝍤
-sz:sc:6	𝍥
-sz:sc:7	𝍦
-sz:sc:8	𝍧
-sz:sc:9	𝍨
-sz:sc:1	𝍩
-sz:sc:2	𝍪
-sz:sc:3	𝍫
-sz:sc:4	𝍬
-sz:sc:5	𝍭
-sz:sc:6	𝍮
-sz:sc:7	𝍯
-sz:sc:8	𝍰
-sz:sc:9	𝍱
+sz:sc:0	〇	個位
+sz:sc:1	𝍠	個位
+sz:sc:2	𝍡	個位
+sz:sc:3	𝍢	個位
+sz:sc:4	𝍣	個位
+sz:sc:5	𝍤	個位
+sz:sc:6	𝍥	個位
+sz:sc:7	𝍦	個位
+sz:sc:8	𝍧	個位
+sz:sc:9	𝍨	個位
+sz:sc:1	𝍩	十位
+sz:sc:2	𝍪	十位
+sz:sc:3	𝍫	十位
+sz:sc:4	𝍬	十位
+sz:sc:5	𝍭	十位
+sz:sc:6	𝍮	十位
+sz:sc:7	𝍯	十位
+sz:sc:8	𝍰	十位
+sz:sc:9	𝍱	十位
+sz:zz:1	𝍲	正字
+sz:zz:2	𝍳	正字
+sz:zz:3	𝍴	正字
+sz:zz:4	𝍵	正字
+sz:zz:5	𝍶	正字
+sz:xf:1	𝍷	西方
+sz:xf:5	𝍸	西方
 # 數字～算籌 }
 
 # 分數 {
@@ -908,6 +917,22 @@ bd:d	⋮
 bd:d	⁝
 bd:d	⁞
 bd:d	⸽
+bd:center	、︁
+bd:center	。︁
+bd:center	？︁
+bd:center	！︁
+bd:center	，︁
+bd:center	．︁
+bd:center	：︁
+bd:center	；︁
+bd:corner	、︀
+bd:corner	。︀
+bd:corner	？︀
+bd:corner	！︀
+bd:corner	，︀
+bd:corner	．︀
+bd:corner	：︀
+bd:corner	；︀
 bd:yh:left	〝
 bd:yh:right	〞
 bd:yh:left	❝
@@ -2298,7 +2323,7 @@ zy:u	ㄨ	五文	[u] wu w-
 zy:v	ㄩ	𠙴盧	[y] ü
 zy:v	ㄪ	萬貫	[v]
 zy:ng	ㄫ	兀立	[ŋ]
-zy:gn	ㄬ	崖广	[ɲ]
+zy:gn	ㄬ	崖广	[ȵ] [ɲ]
 zy:i	ㄭ	周匝	[ʅ] [ɿ] zh/ch/sh/r- z/c/s-
 zy:e	ㄮ	呃呃	[ə] [ɯʌ]
 zy:yi	ㄧ	yi
@@ -2343,6 +2368,7 @@ zy:a	ㆩ	[ã]
 zy:i	ㆪ	[ĩ]
 zy:u	ㆫ	[ũ]
 zy:m	ㆬ	[m̩] -m
+zy:n	ㄯ	[n̩] -n
 zy:ng	ㆭ	[ŋ̍] -ng
 zy:ai	ㆮ	[ãĩ]
 zy:au	ㆯ	[ãũ]
@@ -2953,6 +2979,10 @@ hg'ya	ゃ
 hg'yu	ゅ
 hg'yo	ょ
 hg'wa	ゎ
+hg'wi	𛅐
+hg'wu	ぅ
+hg'we	𛅑
+hg'wo	𛅒
 # 日文～HiraGana }
 
 # 日文～KataKana {
@@ -3075,6 +3105,16 @@ kk'ya	ャ
 kk'yu	ュ
 kk'yo	ョ
 kk'wa	ヮ
+kk'wi	𛅤
+kk'wu	ゥ
+kk'we	𛅥
+kk'wo	𛅦
+kk'va	ヮ゙
+kk'vi	𛅤゙
+kk'vu	ゥ゙
+kk've	𛅥゙
+kk'vo	𛅦゙
+kk'n	𛅧
 # 日文～KataKana }
 
 # 日文～片假名～半角 {
@@ -3713,6 +3753,7 @@ ld"a	ẳ	A:Ẳ
 ld"a	ẵ	A:Ẵ
 ld"a	ặ	A:Ặ
 ld"a	ⱥ	A:Ⱥ
+ld"a	ꞻ	A:Ꞻ
 ld"a	ꬰ
 ld"a	ꭤ	r:ɒ i:ɑ
 ld'a	A	a:a T:Ɐ S:ᴀ
@@ -3749,6 +3790,7 @@ ld'a	Ặ	a:ặ
 ld'a	Ɑ	a:ɑ T:Ɒ
 ld'a	Ɐ	a:ɐ t:A
 ld'a	Ɒ	a:ɒ t:Ɑ
+ld'a	Ꞻ	a:ꞻ
 ld"aa	ꜳ	A:Ꜳ
 ld'aa	Ꜳ	a:ꜳ
 ld"ae	æ	A:Æ T:ᴂ
@@ -3815,7 +3857,7 @@ ld"c	ↄ	r:c
 ld"c	ꜿ	A:Ꜿ
 ld"c	ꝯ	A:Ꝯ	con (reversed c)
 ld"c	ꞓ	A:Ꞓ
-ld"c	ꞔ
+ld"c	ꞔ	A:Ꞔ
 ld'c	C	a:c S:ᴄ
 ld'c	Ç	a:ç
 ld'c	Ć	a:ć
@@ -3828,6 +3870,7 @@ ld'c	Ḉ	a:ḉ
 ld'c	Ꜿ	a:ꜿ
 ld'c	Ꝯ	a:ꝯ	con (reversed C)
 ld'c	Ꞓ	a:ꞓ
+ld'c	Ꞔ	a:ꞔ
 ld:c	ʗ
 ld"d	d	A:D
 ld"d	ð	A:Ð
@@ -3870,6 +3913,7 @@ ld"dz	ǳ	A:Ǳ
 ld"dz	ʣ
 ld"dz	ʤ
 ld"dz	ʥ
+ld"dz	ꭦ
 ld'dz	Ǆ	a:ǆ
 ld'dz	ǅ
 ld'dz	Ǳ	a:ǳ
@@ -4071,6 +4115,7 @@ ld"i	ḭ	A:Ḭ
 ld"i	ḯ	A:Ḯ
 ld"i	ỉ	A:Ỉ
 ld"i	ị	A:Ị
+ld"i	ꞽ	A:Ꞽ
 ld'i	I	a:i S:ɪ
 ld'i	Ì	a:ì
 ld'i	Í	a:í
@@ -4091,6 +4136,7 @@ ld'i	Ḯ	a:ḯ
 ld'i	Ỉ	a:ỉ
 ld'i	Ị	a:ị
 ld'i	Ɪ	a:ɪ
+ld'i	Ꞽ	a:ꞽ
 ld'i	ꟷ	-	I
 ld'i	ꟾ	-	apex
 ld"ib	ꭠ	-	ɪb
@@ -4407,7 +4453,8 @@ ld"q	ɋ	A:Ɋ
 ld"q	ʠ	A:ʠ
 ld"q	ꝗ	A:Ꝗ
 ld"q	ꝙ	A:Ꝙ
-ld'q	Q	a:q
+ld"q	ꞯ	s:Q
+ld'q	Q	a:q S:ꞯ
 ld'q	Ɋ	a:ɋ
 ld'q	Ꝗ	a:ꝗ
 ld'q	Ꝙ	a:ꝙ
@@ -4486,7 +4533,7 @@ ld"s	ƪ
 ld"s	ƽ	A:Ƽ	tone five
 ld"s	ș	A:Ș
 ld"s	ȿ	A:Ȿ
-ld"s	ʂ
+ld"s	ʂ	A:Ʂ
 ld"s	ʃ	A:Ʃ
 ld"s	ʆ
 ld"s	ᵴ
@@ -4524,6 +4571,7 @@ ld's	Ȿ	a:ȿ
 ld's	Ꝭ	a:ꝭ
 ld's	Ꞅ	a:ꞅ	Insular S
 ld's	Ꞩ	a:ꞩ
+ld's	Ʂ	a:ʂ
 ld"st	ﬅ	-	st
 ld"st	ﬆ
 ld"t	t	A:T T:ʇ
@@ -4564,6 +4612,7 @@ ld"tc	ʨ
 ld"th	ᵺ
 ld"ts	ʦ
 ld"ts	ʧ
+ld"ts	ꭧ
 ld"tz	ꜩ	A:Ꜩ
 ld'tz	Ꜩ	a:ꜩ
 ld"u	u	A:U
@@ -4605,6 +4654,8 @@ ld"u	ừ	A:Ừ
 ld"u	ử	A:Ử
 ld"u	ữ	A:Ữ
 ld"u	ự	A:Ự
+ld"u	ꞹ	A:Ꞹ
+ld"u	ꞿ	A:Ꞿ
 ld"u	ꭎ
 ld"u	ꭏ
 ld"u	ꭒ
@@ -4641,6 +4692,8 @@ ld'u	Ừ	a:ừ
 ld'u	Ử	a:ử
 ld'u	Ữ	a:ữ
 ld'u	Ự	a:ự
+ld'u	Ꞹ	a:ꞹ
+ld'u	Ꞿ	a:ꞿ
 ld"ue	ᵫ
 ld"ui	ꭐ	T:ꭑ
 ld"ui	ꭑ	t:ꭐ
@@ -4675,6 +4728,7 @@ ld"w	ẅ	A:Ẅ
 ld"w	ẇ	A:Ẇ
 ld"w	ẉ	A:Ẉ
 ld"w	ẘ
+ld"w	ꟃ	A:Ꟃ
 ld"w	ⱳ	A:Ⱳ
 ld'w	W	a:w S:ᴡ
 ld'w	Ŵ	a:ŵ
@@ -4683,6 +4737,7 @@ ld'w	Ẃ	a:ẃ
 ld'w	Ẅ	a:ẅ
 ld'w	Ẇ	a:ẇ
 ld'w	Ẉ	a:ẉ
+ld'w	Ꟃ	a:ꟃ
 ld'w	Ⱳ	a:ⱳ
 ld"ww	ʬ
 ld"x	x	A:X
@@ -4751,7 +4806,7 @@ ld"z	ʓ
 ld"z	ᴢ	s:Z
 ld"z	ᴣ	s:Ʒ
 ld"z	ᵶ
-ld"z	ᶎ
+ld"z	ᶎ	A:Ᶎ
 ld"z	ᶚ
 ld"z	ẑ	A:Ẑ
 ld"z	ẓ	A:Ẓ
@@ -4774,6 +4829,7 @@ ld'z	Ẕ	a:ẕ
 ld'z	Ⱬ	a:ⱬ
 ld'z	Ɀ	a:ɀ
 ld'z	Ꝣ	a:ꝣ	Visigothic Z
+ld'z	Ᶎ	a:ᶎ
 ld:z	ƻ	-	2 with stroke
 # 拉丁字母 }
 
@@ -6107,6 +6163,10 @@ xh:t	❗
 xh:w	❓
 xh:w	❔
 xh:x	★
+xh:x	⯨
+xh:x	⯩
+xh:x	⯪
+xh:x	⯫
 xh:x	☆
 xh:x	⚝
 xh:x	⛤
@@ -6239,6 +6299,16 @@ tt:twx	♅	天王星
 tt:hwx	♆	海王星
 tt:mwx	♇	冥王星
 tt:hx	☄	彗星
+tt:8:neptune:2	⯉	海王星
+tt:9:pluto:2	⯓	冥王星
+tt:9:pluto:3	⯔	冥王星
+tt:9:pluto:4	⯕	冥王星
+tt:9:pluto:5	⯖	冥王星
+tt:hwx:2	⯉	海王星
+tt:mwx:2	⯓	冥王星
+tt:mwx:3	⯔	冥王星
+tt:mwx:4	⯕	冥王星
+tt:mwx:5	⯖	冥王星
 # 天體 }
 
 # 煉金 {
@@ -6452,6 +6522,7 @@ tq:umbrella	☔
 
 # 特殊符號 {
 ts:company	㏇
+ts:copyleft	🄯
 ts:copyright	©
 ts:copyright:record	℗
 ts:envelope	✉
@@ -6879,22 +6950,126 @@ bq	☻
 # 表情 }
 
 # 象棋 {
-xq:king	♚
-xq:queen	♛
-xq:rook	♜
-xq:bishop	♝
-xq:knight	♞
-xq:pawn	♟
-xq:king	♔
-xq:queen	♕
-xq:rook	♖
-xq:bishop	♗
-xq:knight	♘
-xq:pawn	♙
-xq:white	☖
-xq:black	☗
-xq:white	⛉
-xq:black	⛊
+xq	☖
+xq	☗
+xq	⛉
+xq	⛊
+# 黑子
+xq"king	♚
+xq"queen	♛
+xq"rook	♜
+xq"bishop	♝
+xq"knight	♞
+xq"pawn	♟
+# 白子
+xq"king	♔
+xq"queen	♕
+xq"rook	♖
+xq"bishop	♗
+xq"knight	♘
+xq"pawn	♙
+# 中立
+xq'king	🨀
+xq'queen	🨁
+xq'rook	🨂
+xq'bishop	🨃
+xq'knight	🨄
+xq'pawn	🨅
+# 黑子（倒轉）
+xq'king	🨤
+xq'queen	🨥
+xq'rook	🨦
+xq'bishop	🨧
+xq'knight	🨨
+xq'pawn	🨩
+# 白子（倒轉）
+xq'king	🨞
+xq'queen	🨟
+xq'rook	🨠
+xq'bishop	🨡
+xq'knight	🨢
+xq'pawn	🨣
+# 中立（倒轉）
+xq'king	🨪
+xq'queen	🨫
+xq'rook	🨬
+xq'bishop	🨭
+xq'knight	🨮
+xq'pawn	🨯
+# 黑子（右旋90度）
+xq'king	🨏
+xq'queen	🨐
+xq'rook	🨑
+xq'bishop	🨒
+xq'knight	🨓
+xq'pawn	🨔
+# 白子（右旋90度）
+xq'king	🨉
+xq'queen	🨊
+xq'rook	🨋
+xq'bishop	🨌
+xq'knight	🨍
+xq'pawn	🨎
+# 中立（右旋90度）
+xq'king	🨕
+xq'queen	🨖
+xq'rook	🨗
+xq'bishop	🨘
+xq'knight	🨙
+xq'pawn	🨚
+# 黑子（左旋90度）
+xq'king	🨹
+xq'queen	🨺
+xq'rook	🨻
+xq'bishop	🨼
+xq'knight	🨽
+xq'pawn	🨾
+# 白子（左旋90度）
+xq'king	🨳
+xq'queen	🨴
+xq'rook	🨵
+xq'bishop	🨶
+xq'knight	🨷
+xq'pawn	🨸
+# 中立（左旋90度）
+xq'king	🨿
+xq'queen	🩀
+xq'rook	🩁
+xq'bishop	🩂
+xq'knight	🩃
+xq'pawn	🩄
+# 騎士（右旋45度）
+xq'knight	🨇
+xq'knight	🨆
+xq'knight	🨈
+# 騎士（右旋135度）
+xq'knight	🨜
+xq'knight	🨛
+xq'knight	🨝
+# 騎士（右旋225度）
+xq'knight	🨱
+xq'knight	🨰
+xq'knight	🨲
+# 騎士（右旋270度）
+xq'knight	🩆
+xq'knight	🩅
+xq'knight	🩇
+# 等距跳蟲
+xq'equihopper	🩉
+xq'equihopper	🩈
+xq'equihopper	🩊
+# 等距跳蟲（右旋90度）
+xq'equihopper	🩌
+xq'equihopper	🩋
+xq'equihopper	🩍
+# 騎士混搭
+xq'knight:queen	🩑
+xq'knight:rook	🩒
+xq'knight:bishop	🩓
+xq'knight:queen	🩎
+xq'knight:rook	🩏
+xq'knight:bishop	🩐
+# 紅子
 xq:shuai	🩠	帥
 xq:shi	🩡	仕
 xq:xiang	🩢	相
@@ -6902,6 +7077,7 @@ xq:ma	🩣	馬
 xq:ju	🩤	車
 xq:pao	🩥	炮
 xq:bing	🩦	兵
+# 黑子
 xq:jiang	🩧	將
 xq:shi	🩨	士
 xq:xiang	🩩	象

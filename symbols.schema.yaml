@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2018.8.22'
+  version: '2019.3.6'
   schema_id: &id symbols
   name: 特殊字符
   author:
@@ -105,6 +105,7 @@ speller:
     - derive/^jt:jc$/jt:dj/
     - derive/^jt:([sxyz])g$/jt:g$1/
     #} 棋牌 {
+    - derive/^xq(["':]).+$/xq$1/
     - derive/^gp:[hs]:/gp:/
     - derive/^pk:([^:]+):spade$/pk:s:$1/
     - derive/^pk:([^:]+):heart$/pk:h:$1/
