@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2019.3.6'
+version: '2020.5.30'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -475,6 +475,7 @@ lm:old:100000	ↈ
 # 數字～句號 }
 
 # 數字～逗號 {
+0	🄁
 1	🄂
 2	🄃
 3	🄄
@@ -484,7 +485,6 @@ lm:old:100000	ↈ
 7	🄈
 8	🄉
 9	🄊
-0	🄁
 # 數字～逗號 }
 
 # 數字～括弧 {
@@ -512,6 +512,19 @@ lm:old:100000	ↈ
 9	㊈
 10	㊉
 # 數字～圓圈 }
+
+# 數字～液晶 {
+0	🯰
+1	🯱
+2	🯲
+3	🯳
+4	🯴
+5	🯵
+6	🯶
+7	🯷
+8	🯸
+9	🯹
+# 數字～液晶 }
 
 # 數字～蘇州碼 {
 sz:sz:0	〇
@@ -1533,6 +1546,7 @@ jg	⿴	外，內。
 jg	⿷	外，內。
 jg	⿶	外，內。
 jg	⿻	上，下；左，右；外，內；大，小。
+jg	〾	異，變。
 jg:zy	⿰	左右
 jg:sx	⿱	上下
 jg:zx	⿺	左下
@@ -1548,6 +1562,9 @@ jg:hh	⿻	混合
 jg:jc	⿻	交錯
 jg:qt	⿻	嵌套
 jg:xj	⿻	相交
+jg:yt	〾	異體
+jg:bt	〾	變體
+jg:tj	〾	通假
 # 表意文字描述字符 Ideograph Descriptor }
 
 # 盲文 {
@@ -2384,6 +2401,11 @@ zy:g	ㆸ	[ɣ]
 zy:v	ㆸ	[ɣ]
 zy:l	ㆹ	[ɫʰ] [ɫ]
 zy:z	ㆺ	[ʑ]
+zy:g	ㆻ	[g̚] -g
+zy:gw	ㆼ	[kʷ]
+zy:kw	ㆽ	[kʰʷ]
+zy:oe	ㆾ	[œ]
+zy:aa	ㆿ	[a]
 zy:ba	ㄅㄚ
 zy:bai	ㄅㄞ
 zy:ban	ㄅㄢ
@@ -3557,6 +3579,7 @@ xl"15:omicron	ο
 xl"16:pi	π
 xl"17:rho	ρ
 xl"18:sigma	σ
+xl"18:sigma-final	ς
 xl"19:tau	τ
 xl"20:upsilon	υ
 xl"21:phi	φ
@@ -3894,6 +3917,7 @@ ld"d	ḓ	A:Ḓ
 ld"d	ẟ	T:ƍ
 ld"d	ꝱ
 ld"d	ꝺ	A:Ꝺ	Insular d
+ld"d	ꟈ	A:Ꟈ
 ld'd	D	a:d S:ᴅ
 ld'd	Ð	a:ð S:ᴆ
 ld'd	Ď	a:ď
@@ -3907,6 +3931,7 @@ ld'd	Ḏ	a:ḏ
 ld'd	Ḑ	a:ḑ
 ld'd	Ḓ	a:ḓ
 ld'd	Ꝺ	a:ꝺ	Insular D
+ld'd	Ꟈ	a:ꟈ
 ld"db	ȸ
 ld"dz	ǆ	A:Ǆ
 ld"dz	ǳ	A:Ǳ
@@ -4072,9 +4097,10 @@ ld"h	ḩ	A:Ḩ
 ld"h	ḫ	A:Ḫ
 ld"h	ẖ	A:ẖ
 ld"h	ⱨ	A:Ⱨ
-ld"h	ⱶ	A:Ⱶ	half ʜ
+ld"h	ⱶ	A:Ⱶ	ʜ half left
 ld"h	ꜧ	A:Ꜧ
 ld"h	ꞕ
+ld"h	ꟶ	A:Ꟶ	ʜ half right
 ld'h	H	a:h S:ʜ
 ld'h	Ĥ	a:ĥ
 ld'h	Ħ	a:ħ
@@ -4085,10 +4111,11 @@ ld'h	Ḧ	a:ḧ
 ld'h	Ḩ	a:ḩ
 ld'h	Ḫ	a:ḫ
 ld'h	Ⱨ	a:ⱨ
-ld'h	Ⱶ	a:ⱶ	half H
+ld'h	Ⱶ	a:ⱶ	H half left
 ld'h	Ꜧ	a:ꜧ
 ld'h	Ɥ	a:ɥ
 ld'h	Ɦ	a:ɦ
+ld'h	Ꟶ	a:ꟶ	H half right
 ld"hv	ƕ	A:Ƕ
 ld'hv	Ƕ	a:ƕ
 ld"i	i	A:I T:ᴉ
@@ -4480,7 +4507,7 @@ ld"r	ʁ	i:ʀ t:ᴙ
 ld"r	ʅ	-	ɿ with retroflex hook
 ld"r	ᴙ	r:ʀ I:ᴚ T:ʁ
 ld"r	ᴚ	i:ᴙ t:ʀ
-ld"r	ᵲ
+ld"r	ᵲ	t:ꭨ
 ld"r	ᵳ
 ld"r	ᶉ
 ld"r	ṙ	A:Ṙ
@@ -4503,6 +4530,7 @@ ld"r	ꭉ
 ld"r	ꭊ
 ld"r	ꭋ
 ld"r	ꭌ
+ld"r	ꭨ	T:ᵲ
 ld'r	R	a:r S:ʀ
 ld'r	Ŕ	a:ŕ
 ld'r	Ŗ	a:ŗ
@@ -4553,6 +4581,7 @@ ld"s	ꝭ	A:Ꝭ
 ld"s	ꝸ
 ld"s	ꞅ	A:Ꞅ	Insular s
 ld"s	ꞩ	A:Ꞩ
+ld"s	ꟊ	A:Ꟊ
 ld"s	ꭍ	-	ʃ
 ld's	S	a:s S:ꜱ
 ld's	Ś	a:ś
@@ -4572,6 +4601,7 @@ ld's	Ꝭ	a:ꝭ
 ld's	Ꞅ	a:ꞅ	Insular S
 ld's	Ꞩ	a:ꞩ
 ld's	Ʂ	a:ʂ
+ld's	Ꟊ	a:ꟊ
 ld"st	ﬅ	-	st
 ld"st	ﬆ
 ld"t	t	A:T T:ʇ
@@ -5646,6 +5676,24 @@ jt:y	🢚
 jt:z	🢘
 jt:x	🢛
 jt:s	🢙
+jt:y	🢡
+jt:z	🢠
+jt:y	🢣
+jt:z	🢢
+jt:y	🢥
+jt:z	🢤
+jt:y	🢧
+jt:z	🢦
+jt:y	🢩
+jt:z	🢨
+jt:y	🢫
+jt:z	🢪
+jt:zx	🢱
+jt:zs	🢰
+jt:y	🢟🢞🢝🢜🠮
+jt:z	🠬🢜🢝🢞🢟
+jt:y	🢭🢬⇨
+jt:z	⇦🢬🢭
 # 箭頭 }
 
 # 幾何圖形 {
@@ -5823,6 +5871,7 @@ fk:j	▛
 fk:j	▟
 fk:j	▙
 fk:j	▜
+# U+1FB00-1FB9F
 # 組合方塊 }
 
 # 製表符號 {
@@ -5959,6 +6008,7 @@ zb:zs	╭
 zb:ys	╮
 zb:zx	╰
 zb:yx	╯
+# U+1FBA0-1FBAF
 # 製表符號 }
 
 # 電腦 {
@@ -6057,6 +6107,7 @@ dn:7f:del	␡
 # 電腦 }
 
 # 星號 {
+xh:0	🄌
 xh:1	❶
 xh:2	❷
 xh:3	❸
@@ -6067,6 +6118,7 @@ xh:7	❼
 xh:8	❽
 xh:9	❾
 xh:10	❿
+xh:0	🄋
 xh:1	➀
 xh:2	➁
 xh:3	➂
@@ -6522,9 +6574,15 @@ tq:umbrella	☔
 
 # 特殊符號 {
 ts:company	㏇
-ts:copyleft	🄯
 ts:copyright	©
+ts:copyleft	🄯
 ts:copyright:record	℗
+ts:creativecommons	🅭
+ts:creativecommons:attribution	🅯
+ts:creativecommons:noncommercial	🄏
+ts:creativecommons:sharealike	🄎
+ts:creativecommons:publicdomain	🅮
+ts:creativecommons:norightsreserved	🄍
 ts:envelope	✉
 ts:fax	℻
 ts:flag	⚐
@@ -6796,6 +6854,7 @@ sb:ld:v	ᶹ
 sb:ld:v	ᶺ
 sb:ld:w	ʷ
 sb:ld:w	ᵂ
+sb:ld:w	ꭩ	turned w
 sb:ld:x	ˣ
 sb:ld:x	˟
 sb:ld:y	ʸ
