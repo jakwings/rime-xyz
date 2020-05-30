@@ -18,11 +18,11 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2017.11.24'
+  version: '2020.5.30'
   schema_id: &id pinyin-ext
   name: 擴展拼音
   author:
-    - Jak Wings #!@Gmail.com
+    - J.W https://jakwings.github.io/AMA/
   description: |
     Kuò'zhǎn Pīn'yīn 的拼法爲 Kuo\'zhan< Pin-'yin-
     回車鍵上屏 平上去入：- / < \ 隔音符：' " 替補空格鍵：>

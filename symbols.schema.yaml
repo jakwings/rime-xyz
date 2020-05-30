@@ -22,7 +22,7 @@ schema:
   schema_id: &id symbols
   name: 特殊字符
   author:
-    - Jak Wings #!@Gmail.com
+    - J.W https://jakwings.github.io/AMA/
   description: |
     用於擴展其它輸入方案的特殊字符輸入方案。
     可鍵入 ? 查看縮略碼表。

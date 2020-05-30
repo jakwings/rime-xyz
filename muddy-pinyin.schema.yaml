@@ -18,11 +18,11 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2018.10.24'
+  version: '2020.5.30'
   schema_id: &id muddy-pinyin
   name: 泥巴拼音
   author:
-    - Jak Wings #!@Gmail.com
+    - J.W https://jakwings.github.io/AMA/
   description: |
     該方案借用「地球拼音」碼表。專爲查詞典而設計。
     突出介音；區分 a/ê、e/ê、o/u、o/uo、u/ü。

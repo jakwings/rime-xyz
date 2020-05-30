@@ -18,11 +18,11 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2017.10.29'
+  version: '2020.5.30'
   schema_id: &id chemistry
   name: 化學式
   author:
-    - Jak Wings #!@Gmail.com
+    - J.W https://jakwings.github.io/AMA/
   description: |
     方便輸入簡單的分子式、離子式。
     例如：
