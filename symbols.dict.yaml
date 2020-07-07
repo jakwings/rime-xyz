@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2020.5.30'
+version: '2020.7.7'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -1042,6 +1042,7 @@ bd:bj:rw	ﾟ
 bd:zs:rw	〳
 bd:zs:rw	〴
 bd:zs:rw	〵
+bd:hg:soft-hyphen	­
 bd:hg:hyphen	‐
 bd:hg:hyphen-no-break	‑
 bd:hg:em	—
