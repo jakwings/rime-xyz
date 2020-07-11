@@ -19,7 +19,7 @@
 
 ---
 name: muddy-pinyin
-version: '2020.5.30'
+version: '2020.7.11'
 use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100

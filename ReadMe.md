@@ -10,6 +10,8 @@
 
     強制加入零聲母編碼：<kbd>"</kbd>
 
+    特殊額外編碼："ea (ê)、cv (ch-)、sv (sh-)、zv (zh-)
+
     平上去入輕略：<kbd>-</kbd> <kbd>/</kbd> <kbd>\<</kbd> <kbd>\\</kbd> <kbd>\></kbd> <kbd>\*</kbd>
 
     例如，輸入 `hao<*hao<*i\`（hɑ̌o … hɑ̌o …ì）索得：
