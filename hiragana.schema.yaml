@@ -1,0 +1,73 @@
+# ------------------------------------------------------------------------------
+# Rime schema
+# encoding: utf-8
+# ------------------------------------------------------------------------------
+# Copyright (c) 2017 Jak Wings https://github.com/jakwings/rime-xyz
+#
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+# REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+# AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+# INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+# LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+# OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+# PERFORMANCE OF THIS SOFTWARE.
+# ------------------------------------------------------------------------------
+
+schema:
+  version: '2020.7.11'
+  schema_id: &id hiragana
+  name: 平假名
+  author:
+    - J.W https://jakwings.github.io/AMA/
+  description: |
+    平假名（平仮名）輸入法。
+    采用日本式和平文式羅馬字。
+
+engine:
+  processors:
+    - key_binder
+    - navigator
+    - speller
+    - selector
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-"'''
+  delimiter: " "
+  algebra:
+    #- xform@^x([^x]+)$@$1x@
+    - xform@;$@@
+
+translator:
+  dictionary: *id
+  prism: *id
+  enable_completion: true
+  enable_encoder: false
+  enable_sentence: true
+  enable_user_dict: false
+  encode_commit_history: false
+  preedit_format:
+    - xform@a\s*(["']?)\s*-@ā$1@
+    - xform@e\s*(["']?)\s*-@ē$1@
+    - xform@i\s*(["']?)\s*-@ī$1@
+    - xform@o\s*(["']?)\s*-@ō$1@
+    - xform@u\s*(["']?)\s*-@ū$1@
+    - xform@([kgsztdnmhpbr])ya\s*a@$1yā@
+    - xform@([kgsztdnmhpbr])yo\s*u@$1yō@
+    - xform@([kgsztdnmhpbr])yu\s*u@$1yū@
+    - xform@\s+(nn|["']|x(?!\s|$))@$1@
+    - xform@\s+(tch)@$1@
+    - xform@\s+([bcdfghjklmnprstvwyz])\1@$1$1@
+    - "xform@\\s*-@\u0304@"
+
+key_binder:
+  import_preset: default
