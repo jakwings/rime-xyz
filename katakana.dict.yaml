@@ -26,7 +26,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2020.7.11'
+version: '2020.7.12'
 name: katakana
 sort: original
 columns: [ text, code ]
@@ -121,6 +121,7 @@ use_preset_vocabulary: false
 ヹ	ve
 ヺ	vo
 ン	nn
+ン	mn
 キャ	kya
 ギャ	gya
 キュ	kyu
@@ -212,10 +213,15 @@ use_preset_vocabulary: false
 ット	tto
 ッド	ddo
 #ッナ	nna
+ッナ	mna
 #ッニ	nni
+ッニ	mni
 #ッヌ	nnu
+ッヌ	mnu
 #ッネ	nne
+ッネ	mne
 #ッノ	nno
+ッノ	mno
 ッハ	hha
 ッバ	bba
 ッパ	ppa
@@ -256,6 +262,8 @@ use_preset_vocabulary: false
 ッヹ	vve
 ッヺ	vvo
 #ッン	nnn
+ッン	mnn
+ッン	mmn
 ッキャ	kkya
 ッギャ	ggya
 ッキュ	kkyu
@@ -293,8 +301,11 @@ use_preset_vocabulary: false
 ッヂョ	ddjo
 ッヂョ	jjo
 #ッニャ	nnya
+ッニャ	mnya
 #ッニュ	nnyu
+ッニュ	mnyu
 #ッニョ	nnyo
+ッニョ	mnyo
 ッヒャ	hhya
 ッビャ	bbya
 ッピャ	ppya
@@ -353,6 +364,7 @@ use_preset_vocabulary: false
 𛅥゙ 	xve
 𛅦゙ 	xvo
 𛅧	xnn
+𛅧	xmn
 ゙	"
 ゚	'
 ビェ	bye
