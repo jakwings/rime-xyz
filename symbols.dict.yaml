@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2020.7.7'
+version: '2020.7.11'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -6574,6 +6574,8 @@ tq:umbrella	☔
 # 天氣 }
 
 # 特殊符號 {
+ts:clover:trefoil	☘
+ts:clover:quatrefoil	🍀️
 ts:company	㏇
 ts:copyright	©
 ts:copyleft	🄯
@@ -6599,7 +6601,6 @@ ts:position	⯐
 ts:postal	〒
 ts:postal	〶
 ts:replacement	�
-ts:shamrock	☘
 ts:speaking	⚞
 ts:speaking	⚟
 ts:telephone	℡
