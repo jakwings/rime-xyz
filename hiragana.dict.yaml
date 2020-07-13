@@ -26,7 +26,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2020.7.11'
+version: '2020.7.12'
 name: hiragana
 sort: original
 columns: [ text, code ]
@@ -117,6 +117,7 @@ use_preset_vocabulary: false
 を	wo
 ゔ	vu
 ん	nn
+ん	mn
 きゃ	kya
 ぎゃ	gya
 きゅ	kyu
@@ -208,10 +209,15 @@ use_preset_vocabulary: false
 っと	tto
 っど	ddo
 #っな	nna
+っな	mna
 #っに	nni
+っに	mni
 #っぬ	nnu
+っぬ	mnu
 #っね	nne
+っね	mne
 #っの	nno
+っの	mno
 っは	hha
 っば	bba
 っぱ	ppa
@@ -248,6 +254,8 @@ use_preset_vocabulary: false
 っを	wwo
 っゔ	vvu
 #っん	nnn
+っん	mnn
+っん	mmn
 っきゃ	kkya
 っぎゃ	ggya
 っきゅ	kkyu
@@ -285,8 +293,11 @@ use_preset_vocabulary: false
 っぢょ	ddjo
 っぢょ	jjo
 #っにゃ	nnya
+っにゃ	mnya
 #っにゅ	nnyu
+っにゅ	mnyu
 #っにょ	nnyo
+っにょ	mnyo
 っひゃ	hhya
 っびゃ	bbya
 っぴゃ	ppya

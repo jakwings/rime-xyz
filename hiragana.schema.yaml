@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 schema:
-  version: '2020.7.11'
+  version: '2020.7.12'
   schema_id: &id hiragana
   name: 平假名
   author:
@@ -44,7 +44,6 @@ speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba-"'''
   delimiter: " "
   algebra:
-    #- xform@^x([^x]+)$@$1x@
     - xform@;$@@
 
 translator:
@@ -56,6 +55,7 @@ translator:
   enable_user_dict: false
   encode_commit_history: false
   preedit_format:
+    - xform@\<mn@nn@
     - xform@a\s*(["']?)\s*-@ā$1@
     - xform@e\s*(["']?)\s*-@ē$1@
     - xform@i\s*(["']?)\s*-@ī$1@
@@ -64,8 +64,7 @@ translator:
     - xform@([kgsztdnmhpbr])ya\s*a@$1yā@
     - xform@([kgsztdnmhpbr])yo\s*u@$1yō@
     - xform@([kgsztdnmhpbr])yu\s*u@$1yū@
-    - xform@\s+(nn|["']|x(?!\s|$))@$1@
-    - xform@\s+(tch)@$1@
+    - xform@\s+(nn|tch|["']|x(?!\s|$))@$1@
     - xform@\s+([bcdfghjklmnprstvwyz])\1@$1$1@
     - "xform@\\s*-@\u0304@"
 
