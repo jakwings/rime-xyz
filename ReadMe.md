@@ -43,6 +43,12 @@
 
     可參考 [example-symbols](others/example-symbols.schema.yaml) 方案瞭解如何套用該方案於其它輸入方案。
 
+    相關字體：
+
+    *   包羅萬象：[Symbola](https://dn-works.com/ufas/)
+    *   拉丁字母：[Gentium Plus, Doulos SIL, Charis SIL](https://software.sil.org/lcgfonts/support/comparison/)
+    *   Emoji：[EmojiOne Color](https://github.com/adobe-fonts/emojione-color/), [Source Emoji BnW](https://github.com/adobe-fonts/source-emoji/)
+
 *   化學式（chemistry）
 
     方便輸入簡單的分子式、離子式。
