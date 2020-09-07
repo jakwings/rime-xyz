@@ -18,7 +18,7 @@
 # ------------------------------------------------------------------------------
 
 ---
-version: '2020.7.11'
+version: '2020.9.7'
 name: symbols
 sort: original
 columns: [ code, text ]
@@ -6575,7 +6575,7 @@ tq:umbrella	☔
 
 # 特殊符號 {
 ts:clover:trefoil	☘
-ts:clover:quatrefoil	🍀️
+ts:clover:quatrefoil	🍀
 ts:company	㏇
 ts:copyright	©
 ts:copyleft	🄯
